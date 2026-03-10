@@ -1,0 +1,22 @@
+//Atmosphere properties
+#define PYRAXIS_ONE_ATMOSPHERE	101.115 //kPa
+#define PYRAXIS_AVG_TEMP	274.15 //kelvin 14C
+
+#define PYRAXIS_PER_N2		0.72 //percent
+#define PYRAXIS_PER_O2		0.26
+#define PYRAXIS_PER_N2O		0.00 //Currently no capacity to 'start' a turf with this. See turf.dm
+#define PYRAXIS_PER_CO2		0.02
+#define PYRAXIS_PER_PHORON	0.00
+
+//Math only beyond this point
+#define PYRAXIS_MOL_PER_TURF	(PYRAXIS_ONE_ATMOSPHERE*CELL_VOLUME/(PYRAXIS_AVG_TEMP*R_IDEAL_GAS_EQUATION))
+#define PYRAXIS_MOL_N2			(PYRAXIS_MOL_PER_TURF * PYRAXIS_PER_N2)
+#define PYRAXIS_MOL_O2			(PYRAXIS_MOL_PER_TURF * PYRAXIS_PER_O2)
+#define PYRAXIS_MOL_N2O			(PYRAXIS_MOL_PER_TURF * PYRAXIS_PER_N2O)
+#define PYRAXIS_MOL_CO2			(PYRAXIS_MOL_PER_TURF * PYRAXIS_PER_CO2)
+#define PYRAXIS_MOL_PHORON		(PYRAXIS_MOL_PER_TURF * PYRAXIS_PER_PHORON)
+
+//Turfmakers
+#define PYRAXIS_SET_ATMOS	nitrogen=PYRAXIS_MOL_N2;oxygen=PYRAXIS_MOL_O2;carbon_dioxide=PYRAXIS_MOL_CO2;phoron=PYRAXIS_MOL_PHORON;temperature=PYRAXIS_AVG_TEMP
+#define PYRAXIS_TURF_CREATE(x)	x/PYRAXIS/nitrogen=PYRAXIS_MOL_N2;x/PYRAXIS/oxygen=PYRAXIS_MOL_O2;x/PYRAXIS/carbon_dioxide=PYRAXIS_MOL_CO2;x/PYRAXIS/phoron=PYRAXIS_MOL_PHORON;x/PYRAXIS/temperature=PYRAXIS_AVG_TEMP;x/PYRAXIS/outdoors=TRUE;x/PYRAXIS/update_graphic(list/graphic_add = null, list/graphic_remove = null) return 0
+#define PYRAXIS_TURF_CREATE_UN(x)	x/PYRAXIS/nitrogen=PYRAXIS_MOL_N2;x/PYRAXIS/oxygen=PYRAXIS_MOL_O2;x/PYRAXIS/carbon_dioxide=PYRAXIS_MOL_CO2;x/PYRAXIS/phoron=PYRAXIS_MOL_PHORON;x/PYRAXIS/temperature=PYRAXIS_AVG_TEMP
