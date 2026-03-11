@@ -92,3 +92,12 @@
 /obj/item/multitool/pyraxis_buffered/Initialize()
 	. = ..()
 	buffer = locate(/obj/machinery/telecomms/hub/preset/pyraxis)
+
+/obj/turbolift_map_holder/pyraxis/cargo
+	name = "Pyraxis 01 turbolift map placeholder - Cargo"
+	dir = EAST
+
+	areas_to_use = list(
+		/area/turbolift/cargo_deck_one,
+		/area/turbolift/cargo_deck_two
+		)

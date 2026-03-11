@@ -3,6 +3,7 @@
 	#include "pyraxis_defines.dm"
 	#include "pyraxis_presets.dm"
 	#include "pyraxis_areas.dm"
+	#include "pyraxis_shuttles.dm"
 
 	#ifndef AWAY_MISSION_TEST
 		#include "pyraxis-01-underground.dmm"

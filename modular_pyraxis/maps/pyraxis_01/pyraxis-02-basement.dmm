@@ -93,7 +93,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced_phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "ch" = (
 /turf/simulated/floor/tiled/steel_ridged,
@@ -103,6 +103,18 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
+/area/space)
+"cL" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1381;
+	id_tag = "cargo_bay";
+	name = "cargo bay hatch controller";
+	pixel_x = -30;
+	req_one_access = list(13,31);
+	tag_door = "cargo_bay_door";
+	pixel_y = -3
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "cZ" = (
 /obj/effect/floor_decal/industrial/loading/blue{
@@ -198,7 +210,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "dU" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -256,7 +268,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "eZ" = (
 /obj/machinery/door/blast/regular{
@@ -269,7 +281,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced_phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "fo" = (
 /obj/machinery/medical_kiosk,
@@ -486,6 +498,9 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/space)
+"ja" = (
+/turf/simulated/floor/maglev/turfpack/pyraxis,
+/area/shuttle/arrival/station/simulated_grid)
 "jg" = (
 /obj/effect/landmark{
 	name = "JoinLateCryo"
@@ -724,7 +739,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced_phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "mM" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -757,6 +772,18 @@
 /obj/item/storage/box/trackimp,
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"ny" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = 32
+	},
+/obj/machinery/conveyor_switch/oneway{
+	id = "QMLoad2"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "nS" = (
 /obj/structure/table/standard,
 /obj/item/stack/medical/advanced/bruise_pack,
@@ -778,6 +805,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/reinforced/turfpack/pyraxis,
+/area/space)
+"oy" = (
+/turf/simulated/floor/tiled/techfloor/grid/train,
 /area/space)
 "oF" = (
 /obj/effect/floor_decal/industrial/loading/blue,
@@ -813,7 +843,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "pk" = (
 /obj/structure/railing{
@@ -830,6 +860,10 @@
 	pixel_y = -4
 	},
 /turf/simulated/floor/tiled/dark,
+/area/space)
+"pu" = (
+/obj/effect/shuttle_landmark/southern_cross/supply_station,
+/turf/simulated/floor/maglev/turfpack/pyraxis,
 /area/space)
 "pv" = (
 /obj/structure/table/standard,
@@ -911,6 +945,22 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/space)
+"qw" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_steel_grid{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
 "qH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -919,6 +969,25 @@
 /area/space)
 "qQ" = (
 /turf/simulated/floor/lino,
+/area/space)
+"qS" = (
+/turf/simulated/floor/tiled/techfloor/grid/train,
+/area/shuttle/escape/station/simulated_grid)
+"qT" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_steel_grid{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/machinery/conveyor{
+	id = "QMLoad2";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "qW" = (
 /turf/simulated/wall/r_lead/turfpack/pyraxis,
@@ -1062,6 +1131,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"tE" = (
+/obj/structure/catwalk,
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
+/area/space)
 "tG" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 6
@@ -1071,7 +1148,7 @@
 "tJ" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "tM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1256,6 +1333,10 @@
 /obj/item/clothing/suit/storage/vest/heavy/officer,
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"vv" = (
+/obj/effect/shuttle_landmark/pyraxis/escape/station,
+/turf/simulated/floor/tiled/techfloor/grid/train,
+/area/shuttle/escape/station/simulated_grid)
 "vw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
@@ -1285,7 +1366,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced_phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "vV" = (
 /obj/structure/window/maintenance_panel,
@@ -1473,7 +1554,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced_phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "ze" = (
 /obj/structure/table/steel_reinforced,
@@ -1499,7 +1580,7 @@
 /area/space)
 "zr" = (
 /obj/machinery/door/airlock/maintenance/rnd,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "zw" = (
 /obj/machinery/vending/cola{
@@ -1568,6 +1649,9 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/space)
+"Aw" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/escape/station/simulated_grid)
 "Ay" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
@@ -1591,6 +1675,10 @@
 	},
 /turf/simulated/floor/reinforced/turfpack/pyraxis,
 /area/space)
+"Bb" = (
+/obj/effect/shuttle_landmark/pyraxis/arrivals/station,
+/turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
+/area/shuttle/arrival/station/simulated_grid)
 "Bd" = (
 /obj/structure/bed/chair/office/light,
 /turf/simulated/floor/tiled/dark,
@@ -1664,6 +1752,13 @@
 "Cv" = (
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/space)
+"Cy" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/space)
 "CD" = (
 /obj/machinery/chemical_analyzer,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
@@ -1735,8 +1830,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
+"Dt" = (
+/turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
+/area/shuttle/arrival/station/simulated_grid)
 "DA" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "DL" = (
 /obj/machinery/oxygen_pump/mobile/stabilizer,
@@ -1981,7 +2079,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "HI" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -2001,7 +2099,7 @@
 	req_access = list(8);
 	req_one_access = list(8,47,52)
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "HX" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
@@ -2050,6 +2148,9 @@
 	},
 /obj/structure/sign/warning/high_voltage{
 	pixel_x = 32
+	},
+/obj/machinery/conveyor_switch/oneway{
+	id = "QMLoad"
 	},
 /turf/simulated/floor/tiled,
 /area/space)
@@ -2214,7 +2315,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced_phoron,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "MZ" = (
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -2317,12 +2418,15 @@
 "OK" = (
 /turf/simulated/floor/tiled/steel,
 /area/space)
+"OY" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "Ps" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Xenobiology";
 	req_one_access = list(55,52)
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "PE" = (
 /turf/simulated/floor/tiled/dark,
@@ -2453,6 +2557,14 @@
 	},
 /obj/structure/railing{
 	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
+/area/space)
+"RS" = (
+/obj/structure/catwalk,
+/obj/machinery/conveyor{
+	id = "QMLoad2";
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
 /area/space)
@@ -2736,6 +2848,13 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/space)
+"Ve" = (
+/obj/machinery/conveyor{
+	id = "QMLoad2";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/space)
 "Vf" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -2766,7 +2885,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "VC" = (
 /obj/machinery/computer/operating,
@@ -2863,7 +2982,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "XY" = (
 /obj/structure/curtain/open/shower,
@@ -5202,37 +5321,37 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+OY
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+OY
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
 bl
 bl
 bl
@@ -5459,37 +5578,37 @@ Mg
 Mg
 Mg
 Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+oy
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+oy
+qS
+qS
+qS
+qS
+qS
+qS
+qS
 Mg
 Mg
 Mg
@@ -5716,37 +5835,37 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
 bl
 bl
 bl
@@ -5973,37 +6092,37 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
 bl
 bl
 bl
@@ -6230,37 +6349,37 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
 bl
 bl
 bl
@@ -6487,37 +6606,37 @@ Mg
 Mg
 Mg
 Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+vv
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+oy
+qS
+qS
+qS
+qS
+qS
+qS
+qS
+oy
+qS
+qS
+qS
+qS
+qS
+qS
+qS
 Mg
 Mg
 Mg
@@ -6744,37 +6863,37 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+OY
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+OY
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
 bl
 bl
 bl
@@ -11127,21 +11246,21 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Bb
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
 bl
 bl
 bl
@@ -11384,21 +11503,21 @@ Mg
 Mg
 Mg
 Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
 Mg
 Mg
 Mg
@@ -11641,21 +11760,21 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
 bl
 bl
 bl
@@ -11898,21 +12017,21 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
 bl
 bl
 bl
@@ -12155,21 +12274,21 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
 bl
 bl
 bl
@@ -12412,21 +12531,21 @@ Mg
 Mg
 Mg
 Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
-Mg
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
 Mg
 Mg
 Mg
@@ -12669,21 +12788,21 @@ bl
 bl
 bl
 bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
-bl
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
+Dt
 bl
 bl
 bl
@@ -48060,11 +48179,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+gi
+gi
+gi
+gi
+gi
 Az
 Az
 Az
@@ -48317,11 +48436,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+gi
+gi
+gi
+gi
+gi
 Az
 Az
 Az
@@ -48574,11 +48693,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+gi
+gi
+gi
+gi
+gi
 Az
 Az
 Az
@@ -48831,11 +48950,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+gi
+gi
+gi
+gi
+gi
 Az
 Az
 Az
@@ -49088,11 +49207,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+gi
+gi
+gi
+gi
+gi
 Az
 Az
 Az
@@ -53198,7 +53317,7 @@ Ox
 gi
 gi
 gi
-gi
+cL
 gi
 gi
 gi
@@ -53713,7 +53832,7 @@ Bh
 Bh
 Bh
 Bh
-IZ
+ny
 Bh
 Bh
 Bh
@@ -53971,11 +54090,11 @@ ch
 ch
 ch
 Ox
+Ve
 ch
 ch
 ch
-ch
-ch
+Cy
 Ox
 ch
 ch
@@ -54228,11 +54347,11 @@ hf
 hf
 hf
 Ds
+qT
 hf
 hf
 hf
-hf
-hf
+qw
 Ds
 zO
 hf
@@ -54485,11 +54604,11 @@ RG
 RG
 RG
 PF
-Yk
-Yk
+RS
+bl
 ve
-Yk
-Yk
+bl
+tE
 Vf
 aZ
 RG
@@ -55001,7 +55120,7 @@ Mg
 Mg
 Mg
 Mg
-Mg
+pu
 Mg
 Mg
 Mg

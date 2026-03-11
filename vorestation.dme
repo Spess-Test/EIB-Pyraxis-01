@@ -6058,6 +6058,7 @@
 #include "modular_pyraxis\maps\pyraxis_01\pyraxis_defines.dm"
 #include "modular_pyraxis\maps\pyraxis_01\pyraxis_lateload.dm"
 #include "modular_pyraxis\maps\pyraxis_01\pyraxis_presets.dm"
+#include "modular_pyraxis\maps\pyraxis_01\pyraxis_shuttles.dm"
 #include "modular_pyraxis\maps\submaps\underground\underground.dm"
 #include "modular_pyraxis\maps\~map_system\_map_selection.dm"
 #include "modular_pyraxis\maps\~map_system\maps.dm"
