@@ -1027,7 +1027,7 @@
 "Ak" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "Am" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1596,7 +1596,7 @@
 /turf/simulated/floor,
 /area/space)
 "Qm" = (
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "Qo" = (
 /obj/structure/cliff_end{

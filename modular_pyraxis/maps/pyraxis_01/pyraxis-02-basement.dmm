@@ -1402,7 +1402,7 @@
 /area/space)
 "wi" = (
 /obj/structure/sign/warning/falling,
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "wt" = (
 /obj/effect/floor_decal/industrial/warning/cee{
@@ -1801,6 +1801,12 @@
 	pixel_y = 13
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/space)
+"Dg" = (
+/obj/machinery/medical_kiosk{
+	pixel_x = -7
+	},
+/turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/space)
 "Dj" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -2248,7 +2254,7 @@
 /area/space)
 "LY" = (
 /obj/machinery/door/airlock/maintenance/rnd,
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "Mb" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -2406,7 +2412,7 @@
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/space)
 "Ox" = (
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "OC" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
@@ -2799,7 +2805,7 @@
 /area/space)
 "Un" = (
 /obj/structure/sign/directions/stairs_up,
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "UB" = (
 /obj/structure/table/rack{
@@ -3032,7 +3038,7 @@
 /area/space)
 "YM" = (
 /obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "Zc" = (
 /obj/machinery/particle_accelerator/control_box,
@@ -7652,7 +7658,7 @@ zw
 BD
 kq
 hM
-Lv
+Dg
 Lv
 Lv
 Lv

@@ -280,7 +280,7 @@
 /area/space)
 "cu" = (
 /obj/structure/sign/signnew/danger,
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "cy" = (
 /obj/structure/railing{
@@ -5312,7 +5312,7 @@
 /turf/simulated/floor/wood/turfpack/pyraxis,
 /area/space)
 "Zt" = (
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "Zu" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -29122,7 +29122,7 @@ Zt
 AT
 Uo
 AT
-AT
+AH
 AT
 AT
 AT
@@ -51280,7 +51280,7 @@ HT
 Gw
 Gw
 Zt
-AT
+AH
 AT
 AT
 AT

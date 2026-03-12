@@ -648,7 +648,7 @@
 /turf/simulated/open,
 /area/space)
 "Rl" = (
-/turf/simulated/wall/r_wall/turfpack/pyraxis,
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "Ru" = (
 /obj/structure/bed/chair/bay/comfy{
