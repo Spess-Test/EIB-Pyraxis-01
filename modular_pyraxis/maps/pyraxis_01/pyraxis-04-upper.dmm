@@ -1559,9 +1559,6 @@
 /obj/structure/toilet,
 /turf/simulated/floor/tiled/freezer,
 /area/space)
-"Gx" = (
-/turf/space,
-/area/space)
 "GH" = (
 /obj/structure/railing{
 	dir = 4
@@ -2088,6 +2085,7 @@
 	name = "Quartermaster";
 	req_one_access = list(19,41)
 	},
+/obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
 /area/space)
 "SB" = (
@@ -31600,7 +31598,7 @@ yx
 ll
 py
 py
-Gx
+ll
 ll
 ll
 ll
@@ -31857,7 +31855,7 @@ yx
 ll
 py
 py
-Gx
+ll
 ll
 qM
 dK
@@ -32893,7 +32891,7 @@ wX
 Xu
 wX
 gq
-wX
+Wl
 wX
 aN
 ll
@@ -33149,7 +33147,7 @@ Sb
 wX
 Xu
 wX
-Wl
+wX
 wX
 wX
 aN
