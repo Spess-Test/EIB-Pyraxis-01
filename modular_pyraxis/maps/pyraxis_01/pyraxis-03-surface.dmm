@@ -63,7 +63,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "aJ" = (
 /obj/machinery/door/airlock/glass_engineeringatmos{
@@ -143,7 +143,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "bi" = (
 /obj/structure/sink{
@@ -194,7 +194,7 @@
 /obj/structure/sign/painting/public{
 	pixel_x = 30
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "bx" = (
 /obj/effect/floor_decal/industrial/loading/white{
@@ -209,7 +209,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "bB" = (
 /obj/structure/sink{
@@ -246,7 +246,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "ce" = (
 /obj/machinery/vending/wardrobe/secdrobe,
@@ -337,11 +337,10 @@
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/space)
 "cY" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "dh" = (
 /obj/machinery/door/airlock/silver{
@@ -364,6 +363,14 @@
 /obj/item/folder/red,
 /obj/item/clothing/glasses/hud/security,
 /turf/simulated/floor/tiled/red,
+/area/space)
+"dt" = (
+/obj/structure/stairs/spawner/east,
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/obj/structure/railing/grey,
+/turf/simulated/floor/tiled,
 /area/space)
 "dz" = (
 /obj/machinery/hologram/holopad,
@@ -426,13 +433,13 @@
 /area/space)
 "dZ" = (
 /obj/effect/floor_decal/spline/plain,
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "ec" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "ej" = (
 /obj/machinery/photocopier,
@@ -517,7 +524,10 @@
 /area/space)
 "fr" = (
 /obj/machinery/vending/coffee,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/obj/structure/bed/chair/bay/chair/padded/purple{
+	dir = 4
+	},
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "fx" = (
 /obj/structure/table/standard,
@@ -553,7 +563,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/obj/machinery/medical_kiosk,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "fE" = (
 /obj/machinery/door/window/northleft{
@@ -635,7 +646,7 @@
 	name = "Gallery"
 	},
 /obj/machinery/door/firedoor/glass,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "fX" = (
 /obj/structure/railing{
@@ -653,7 +664,7 @@
 /area/space)
 "gj" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "gk" = (
 /obj/structure/railing{
@@ -691,7 +702,15 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/obj/machinery/recharge_station,
+/turf/simulated/floor/wood/turfpack,
+/area/space)
+"gH" = (
+/obj/structure/table/woodentable,
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "gL" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
@@ -704,13 +723,19 @@
 /area/space)
 "gP" = (
 /obj/structure/bed/chair/bay/chair/padded/red/bignest,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/obj/structure/bed/chair/bay/chair/padded/purple{
+	dir = 4
+	},
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "gS" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 9
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
 	},
-/turf/simulated/floor/carpet/brown/turfpack/pyraxis,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "gX" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
@@ -821,6 +846,9 @@
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/space)
 "iy" = (
@@ -912,11 +940,13 @@
 /area/space)
 "ji" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "jm" = (
-/obj/effect/floor_decal/spline/plain,
-/turf/simulated/floor/carpet/brown/turfpack/pyraxis,
+/obj/structure/bed/chair/bay/chair/padded/purple{
+	dir = 4
+	},
+/turf/simulated/wall,
 /area/space)
 "jn" = (
 /obj/machinery/honey_extractor,
@@ -933,7 +963,7 @@
 	dir = 4;
 	pixel_x = -6
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "jw" = (
 /obj/structure/table/wooden_reinforced,
@@ -966,6 +996,16 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
+/area/space)
+"jM" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/machinery/vending/snack{
+	dir = 4;
+	pixel_x = -7
+	},
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "jN" = (
 /obj/structure/sign/painting/public,
@@ -1032,11 +1072,13 @@
 /turf/simulated/floor/tiled,
 /area/space)
 "kh" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/spline/plain{
+	dir = 6
+	},
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "ki" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -1102,7 +1144,7 @@
 /turf/simulated/floor/carpet/sblucarpet/turfpack/pyraxis,
 /area/space)
 "kL" = (
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "kM" = (
 /obj/machinery/appliance/cooker/fryer,
@@ -1170,6 +1212,16 @@
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/space)
+"lm" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/machinery/vending/coffee{
+	dir = 4;
+	pixel_x = -8
+	},
+/turf/simulated/floor/wood/turfpack,
+/area/space)
 "ls" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
@@ -1234,7 +1286,7 @@
 /area/space)
 "lE" = (
 /obj/machinery/medical_kiosk,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "lJ" = (
 /obj/structure/table/woodentable,
@@ -1292,7 +1344,7 @@
 "mn" = (
 /obj/machinery/door/airlock/glass,
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "mp" = (
 /obj/machinery/computer/supplycomp{
@@ -1355,7 +1407,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "mV" = (
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -1442,7 +1494,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 3
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "nx" = (
 /obj/structure/railing/grey{
@@ -1522,7 +1574,7 @@
 "nX" = (
 /obj/item/stool/baystool/padded,
 /obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "nZ" = (
 /obj/structure/window/maintenance_panel{
@@ -1585,11 +1637,13 @@
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
 /area/space)
 "ox" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/spline/plain{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "oz" = (
 /obj/machinery/button/remote/blast_door{
@@ -1642,10 +1696,10 @@
 /turf/simulated/floor,
 /area/space)
 "oR" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 8
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
 	},
-/turf/simulated/floor/carpet/brown/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "oT" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1671,7 +1725,7 @@
 /obj/structure/bed/chair/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "pi" = (
 /turf/simulated/floor/tiled/milspec,
@@ -1749,9 +1803,8 @@
 /turf/simulated/floor/tiled/milspec,
 /area/space)
 "pN" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
 /obj/structure/bed/chair/comfy/brown,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "pV" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -1789,7 +1842,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "qe" = (
 /obj/structure/table/marble,
@@ -1883,7 +1936,7 @@
 /area/space)
 "rn" = (
 /obj/structure/stairs/spawner/north,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "rs" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -1940,7 +1993,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "rN" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -2000,7 +2053,7 @@
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
 /area/space)
 "sq" = (
-/obj/structure/table/reinforced,
+/obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/space)
 "ss" = (
@@ -2032,7 +2085,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "sP" = (
 /obj/machinery/appliance/cooker/grill,
@@ -2091,7 +2144,13 @@
 /turf/simulated/floor/outdoors/grass/heavy/turfpack/pyraxis,
 /area/space)
 "tw" = (
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "ty" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
@@ -2124,7 +2183,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "tZ" = (
 /obj/structure/table/hardwoodtable,
@@ -2160,7 +2219,7 @@
 	dir = 4;
 	pixel_x = -7
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "uD" = (
 /obj/structure/curtain/black,
@@ -2175,7 +2234,7 @@
 /obj/machinery/microwave{
 	pixel_y = 6
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "uW" = (
 /turf/simulated/floor/lino,
@@ -2215,6 +2274,9 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
+/obj/structure/bed/chair/bay/chair/padded/brown{
+	dir = 8
+	},
 /turf/simulated/floor/carpet/brown/turfpack/pyraxis,
 /area/space)
 "vp" = (
@@ -2232,7 +2294,7 @@
 /obj/structure/reagent_dispensers/water_cooler/full{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "vE" = (
 /obj/machinery/seed_extractor,
@@ -2268,13 +2330,13 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "wj" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "wk" = (
 /obj/structure/table/marble,
@@ -2309,7 +2371,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "ww" = (
 /obj/machinery/door/airlock/glass_medical{
@@ -2418,7 +2480,7 @@
 /area/space)
 "yq" = (
 /obj/machinery/vending/snack,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "yu" = (
 /obj/structure/table/standard,
@@ -2465,7 +2527,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "zc" = (
 /obj/structure/railing/grey,
@@ -2526,7 +2588,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "zC" = (
 /obj/structure/table/hardwoodtable,
@@ -2604,7 +2666,7 @@
 /obj/machinery/chemical_dispenser/bar_soft/full{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "zY" = (
 /obj/structure/closet/crate,
@@ -2622,6 +2684,12 @@
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/space)
 "Ad" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 8
+	},
+/obj/structure/bed/chair/bay/chair/padded/brown{
+	dir = 4
+	},
 /turf/simulated/floor/carpet/brown/turfpack/pyraxis,
 /area/space)
 "Ah" = (
@@ -2664,7 +2732,7 @@
 	dir = 4;
 	pixel_x = -6
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "AF" = (
 /obj/structure/toilet,
@@ -2767,7 +2835,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Bh" = (
 /obj/structure/closet{
@@ -2791,7 +2859,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Bz" = (
 /obj/structure/table/marble,
@@ -2847,9 +2915,25 @@
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/space)
+"BW" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "BX" = (
 /obj/machinery/vending/wardrobe/hydrobe,
 /turf/simulated/floor/tiled/hydro,
+/area/space)
+"Ca" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/obj/structure/table/woodentable,
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/brown/turfpack/pyraxis,
 /area/space)
 "Cc" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -2938,7 +3022,7 @@
 /obj/structure/bed/chair/bay/chair/padded/purple{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "CO" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -3111,7 +3195,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Er" = (
 /obj/structure/table/standard,
@@ -3194,7 +3278,7 @@
 	pixel_x = 32;
 	anchored = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "EM" = (
 /obj/structure/sign/painting/public,
@@ -3203,6 +3287,15 @@
 "EO" = (
 /obj/machinery/medical_kiosk,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/space)
+"ER" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "EW" = (
 /obj/item/assembly/igniter,
@@ -3226,7 +3319,7 @@
 	dir = 8;
 	pixel_x = 35
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Fo" = (
 /obj/effect/floor_decal/carpet{
@@ -3296,7 +3389,7 @@
 /area/space)
 "FK" = (
 /obj/machinery/vending/cigarette,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "FM" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
@@ -3430,6 +3523,10 @@
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/space)
+"GZ" = (
+/obj/structure/railing/grey,
+/turf/simulated/floor/tiled,
+/area/space)
 "Hl" = (
 /obj/structure/waterfall,
 /turf/simulated/floor/water/turfpack/pyraxis,
@@ -3473,6 +3570,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
+/area/space)
+"HC" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "HH" = (
 /obj/effect/floor_decal/carpet{
@@ -3644,7 +3747,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "Jn" = (
 /obj/structure/window/maintenance_panel,
@@ -3674,7 +3777,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 3
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "JF" = (
 /obj/structure/bed/chair/sofa/bench/left{
@@ -3772,6 +3875,9 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
+/obj/structure/bed/chair/bay/chair/padded/brown{
+	dir = 8
+	},
 /turf/simulated/floor/carpet/brown/turfpack/pyraxis,
 /area/space)
 "KR" = (
@@ -3809,8 +3915,7 @@
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/space)
 "Lk" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Ll" = (
 /obj/structure/curtain/black{
@@ -3843,7 +3948,7 @@
 	pixel_x = 25;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Lv" = (
 /obj/item/tool/wrench/pipe,
@@ -3923,7 +4028,7 @@
 /area/space)
 "Md" = (
 /obj/structure/bed/chair/wood,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Me" = (
 /obj/item/stool/padded{
@@ -4037,7 +4142,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "MO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -4128,7 +4233,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "NH" = (
 /obj/structure/table/reinforced,
@@ -4158,7 +4263,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "NQ" = (
 /obj/structure/railing,
@@ -4183,7 +4288,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Oh" = (
 /obj/machinery/rnd/production/circuit_imprinter,
@@ -4370,7 +4475,13 @@
 	name = "Chunkin' Donuts"
 	},
 /obj/machinery/door/firedoor/glass,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
+/area/space)
+"Qm" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/turfpack,
 /area/space)
 "Qn" = (
 /obj/machinery/door/airlock/glass_research{
@@ -4459,7 +4570,7 @@
 /area/space)
 "Rn" = (
 /obj/machinery/recharge_station,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Rr" = (
 /obj/structure/railing,
@@ -4618,7 +4729,8 @@
 /area/space)
 "Tm" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "Ty" = (
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
@@ -4644,7 +4756,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "TM" = (
 /obj/machinery/door/airlock/security{
@@ -4666,7 +4778,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "TR" = (
 /obj/structure/table/marble,
@@ -4755,7 +4867,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Uy" = (
 /obj/effect/floor_decal/industrial/outline/red,
@@ -4798,11 +4910,13 @@
 /turf/simulated/floor/plating/turfpack/pyraxis,
 /area/space)
 "UZ" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 5
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
 	},
-/obj/machinery/recharge_station,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/obj/effect/floor_decal/spline/plain{
+	dir = 10
+	},
+/turf/simulated/floor/carpet/sblucarpet,
 /area/space)
 "Vh" = (
 /obj/structure/table/standard,
@@ -4821,8 +4935,7 @@
 	pixel_x = -32;
 	anchored = 1
 	},
-/obj/effect/floor_decal/corner/beige/diagonal,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Vr" = (
 /obj/machinery/door/airlock/maintenance/rnd,
@@ -4876,7 +4989,7 @@
 	pixel_y = 5;
 	pixel_x = 3
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "VM" = (
 /obj/machinery/door/blast/regular{
@@ -4929,13 +5042,12 @@
 /turf/simulated/floor,
 /area/space)
 "Wl" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
 /obj/machinery/button/windowtint{
 	id = "medbreak";
 	pixel_x = -25;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Wr" = (
 /obj/machinery/door/blast/regular{
@@ -4972,7 +5084,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "WO" = (
 /obj/machinery/door/window/southright{
@@ -4989,7 +5101,7 @@
 /area/space)
 "WQ" = (
 /obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "WR" = (
 /obj/structure/table/standard,
@@ -5102,7 +5214,10 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/obj/structure/bed/chair/bay/chair/padded/purple{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "XP" = (
 /turf/simulated/floor/water/turfpack/pyraxis,
@@ -5234,7 +5349,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "YH" = (
 /obj/machinery/door/airlock/glass{
@@ -5275,7 +5390,7 @@
 /area/space)
 "YY" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Za" = (
 /obj/effect/floor_decal/spline/plain{
@@ -5297,7 +5412,10 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
-/turf/simulated/floor/carpet/purcarpet/turfpack/pyraxis,
+/obj/structure/bed/chair/bay/chair/padded/purple{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "Zk" = (
 /obj/structure/railing{
@@ -5309,7 +5427,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 3
 	},
-/turf/simulated/floor/wood/turfpack/pyraxis,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "Zt" = (
 /turf/simulated/wall/r_wall/turfpack,
@@ -5372,14 +5490,17 @@
 /obj/item/storage/box/glasses/square{
 	pixel_y = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood/turfpack,
 /area/space)
 "ZU" = (
 /turf/simulated/floor/wood/alt/parquet,
 /area/space)
 "ZX" = (
 /obj/effect/floor_decal/spline/plain{
-	dir = 1
+	dir = 9
+	},
+/obj/structure/bed/chair/bay/chair/padded/brown{
+	dir = 4
 	},
 /turf/simulated/floor/carpet/brown/turfpack/pyraxis,
 /area/space)
@@ -21186,8 +21307,8 @@ Ei
 Du
 Ei
 rn
-tw
-tw
+Lk
+Lk
 Md
 YY
 pb
@@ -21444,16 +21565,16 @@ dh
 Ei
 tY
 TQ
-tw
-tw
-tw
-tw
-tw
-tw
-tw
-tw
-tw
-tw
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
 Hw
 aS
 aS
@@ -21705,8 +21826,8 @@ Ux
 Ux
 Ux
 NN
-tw
-tw
+Lk
+Lk
 gj
 Bw
 Bw
@@ -21962,8 +22083,8 @@ Hm
 Hm
 AS
 rK
-tw
-tw
+Lk
+Lk
 nX
 vj
 TR
@@ -22219,8 +22340,8 @@ uW
 uW
 fG
 rK
-tw
-tw
+Lk
+Lk
 nX
 CL
 SF
@@ -22476,8 +22597,8 @@ Dy
 uW
 fG
 rK
-tw
-tw
+Lk
+Lk
 nX
 CL
 SF
@@ -22733,8 +22854,8 @@ ZZ
 uW
 Ox
 rK
-tw
-tw
+Lk
+Lk
 nX
 XD
 SF
@@ -22990,8 +23111,8 @@ uW
 uW
 fG
 rK
-tw
-tw
+Lk
+Lk
 nX
 CL
 SF
@@ -23247,8 +23368,8 @@ ID
 ID
 Gq
 rK
-tw
-tw
+Lk
+Lk
 nX
 CL
 SF
@@ -23504,8 +23625,8 @@ by
 by
 by
 sM
-tw
-tw
+Lk
+Lk
 nX
 CL
 SF
@@ -23755,14 +23876,14 @@ uW
 uW
 uW
 ZC
-tw
-tw
+Lk
+Lk
 bv
 Fn
-tw
-tw
-tw
-tw
+Lk
+Lk
+Lk
+Lk
 nX
 CL
 SF
@@ -25807,7 +25928,7 @@ Gw
 Gw
 Gw
 Zt
-fC
+HC
 MK
 MK
 MK
@@ -27352,7 +27473,7 @@ Zt
 wj
 WQ
 EM
-gG
+oR
 Ux
 Ux
 Ux
@@ -28380,7 +28501,7 @@ Zt
 wj
 WQ
 EM
-fC
+HC
 MK
 MK
 MK
@@ -29919,7 +30040,7 @@ Gw
 Gw
 Gw
 Zt
-gG
+oR
 Ux
 Ux
 Ux
@@ -33761,7 +33882,7 @@ Ei
 cp
 Xu
 Xu
-Zt
+Ei
 SG
 tR
 Xu
@@ -34545,12 +34666,12 @@ Ei
 Ei
 Ei
 TM
-Zt
-Zt
+Ei
+Ei
 LS
 TM
 LS
-Zt
+Ei
 Zt
 bj
 Gw
@@ -35316,7 +35437,7 @@ GC
 Xu
 Xu
 Xu
-Zt
+Ei
 iJ
 er
 Xu
@@ -35558,13 +35679,13 @@ AT
 Sa
 Sa
 Ei
-Vk
-Xu
-Xu
-Xu
-Xu
-Xu
-Xu
+Rn
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
 AB
 uC
 jt
@@ -35815,16 +35936,16 @@ AT
 Sa
 Sa
 Ei
-Xu
+Lk
 Fo
 Nv
 Nv
 Nv
 oe
-Xu
-Xu
-Xu
-Xu
+Lk
+Lk
+Lk
+Lk
 Ei
 GC
 Xu
@@ -36065,23 +36186,23 @@ xU
 Ei
 Au
 CI
-Zt
+Ei
 IG
 CI
 CI
-Zt
-Zt
-Zt
-Xu
+Ei
+Ei
+Ei
+Lk
 vV
 uo
 tZ
 zC
 ko
-Xu
-Xu
-Xu
-Xu
+Lk
+Lk
+Lk
+Lk
 fz
 Xu
 Xu
@@ -36322,29 +36443,29 @@ Ty
 Ei
 AT
 PB
-Zt
+Ei
 AT
 PC
 rV
 KG
 In
-Zt
-Xu
+Ei
+Lk
 vV
 uo
 Ot
 uo
 ko
-Xu
-Xu
-Xu
-Xu
+Lk
+Lk
+Lk
+Lk
 IS
 Xu
 Xu
 Xu
 Xu
-Zt
+Ei
 iB
 er
 Xu
@@ -36579,23 +36700,23 @@ mc
 Ei
 AT
 PB
-Zt
+Ei
 AT
 AT
 AT
 AT
 zu
-Zt
-Xu
+Ei
+Lk
 Ju
 sa
 sa
 ns
 QI
-Xu
-Xu
-Xu
-Xu
+Lk
+Lk
+Lk
+Lk
 Ei
 Xu
 Xu
@@ -36836,23 +36957,23 @@ yV
 Ei
 AT
 PB
-Zt
+Ei
 jq
 jq
 jq
 jq
 jq
-Zt
-Uj
-Xu
-Xu
+Ei
+lE
+Lk
+Lk
 EF
 Lq
-Xu
-Xu
+Lk
+Lk
 zT
 ZR
-Tm
+YY
 Ei
 Xu
 Xu
@@ -37093,7 +37214,7 @@ Ty
 xU
 AT
 PB
-Zt
+Ei
 Dr
 fE
 NJ
@@ -37350,7 +37471,7 @@ fn
 Ei
 AT
 PB
-Zt
+Ei
 pV
 pV
 pV
@@ -37607,7 +37728,7 @@ Ei
 Ei
 Cq
 aB
-Zt
+Ei
 AT
 AT
 AT
@@ -37864,7 +37985,7 @@ Ei
 ce
 AT
 Er
-Zt
+Ei
 AT
 sT
 AT
@@ -38121,7 +38242,7 @@ Zt
 cP
 AT
 td
-Zt
+Ei
 AT
 AT
 AT
@@ -38375,10 +38496,10 @@ Gw
 Gw
 Gw
 Zt
-Zt
+Ei
 Fw
-Zt
-Zt
+Ei
+Ei
 AT
 AT
 AT
@@ -38635,7 +38756,7 @@ Zt
 Wj
 Wj
 Wj
-Zt
+Ei
 AT
 AT
 AT
@@ -38892,7 +39013,7 @@ Fw
 Wj
 Wj
 Wj
-Zt
+Ei
 AT
 zg
 up
@@ -39149,7 +39270,7 @@ Zt
 Wj
 Wj
 Wj
-Zt
+Ei
 AT
 AT
 AT
@@ -39406,7 +39527,7 @@ Zt
 Wj
 Wj
 Wj
-Zt
+Ei
 SV
 Zt
 Zt
@@ -39420,7 +39541,7 @@ Vm
 Wl
 Lk
 Lk
-Lk
+Rn
 Zt
 Gw
 Gw
@@ -39673,8 +39794,8 @@ Zt
 Lk
 Lk
 ox
-ox
-ox
+tw
+UZ
 Lk
 Lk
 Lk
@@ -39929,9 +40050,9 @@ Zt
 Zt
 Lk
 pN
+gH
 lJ
-lJ
-lJ
+Tm
 cY
 Lk
 Lk
@@ -40186,9 +40307,9 @@ Nx
 Zt
 Lk
 pN
+gH
 lJ
-lJ
-lJ
+Tm
 cY
 Lk
 Lk
@@ -40441,10 +40562,10 @@ Nx
 Nx
 Nx
 Zt
+VF
 Lk
-Lk
-kh
-kh
+ER
+gS
 kh
 Lk
 Lk
@@ -40698,14 +40819,14 @@ Nx
 Nx
 Nx
 Zt
+uK
 Lk
 Lk
 Lk
 Lk
 Lk
 Lk
-Lk
-Lk
+lE
 Zt
 Gw
 Gw
@@ -42802,11 +42923,11 @@ Nx
 Nx
 Ei
 lE
-tw
-tw
-tw
+Lk
+Lk
+Lk
 gP
-tw
+Lk
 Rn
 Ei
 Nx
@@ -43059,12 +43180,12 @@ Nx
 Nx
 Ei
 FK
-tw
-tw
-tw
-tw
-tw
-tw
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
 Ei
 Ei
 Dn
@@ -43315,13 +43436,13 @@ Nx
 Nx
 Nx
 Ei
-tw
+Lk
 yX
 mN
 XO
 mN
 wv
-tw
+Lk
 Ei
 dE
 dE
@@ -43572,13 +43693,13 @@ Nx
 Nx
 Nx
 Ei
-tw
+Lk
 aH
 ji
 ji
 CN
 dZ
-tw
+Lk
 Ei
 dE
 dE
@@ -43829,13 +43950,13 @@ Nx
 Nx
 Nx
 fm
-tw
+Lk
 Jf
 ji
 ji
 kL
 dZ
-tw
+Lk
 Vr
 dE
 dE
@@ -44086,7 +44207,7 @@ Nx
 Nx
 Nx
 Ei
-tw
+Lk
 Jf
 ji
 ji
@@ -44601,11 +44722,11 @@ Nx
 Nx
 Ei
 yq
-tw
-tw
-tw
-tw
-tw
+Lk
+Lk
+Lk
+Lk
+Lk
 uK
 Ei
 Ei
@@ -44861,7 +44982,7 @@ Ei
 Ei
 Ei
 Xj
-Ei
+jm
 Ei
 Ei
 Ei
@@ -48458,7 +48579,7 @@ Gw
 Gw
 Gw
 Zt
-fC
+HC
 MK
 MK
 MK
@@ -48716,13 +48837,13 @@ Gw
 Gw
 Zt
 Bg
-tw
+Lk
 Za
 kQ
 gp
 kQ
 No
-tw
+Lk
 Zs
 CI
 Gw
@@ -48973,13 +49094,13 @@ Gw
 Gw
 Zt
 TI
-tw
+Lk
 qQ
 kH
 kH
 kH
 KX
-tw
+Lk
 Jw
 CI
 Gw
@@ -49230,13 +49351,13 @@ Zt
 Zt
 Zt
 qa
-tw
+Lk
 IN
 kH
 kH
 kH
 iz
-tw
+Lk
 nw
 CI
 Gw
@@ -49487,13 +49608,13 @@ Ty
 Az
 Zt
 Of
-tw
+Lk
 YF
 as
 GD
 oT
 Tj
-tw
+Lk
 Zs
 CI
 Gw
@@ -49743,14 +49864,14 @@ Zt
 Ty
 Ty
 Zt
-UZ
+gG
 Ux
 Ux
 Ux
 Ux
 Ux
 NN
-tw
+Lk
 Zs
 Zt
 Gw
@@ -50007,7 +50128,7 @@ Zt
 Zt
 Zt
 wj
-tw
+Lk
 Zs
 Zt
 Gw
@@ -50264,7 +50385,7 @@ AT
 AT
 qM
 wj
-tw
+Lk
 Zs
 Zt
 Gw
@@ -50520,7 +50641,7 @@ AT
 AT
 wU
 Zt
-gG
+oR
 Ux
 WF
 Zt
@@ -56406,8 +56527,8 @@ Zt
 fC
 MK
 MK
-MK
-bg
+jM
+lm
 Zt
 Gw
 Gw
@@ -56661,9 +56782,9 @@ AT
 AT
 Zt
 wj
-gS
-oR
-Ru
+Lk
+Lk
+Lk
 WQ
 Zt
 Gw
@@ -56920,7 +57041,7 @@ Zt
 wj
 ZX
 Ad
-jm
+Ru
 WQ
 Zt
 Gw
@@ -57427,12 +57548,12 @@ AT
 AT
 AT
 Zt
+GZ
 AT
-AT
-AT
+BW
 Zt
 wj
-bs
+Ca
 IF
 fl
 WQ
@@ -57684,10 +57805,10 @@ AT
 AT
 AT
 Zt
-hT
+dt
 AT
 hT
-Zt
+Qm
 wj
 ex
 KH

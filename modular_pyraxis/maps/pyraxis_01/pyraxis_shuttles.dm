@@ -27,6 +27,28 @@
 
 // Mining Elevator
 /area/shuttle/drillevator
-	name = "\improper Drillevator"
+	name = "\improper Mining Elevator"
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
-	base_turf = /turf/simulated/floor/plating/external/turfpack/pyraxis
+	base_turf = /turf/simulated/open
+
+/area/shuttle/drillevator/station
+
+/area/shuttle/drillevator/transit
+	name = "\improper Mining Elevator - Diving Deep"
+
+/area/shuttle/drillevator/underground
+	name = "\improper Mining Elevator - Underground"
+
+/obj/effect/shuttle_landmark/pyraxis/drillevator/station
+	name = "Mining Elevator - Station"
+	landmark_tag = "mining_station"
+	docking_controller = "mining_dock_station"
+
+/obj/effect/shuttle_landmark/pyraxis/drillevator/transit
+	name = "Mining Elevator - Diving Deep"
+	landmark_tag = "mining_transit"
+
+/obj/effect/shuttle_landmark/pyraxis/drillevator/underground
+	name = "Mining Elevator - Underground"
+	landmark_tag = "mining_underground"
+	docking_controller = "mining_dock_underground"

@@ -5,12 +5,16 @@
 "H" = (
 /turf/simulated/mineral/thor/floor/cave,
 /area/space)
+"K" = (
+/turf/simulated/mineral/thor/floor/cave,
+/area/shuttle/drillevator/underground)
 "M" = (
 /turf/simulated/wall/solidrock,
 /area/space)
 "R" = (
-/turf/simulated/floor/tiled,
-/area/space)
+/obj/effect/shuttle_landmark/pyraxis/drillevator/underground,
+/turf/simulated/mineral/thor/floor/cave,
+/area/shuttle/drillevator/underground)
 
 (1,1,1) = {"
 M
@@ -44592,7 +44596,7 @@ a
 a
 a
 a
-a
+H
 H
 H
 H
@@ -44849,13 +44853,13 @@ a
 a
 a
 a
-a
 H
-H
-H
-H
-H
-H
+K
+K
+K
+K
+K
+K
 H
 H
 a
@@ -45105,14 +45109,14 @@ a
 a
 a
 a
-a
 H
 H
-R
-R
-R
-R
-R
+K
+K
+K
+K
+K
+K
 H
 H
 a
@@ -45362,14 +45366,14 @@ a
 a
 a
 a
-a
 H
 H
-R
-R
-R
-R
-R
+K
+K
+K
+K
+K
+K
 H
 H
 a
@@ -45621,12 +45625,12 @@ a
 a
 H
 H
-H
-R
-R
-R
-R
-R
+K
+K
+K
+K
+K
+K
 H
 H
 H
@@ -45878,12 +45882,12 @@ a
 a
 H
 H
-H
+K
+K
+K
 R
-R
-R
-R
-R
+K
+K
 H
 H
 H
@@ -46135,12 +46139,12 @@ a
 a
 H
 H
-H
-R
-R
-R
-R
-R
+K
+K
+K
+K
+K
+K
 H
 H
 H
