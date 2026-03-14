@@ -30,5 +30,5 @@
 /datum/map_template/pyraxis_lateload/centcom
 	name = Z_NAME_PYRAXIS_CENTCOM
 	name_alias = Z_NAME_ALIAS_CENTCOM
-	mappath = "modular_pyraxis/maps/pyraxis/pyraxis-centcom.dmm"
+	mappath = "modular_pyraxis/maps/pyraxis_01/pyraxis-centcom.dmm"
 	associated_map_datum = /datum/map_z_level/pyraxis_lateload/centcom

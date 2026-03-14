@@ -17,6 +17,7 @@
 	#include "pyraxis_lateload.dm"
 
 	#define USING_MAP_DATUM /datum/map/pyraxis
+
 #elif !defined(MAP_OVERRIDE)
 
 	#warn A map has already been included, ignoring EIS Pyraxis 01

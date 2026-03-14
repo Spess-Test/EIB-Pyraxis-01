@@ -96,6 +96,9 @@
 /obj/turbolift_map_holder/pyraxis/cargo
 	name = "Pyraxis 01 turbolift map placeholder - Cargo"
 	dir = EAST
+	depth = 2
+	lift_size_x = 3
+	lift_size_y = 3
 
 	areas_to_use = list(
 		/area/turbolift/cargo_deck_one,

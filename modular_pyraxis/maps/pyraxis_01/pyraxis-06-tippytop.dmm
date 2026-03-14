@@ -4,14 +4,14 @@
 	dir = 6
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "bx" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /obj/structure/ladder/updown,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "cN" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -25,13 +25,13 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "cR" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "cU" = (
 /obj/structure/table/wooden_reinforced,
 /obj/structure/window/reinforced{
@@ -41,7 +41,7 @@
 /obj/structure/window/reinforced,
 /obj/item/megaphone,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "cV" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -49,7 +49,7 @@
 /obj/structure/table/woodentable,
 /obj/random/drinkbottle,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "cW" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -58,7 +58,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "dq" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -67,50 +67,50 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "ew" = (
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "fB" = (
 /obj/structure/cliff{
 	dir = 6
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "gu" = (
 /mob/living/simple_mob/vore/gryphon{
 	dir = 8
 	},
 /obj/item/stack/material/stick,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "gx" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "gJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "hi" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/carpet/blucarpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "hL" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "hX" = (
 /obj/structure/cliff{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "iL" = (
 /obj/structure/sink{
 	dir = 1
@@ -119,7 +119,7 @@
 	pixel_y = -30
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "iQ" = (
 /obj/machinery/computer/supply_request_computeralt/captain{
 	pixel_y = 4
@@ -128,30 +128,30 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "iV" = (
 /obj/structure/cliff{
 	dir = 10
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "jw" = (
 /obj/structure/lattice,
 /obj/structure/catwalk,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "jV" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /obj/machinery/suit_cycler/captain,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "jW" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "kk" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "captaindoor";
@@ -160,7 +160,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "kH" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -174,19 +174,19 @@
 /obj/item/clothing/glasses/omnihud/all,
 /obj/item/universal_translator/ear,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "la" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/blucarpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "lE" = (
 /obj/structure/cliff/corner{
 	dir = 5
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "nz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -198,32 +198,32 @@
 /obj/structure/table/wooden_reinforced,
 /obj/item/storage/lockbox/medal,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "nW" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
 /obj/structure/filingcabinet,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "oc" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "oi" = (
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "oE" = (
 /obj/structure/cliff{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "pf" = (
 /turf/simulated/wall/solidrock,
-/area/space)
+/area/centcom/test)
 "pF" = (
 /obj/machinery/computer/communications{
 	dir = 4;
@@ -233,7 +233,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "qF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -241,11 +241,11 @@
 /obj/structure/table/rack/shelf/wood,
 /obj/item/melee/chainofcommand,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "rl" = (
 /obj/structure/cliff,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "rG" = (
 /obj/structure/bed/double/padded{
 	dir = 1
@@ -257,7 +257,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "sF" = (
 /obj/item/bone/arm{
 	pixel_y = 18;
@@ -265,10 +265,10 @@
 	},
 /obj/item/stack/material/stick,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "sL" = (
 /turf/simulated/shuttle/wall/voidcraft,
-/area/space)
+/area/centcom/test)
 "sN" = (
 /obj/machinery/door/window/southright{
 	dir = 1;
@@ -279,7 +279,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "tp" = (
 /obj/machinery/computer/card{
 	pixel_y = 4
@@ -288,7 +288,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "tt" = (
 /obj/structure/table/wooden_reinforced,
 /obj/machinery/door/window/southright{
@@ -296,48 +296,48 @@
 	req_access = list(20)
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "tG" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
 /turf/simulated/floor/carpet/blucarpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "uo" = (
 /obj/structure/cliff{
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "uY" = (
 /obj/structure/bed/chair/bay/comfy/captain{
 	override_name = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "vc" = (
 /obj/item/bone/ribs{
 	pixel_y = 13
 	},
 /obj/item/stack/material/stick,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "vn" = (
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "vs" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
 /turf/simulated/floor/carpet/blucarpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "vI" = (
 /turf/simulated/wall/r_wall/turfpack,
-/area/space)
+/area/centcom/test)
 "wK" = (
 /obj/structure/lattice,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "wQ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -346,23 +346,23 @@
 /obj/item/storage/box/matches,
 /obj/item/clothing/mask/smokable/cigarette/cigar,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "xM" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "xX" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
 /turf/simulated/floor/carpet/blucarpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "yv" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
 /turf/simulated/floor/carpet/bcarpet,
-/area/space)
+/area/centcom/test)
 "yL" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -370,45 +370,45 @@
 /obj/structure/table/rack/shelf/wood,
 /obj/item/reagent_containers/food/drinks/flask,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "zy" = (
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "Ae" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/bcarpet,
-/area/space)
+/area/centcom/test)
 "An" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
 /turf/simulated/floor/carpet/bcarpet,
-/area/space)
+/area/centcom/test)
 "Ao" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
 /turf/simulated/floor/carpet/blucarpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ay" = (
 /obj/structure/cliff_end,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "By" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "BO" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /obj/structure/displaycase,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "CR" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -417,7 +417,7 @@
 	name = "station director's wardrobe"
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "ER" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -426,7 +426,7 @@
 	pixel_x = 26
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "FH" = (
 /obj/structure/bed/chair/comfy/rounded/blue{
 	dir = 4;
@@ -434,28 +434,28 @@
 	pixel_y = -12
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "FR" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
 /turf/simulated/floor/carpet/bcarpet,
-/area/space)
+/area/centcom/test)
 "Gy" = (
 /obj/item/stack/material/stick,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Gz" = (
 /obj/structure/cliff{
 	dir = 5
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Hj" = (
 /turf/simulated/floor/tiled/techmaint{
 	outdoors = 1
 	},
-/area/space)
+/area/centcom/test)
 "HQ" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -466,14 +466,14 @@
 	pixel_y = -10
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "HZ" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ic" = (
 /obj/structure/table/wooden_reinforced,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -488,7 +488,7 @@
 	pixel_y = -4
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "IC" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -498,7 +498,7 @@
 	health = 1e+006
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "IR" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -507,22 +507,22 @@
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "Kc" = (
 /turf/simulated/mineral/alt/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "KF" = (
 /obj/structure/cliff/corner{
 	dir = 9
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "KR" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "LC" = (
 /obj/structure/table/wooden_reinforced,
 /obj/structure/window/reinforced{
@@ -535,7 +535,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "LI" = (
 /obj/machinery/shower{
 	pixel_y = 2
@@ -545,61 +545,61 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "Nv" = (
 /obj/structure/cliff_end{
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "OH" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "OR" = (
 /obj/machinery/door/airlock{
 	name = "Restroom"
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "Pe" = (
 /obj/structure/toilet{
 	dir = 8;
 	pixel_y = -11
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "Rq" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "St" = (
 /obj/item/bone/skull,
 /obj/item/stack/material/stick,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "SM" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "Tt" = (
 /obj/effect/landmark/map_data/pyraxis,
 /turf/simulated/shuttle/wall/voidcraft,
-/area/space)
+/area/centcom/test)
 "Ub" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
 /turf/simulated/floor/carpet/bcarpet,
-/area/space)
+/area/centcom/test)
 "Uc" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/carpet/bcarpet,
-/area/space)
+/area/centcom/test)
 "Vu" = (
 /obj/structure/table/woodentable,
 /obj/item/flashlight/lamp/green{
@@ -610,38 +610,38 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "WX" = (
 /obj/structure/cliff{
 	dir = 9
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "YN" = (
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "YO" = (
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "YT" = (
 /obj/structure/window/reinforced/tinted/frosted{
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "Zp" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "Zq" = (
 /obj/structure/bed/chair/office/light{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 
 (1,1,1) = {"
 sL

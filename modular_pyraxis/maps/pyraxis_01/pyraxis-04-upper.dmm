@@ -4,44 +4,44 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ak" = (
 /obj/machinery/door/blast/regular{
 	id = "Cell 2";
 	name = "Cell 2 Door"
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/space)
+/area/centcom/test)
 "au" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "aK" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "aN" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 3
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "aT" = (
 /obj/structure/toilet,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "aV" = (
 /obj/machinery/door/blast/regular{
 	id = "Cell 1";
 	name = "Cell 1 Door"
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/space)
+/area/centcom/test)
 "bc" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -53,46 +53,46 @@
 	anchored = 1
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "bh" = (
 /obj/structure/cliff{
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "bw" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "bM" = (
 /obj/item/modular_computer/console/preset/security{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "bO" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "bT" = (
 /obj/structure/cliff/corner{
 	dir = 6
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "bU" = (
 /obj/machinery/computer/arcade/clawmachine,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "bZ" = (
 /obj/structure/table/standard,
 /obj/random/soap,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "cd" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular,
@@ -101,7 +101,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ch" = (
 /obj/structure/table/wooden_reinforced,
 /obj/effect/floor_decal/spline/plain,
@@ -109,7 +109,7 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/centcom/test)
 "ci" = (
 /obj/structure/table/woodentable,
 /obj/structure/window/basic{
@@ -122,7 +122,7 @@
 	},
 /obj/item/barcodescanner,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "cj" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -131,26 +131,26 @@
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "cm" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "cv" = (
 /obj/structure/railing,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "cR" = (
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "cX" = (
 /obj/machinery/door/airlock/glass{
 	name = "Library"
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "db" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -159,7 +159,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "di" = (
 /obj/structure/table/standard,
 /obj/item/storage/laundry_basket,
@@ -173,19 +173,19 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "dm" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/centcom/test)
 "dt" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "dw" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -194,7 +194,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "dF" = (
 /obj/machinery/button/remote/blast_door{
 	id = "security_lockdown";
@@ -222,32 +222,32 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "dK" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "dN" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/orange{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "dS" = (
 /obj/structure/cliff{
 	dir = 10
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "em" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ew" = (
 /obj/structure/bed/padded,
 /obj/machinery/flasher{
@@ -256,18 +256,18 @@
 	},
 /obj/item/bedsheet/orange,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ex" = (
 /obj/machinery/atmospherics/unary/heater,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "eA" = (
 /obj/machinery/door/airlock{
 	name = "Brig Gongpit"
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "eI" = (
 /obj/machinery/button/remote/blast_door{
 	id = "Cell 1";
@@ -285,17 +285,17 @@
 	req_access = list(2,4)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "eJ" = (
 /obj/structure/railing,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "eL" = (
 /obj/item/stool/baystool/padded{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "eS" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
@@ -303,7 +303,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "eV" = (
 /obj/item/book/manual/anomaly_spectroscopy,
 /obj/item/book/manual/anomaly_testing,
@@ -324,19 +324,19 @@
 	},
 /obj/item/book/manual/virology,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "fe" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "fv" = (
 /obj/structure/table/standard,
 /obj/item/storage/laundry_basket,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "fA" = (
 /turf/simulated/shuttle/wall/voidcraft,
-/area/space)
+/area/centcom/test)
 "fB" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -350,13 +350,13 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "ge" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "gi" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -364,18 +364,18 @@
 /obj/item/pen/multi,
 /obj/item/stamp/hos,
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "gk" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_alc/full{
 	dir = 4
 	},
 /turf/simulated/floor/lino,
-/area/space)
+/area/centcom/test)
 "gp" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "gq" = (
 /obj/structure/bookcase{
 	name = "bookcase (Adult)"
@@ -384,40 +384,40 @@
 	dir = 9
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "gr" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "gB" = (
 /obj/structure/stairs/spawner/north,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "gD" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "gO" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "gU" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "gY" = (
 /obj/structure/filingcabinet/filingcabinet,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "gZ" = (
 /obj/structure/bookcase{
 	name = "bookcase (Non-Fiction)"
@@ -426,18 +426,18 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "hb" = (
 /obj/structure/table/standard,
 /obj/random/soap_common,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "hc" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "hj" = (
 /obj/machinery/door/airlock/glass_research{
 	id_tag = "researchdoor";
@@ -445,14 +445,14 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "hk" = (
 /obj/machinery/vending/tool{
 	dir = 8;
 	pixel_x = 5
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "hC" = (
 /obj/machinery/door/airlock/glass_command{
 	name = "Bridge"
@@ -460,44 +460,44 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/item/tape/engineering,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "hE" = (
 /mob/living/simple_mob/animal/passive/honkpet,
 /obj/structure/window/maintenance_panel{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "hJ" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "hN" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/spray/plantbgone,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "hW" = (
 /obj/machinery/door/airlock/glass{
 	name = "Arcade"
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "hZ" = (
 /obj/machinery/vending/radren{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "io" = (
 /obj/structure/bookcase{
 	name = "bookcase (Reference)"
 	},
 /obj/item/book/codex/lore/robutt,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "iy" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced,
@@ -509,13 +509,13 @@
 	opacity = 0
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "iG" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "iM" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -524,24 +524,24 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "iT" = (
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "iZ" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "jb" = (
 /obj/structure/table/standard,
 /obj/structure/bedsheetbin,
 /obj/item/towel/random,
 /obj/item/towel/random,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "jj" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/security{
@@ -550,25 +550,25 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "jo" = (
 /obj/machinery/computer/arcade/battle{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "jy" = (
 /obj/structure/cliff{
 	dir = 5
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "jB" = (
 /obj/structure/bookcase{
 	name = "bookcase (Non-Fiction)"
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "jG" = (
 /obj/machinery/door/window/brigdoor/southright{
 	id = "Cell 1";
@@ -576,7 +576,7 @@
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "jP" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -585,36 +585,36 @@
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "jR" = (
 /obj/machinery/vending/desatti{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "jS" = (
 /obj/structure/table/woodentable,
 /obj/item/flashlight/lamp/green,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "kh" = (
 /turf/simulated/floor/water/deep/seasonal,
-/area/space)
+/area/centcom/test)
 "kk" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
 /obj/random/soap_common,
 /turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ks" = (
 /obj/structure/table/glass,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "kz" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "kG" = (
 /obj/machinery/door/window/brigdoor/southright{
 	id = "Cell 2";
@@ -622,18 +622,18 @@
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "kI" = (
 /obj/machinery/medical_kiosk,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "kR" = (
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+006
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "kT" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
 	id = "secward"
@@ -644,29 +644,29 @@
 	name = "Prison Shutters"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "kX" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "ld" = (
 /obj/structure/cliff{
 	dir = 6
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "li" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	name = "Cafeteria"
 	},
 /obj/machinery/door/firedoor/multi_tile,
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "ll" = (
 /turf/simulated/wall,
-/area/space)
+/area/centcom/test)
 "lm" = (
 /obj/structure/curtain/open/shower/security,
 /obj/machinery/shower,
@@ -674,11 +674,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "lv" = (
 /obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "lF" = (
 /obj/structure/window/maintenance_panel{
 	dir = 8
@@ -687,30 +687,30 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "lH" = (
 /obj/structure/railing,
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "mi" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "mn" = (
 /obj/structure/railing/grey,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "mQ" = (
 /obj/machinery/door/airlock/glass{
 	name = "Brig Dormitories"
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "mW" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lamp/green{
@@ -721,7 +721,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "mZ" = (
 /obj/machinery/door/window/southleft{
 	dir = 8;
@@ -729,7 +729,7 @@
 	req_access = list(37)
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "nb" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/fire,
@@ -738,7 +738,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "nh" = (
 /obj/structure/cliff{
 	dir = 4
@@ -747,11 +747,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "no" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "nt" = (
 /obj/item/soap/nanotrasen,
 /obj/structure/mopbucket,
@@ -759,43 +759,43 @@
 /obj/item/towel/random,
 /obj/item/towel/random,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "nA" = (
 /obj/structure/table/marble,
 /turf/simulated/floor/lino,
-/area/space)
+/area/centcom/test)
 "nF" = (
 /obj/machinery/vending/snix,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "nU" = (
 /obj/machinery/chemical_analyzer,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "nY" = (
 /obj/structure/table/standard,
 /obj/machinery/computer/skills{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "ob" = (
 /obj/machinery/vending/assist{
 	dir = 8;
 	pixel_x = 5
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "oc" = (
 /obj/machinery/smartfridge/drying_rack,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "ok" = (
 /obj/structure/bed/chair/bay{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "on" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/adv,
@@ -804,7 +804,7 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "oq" = (
 /obj/structure/curtain/open/shower,
 /obj/machinery/shower{
@@ -813,13 +813,13 @@
 	},
 /obj/structure/window/reinforced/tinted/frosted,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "or" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
 	id = "cell4"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "oF" = (
 /obj/machinery/door/firedoor/glass,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -829,11 +829,11 @@
 	req_access = list(2)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "oG" = (
 /obj/machinery/vending/weeb,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "oH" = (
 /obj/machinery/button/windowtint{
 	id = "cell4";
@@ -842,101 +842,101 @@
 	req_access = list(58)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "oJ" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "oS" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "oW" = (
 /obj/structure/table/woodentable,
 /obj/item/deck/cah/black,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "po" = (
 /obj/structure/table/glass,
 /obj/machinery/chemical_dispenser/xenoflora/full{
 	pixel_y = 6
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "pr" = (
 /obj/structure/table/marble,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "pu" = (
 /obj/structure/railing/grey,
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "py" = (
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "pU" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "qc" = (
 /obj/structure/closet/secure_closet/hos2,
 /obj/item/rig/ch/pursuit/equipped,
 /obj/item/cell/device,
 /obj/item/holowarrant,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "qd" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/centcom/test)
 "qi" = (
 /obj/machinery/biogenerator,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "qv" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "qF" = (
 /obj/machinery/door/airlock{
 	name = "Toilet"
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "qM" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "qR" = (
 /obj/structure/cliff/corner{
 	dir = 5
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "rc" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "rp" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "rs" = (
 /turf/simulated/wall/solidrock,
-/area/space)
+/area/centcom/test)
 "ru" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Xenoflora Isolation";
@@ -944,11 +944,11 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "rw" = (
 /obj/structure/lattice,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "rN" = (
 /obj/structure/bed/padded,
 /obj/machinery/flasher{
@@ -957,24 +957,24 @@
 	},
 /obj/item/bedsheet/orange,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "sc" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "sr" = (
 /obj/structure/closet/secure_closet/hos,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ss" = (
 /obj/structure/table/woodentable,
 /obj/item/deck/cards,
 /obj/item/deck/holder,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "st" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/snakesnackbox,
@@ -984,17 +984,17 @@
 /obj/item/reagent_containers/food/drinks/flask/barflask,
 /obj/machinery/recharger,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "sB" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "sI" = (
 /obj/structure/window/maintenance_panel{
 	dir = 1
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "sN" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/blast/regular{
@@ -1006,35 +1006,35 @@
 	},
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "tb" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "ti" = (
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "to" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /obj/structure/railing,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "tx" = (
 /obj/structure/cliff{
 	dir = 9
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ty" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "tC" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 2";
@@ -1046,71 +1046,71 @@
 	},
 /obj/item/radio/headset,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "tI" = (
 /obj/machinery/door_timer/cell_2{
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "tO" = (
 /obj/structure/table/standard,
 /obj/item/pizzavoucher,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "ul" = (
 /obj/structure/lattice,
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "uC" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/structure/railing,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "uP" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/centcom/test)
 "uQ" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
 	id = "cell1"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "uT" = (
 /obj/structure/cliff/corner{
 	dir = 9
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "vx" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "vF" = (
 /obj/machinery/computer/supplycomp/control{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "vR" = (
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "vV" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
 	id = "cell3"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "wd" = (
 /obj/machinery/door/airlock/glass_command/polarized{
 	id_tag = "researchdoor";
@@ -1120,15 +1120,15 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "wj" = (
 /obj/structure/stairs/spawner/west,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "wt" = (
 /obj/structure/window/maintenance_panel,
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "wy" = (
 /obj/machinery/door/window/brigdoor/southright{
 	id = "Cell 3";
@@ -1136,36 +1136,36 @@
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "wB" = (
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "wJ" = (
 /obj/structure/table/woodentable,
 /obj/item/storage/pill_bottle/dice,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "wK" = (
 /obj/structure/table/woodentable,
 /obj/structure/table/woodentable,
 /obj/item/folder/yellow,
 /obj/item/pen,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "wN" = (
 /obj/structure/bookcase{
 	name = "bookcase (Fiction)"
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "wX" = (
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "xi" = (
 /obj/machinery/vending/sol,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "xl" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -1174,35 +1174,35 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "xn" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "xo" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "xs" = (
 /obj/structure/table/glass,
 /obj/machinery/chemical_analyzer{
 	pixel_y = 4
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "xt" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	dir = 4
 	},
 /turf/simulated/floor/lino,
-/area/space)
+/area/centcom/test)
 "xC" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "xM" = (
 /obj/structure/cryofeed,
 /obj/structure/window/reinforced{
@@ -1217,48 +1217,48 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "xW" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "yb" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ym" = (
 /obj/structure/cliff_end{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "yp" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "yx" = (
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "yF" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine{
 	department = "Head of Security"
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "yJ" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
 	},
 /obj/structure/railing/grey,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "yK" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
@@ -1267,18 +1267,18 @@
 	dir = 6
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/centcom/test)
 "zq" = (
 /obj/machinery/atmospherics/unary/freezer{
 	icon_state = "freezer"
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "zs" = (
 /obj/item/dice/d20,
 /obj/structure/table/gamblingtable,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "zt" = (
 /obj/machinery/door/airlock/glass_medical{
 	name = "First-Aid Station";
@@ -1286,19 +1286,19 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "zu" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "zK" = (
 /obj/structure/cliff/corner{
 	dir = 9
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "zQ" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 8;
@@ -1308,29 +1308,29 @@
 	req_access = list(2)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ae" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "Ak" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/wall/r_wall,
-/area/space)
+/area/centcom/test)
 "Am" = (
 /obj/structure/bookcase{
 	name = "bookcase (Reference)"
 	},
 /obj/item/book/codex/lore/vir,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Ao" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Av" = (
 /obj/structure/table/wooden_reinforced,
 /obj/structure/window/reinforced/tinted,
@@ -1338,26 +1338,26 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "AU" = (
 /obj/machinery/cryopod,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "AV" = (
 /obj/structure/window/reinforced{
 	dir = 1;
 	health = 1e+006
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Bo" = (
 /obj/structure/closet/walllocker/emerglocker/south,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Bv" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "BF" = (
 /obj/machinery/button/windowtint{
 	id = "cell2";
@@ -1366,7 +1366,7 @@
 	req_access = list(58)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "BI" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin{
@@ -1375,7 +1375,7 @@
 	},
 /obj/item/megaphone,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "BL" = (
 /obj/structure/railing{
 	dir = 1
@@ -1385,80 +1385,80 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "BR" = (
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "BX" = (
 /obj/machinery/door/airlock{
 	name = "Sanitorium"
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "Cf" = (
 /obj/structure/waterfall,
 /obj/structure/cliff{
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "Ch" = (
 /obj/structure/window/reinforced/tinted/frosted,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "Ci" = (
 /obj/machinery/door/airlock/silver{
 	name = "Toilet"
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "CG" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "CQ" = (
 /obj/structure/railing/grey,
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "CS" = (
 /obj/structure/bookcase/bookcart,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Db" = (
 /obj/machinery/door_timer/cell_4{
 	pixel_y = -32;
 	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "De" = (
 /obj/structure/window/maintenance_panel{
 	dir = 8
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Dg" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Dk" = (
 /obj/item/stool/baystool/padded{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "Du" = (
 /obj/machinery/vending/nukie,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "Dv" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 1";
@@ -1470,11 +1470,11 @@
 	},
 /obj/item/radio/headset,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Dx" = (
 /obj/machinery/vending/giftvendor,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "DC" = (
 /obj/machinery/button/remote/blast_door{
 	id = "Cell 2";
@@ -1492,17 +1492,17 @@
 	req_access = list(2,4)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "DV" = (
 /obj/structure/closet{
 	name = "Evidence Closet"
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ed" = (
 /obj/machinery/chem_master,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Ey" = (
 /obj/machinery/button/windowtint{
 	id = "cell1";
@@ -1511,19 +1511,19 @@
 	req_access = list(58)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "EJ" = (
 /obj/machinery/door/airlock{
 	name = "Sanitorium"
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ET" = (
 /obj/structure/cliff{
 	dir = 9
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "Fm" = (
 /obj/structure/railing{
 	dir = 8
@@ -1532,13 +1532,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "Fr" = (
 /obj/structure/cliff{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Fu" = (
 /obj/machinery/computer/station_alert/all{
 	req_one_access = list(19,56);
@@ -1546,7 +1546,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "FO" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -1555,36 +1555,36 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Ga" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
 /obj/item/tape/engineering,
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "Gb" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/structure/toilet,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "GH" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /obj/structure/railing,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "GV" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "Hc" = (
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "Hu" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -1593,7 +1593,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Hx" = (
 /obj/machinery/door/window/northright{
 	name = "Xenoflora Containment";
@@ -1601,7 +1601,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "HJ" = (
 /obj/machinery/shower{
 	dir = 4;
@@ -1610,22 +1610,22 @@
 /obj/structure/window/reinforced/tinted/frosted,
 /obj/structure/curtain/open/shower/security,
 /turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "HT" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ic" = (
 /turf/simulated/mineral/alt/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Id" = (
 /obj/structure/bed/chair/bay{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ie" = (
 /obj/machinery/door/airlock/glass_security{
 	id_tag = "prisonentry";
@@ -1634,16 +1634,16 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "If" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "Im" = (
 /obj/structure/cliff,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "IA" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
@@ -1653,47 +1653,47 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "IC" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "IE" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /obj/structure/railing/grey,
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "IG" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "IR" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Jd" = (
 /obj/structure/bed/chair/comfy/brown,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "Jf" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/kafel_full,
-/area/space)
+/area/centcom/test)
 "Jh" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Jq" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "Jv" = (
 /obj/structure/table/woodentable,
 /obj/structure/window/basic{
@@ -1703,40 +1703,40 @@
 	pixel_y = 7
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Jw" = (
 /obj/machinery/botany/extractor,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Jz" = (
 /obj/machinery/alarm{
 	dir = 4;
 	pixel_x = -22
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "JB" = (
 /obj/structure/table/rack/shelf/steel,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Ki" = (
 /obj/machinery/vending/snlvend,
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "Kl" = (
 /obj/structure/window/reinforced/tinted/frosted,
 /obj/structure/window/reinforced/tinted/frosted,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "KB" = (
 /turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "KE" = (
 /obj/structure/table/rack,
 /obj/item/rig/industrial/equipped,
 /obj/item/clothing/mask/breath,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "KF" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -1749,7 +1749,7 @@
 	},
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "KG" = (
 /obj/structure/table/standard,
 /obj/structure/window/reinforced,
@@ -1761,7 +1761,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "KJ" = (
 /obj/machinery/door/airlock/glass_security{
 	id_tag = "prisonexit";
@@ -1770,7 +1770,7 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "KQ" = (
 /obj/structure/table/woodentable,
 /obj/structure/window/basic{
@@ -1780,23 +1780,23 @@
 	pixel_y = 3
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "KZ" = (
 /obj/structure/cliff{
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Lh" = (
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "Lj" = (
 /obj/structure/cliff{
 	dir = 9
 	},
 /obj/structure/cliff_end,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ls" = (
 /obj/structure/sink{
 	dir = 4;
@@ -1806,13 +1806,13 @@
 	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "LG" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "LL" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
@@ -1821,7 +1821,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "LU" = (
 /obj/structure/lattice,
 /obj/structure/catwalk,
@@ -1829,31 +1829,31 @@
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "Mb" = (
 /obj/machinery/papershredder,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Mo" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
 	id = "hosoffice"
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "Mw" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_soft/full{
 	dir = 4
 	},
 /turf/simulated/floor/lino,
-/area/space)
+/area/centcom/test)
 "MB" = (
 /obj/structure/closet{
 	name = "Prisoner's Locker"
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "MQ" = (
 /obj/machinery/door/firedoor/glass,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -1863,46 +1863,46 @@
 	req_access = list(2)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Nc" = (
 /obj/machinery/door_timer/cell_1{
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Nk" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ns" = (
 /obj/structure/cliff{
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "Nt" = (
 /obj/structure/closet/crate/hydroponics/prespawned,
 /obj/item/clothing/gloves/botanic_leather,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Nx" = (
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "Ny" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "NH" = (
 /obj/structure/closet/secure_closet/hydroponics{
 	req_access = list(47)
 	},
 /obj/item/gun/energy/floragun,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Ob" = (
 /obj/structure/table/wooden_reinforced,
 /obj/machinery/librarywikicomp{
@@ -1913,7 +1913,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Oc" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Xenoflora Storage";
@@ -1921,17 +1921,17 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Og" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Oi" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Om" = (
 /obj/structure/table/reinforced,
 /obj/item/roller,
@@ -1942,34 +1942,34 @@
 	pixel_y = 16
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "OB" = (
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ON" = (
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "OP" = (
 /obj/structure/table/wooden_reinforced,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "OW" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /obj/machinery/libraryscanner,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "OZ" = (
 /obj/machinery/vending/loadout/costume{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "Pf" = (
 /obj/machinery/door/window/brigdoor/southright{
 	id = "Cell 4";
@@ -1977,12 +1977,12 @@
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "PO" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/orange,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "PR" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -1991,7 +1991,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Qb" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/skills{
@@ -2000,11 +2000,11 @@
 /obj/item/gps/security/hos,
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/carpet/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Qe" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Qk" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Xenoflora Research";
@@ -2012,23 +2012,23 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "Qm" = (
 /turf/simulated/wall/r_wall,
-/area/space)
+/area/centcom/test)
 "Qo" = (
 /obj/structure/cliff_end{
 	dir = 4
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "QE" = (
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "QZ" = (
 /obj/machinery/botany/precisioneditor,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Rb" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -2040,14 +2040,14 @@
 	anchored = 1
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Rc" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Rn" = (
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "Rv" = (
 /obj/structure/railing{
 	dir = 4
@@ -2056,25 +2056,25 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "Rz" = (
 /obj/structure/ladder,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "RF" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder{
 	pixel_y = 11
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "RR" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Sb" = (
 /obj/item/book/manual/atmospipes,
 /obj/item/book/manual/chef_recipes,
@@ -2089,7 +2089,7 @@
 	},
 /obj/item/book/manual/tesla_engine,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Sk" = (
 /obj/machinery/door/airlock/glass_mining{
 	name = "Quartermaster";
@@ -2097,26 +2097,26 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "SB" = (
 /obj/structure/toilet/prison,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "SE" = (
 /obj/machinery/computer/arcade/orion_trail{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "SM" = (
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "SQ" = (
 /obj/machinery/vending/hydronutrients{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "SR" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -2125,53 +2125,53 @@
 	dir = 1
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "ST" = (
 /obj/structure/filingcabinet,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "SY" = (
 /obj/structure/table/standard,
 /obj/item/flashlight/lamp,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "SZ" = (
 /obj/machinery/computer/secure_data{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Tj" = (
 /obj/structure/table/standard,
 /obj/random/soap,
 /obj/random/soap,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/centcom/test)
 "Tl" = (
 /obj/structure/filingcabinet,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Tn" = (
 /obj/structure/bed/chair/comfy/purp{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Tt" = (
 /obj/machinery/seed_storage/xenobotany{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Tx" = (
 /mob/living/simple_mob/animal/passive/snake/python/noodle,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "TB" = (
 /obj/structure/table/standard,
 /obj/item/taperecorder,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "TF" = (
 /obj/machinery/button/windowtint{
 	id = "cell3";
@@ -2180,112 +2180,112 @@
 	req_access = list(58)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "TT" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "TW" = (
 /obj/structure/cliff{
 	dir = 8
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "TX" = (
 /obj/structure/closet/secure_closet/quartermaster,
 /obj/item/gun/energy/stunrevolver/vintage,
 /obj/item/clothing/accessory/holster/hip,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "Ub" = (
 /obj/structure/stairs/spawner/north,
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/centcom/test)
 "Ui" = (
 /obj/machinery/door_timer/cell_3{
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Uy" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Uz" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
 	id = "cell2"
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "UI" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /obj/structure/railing/grey,
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "UQ" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only{
 	pixel_y = -1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "Vb" = (
 /obj/structure/cliff_end,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "VS" = (
 /turf/simulated/floor/lino,
-/area/space)
+/area/centcom/test)
 "Wj" = (
 /obj/machinery/computer/arcade/battle{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/geo,
-/area/space)
+/area/centcom/test)
 "Wl" = (
 /obj/structure/bookcase{
 	name = "bookcase (Adult)"
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Wu" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
 /obj/machinery/bookbinder,
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "Wz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "WI" = (
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "WJ" = (
 /obj/structure/closet/secure_closet/hydroponics{
 	req_access = list(47)
 	},
 /obj/item/multitool,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "WT" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "Xa" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "HoSdoor";
@@ -2294,13 +2294,13 @@
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Xu" = (
 /obj/structure/bookcase{
 	name = "bookcase (Religious)"
 	},
 /turf/simulated/floor/wood/alt/parquet,
-/area/space)
+/area/centcom/test)
 "XJ" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/security{
@@ -2309,7 +2309,7 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ya" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
@@ -2318,7 +2318,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/centcom/test)
 "Yi" = (
 /obj/machinery/shower{
 	dir = 4;
@@ -2326,7 +2326,7 @@
 	},
 /obj/structure/curtain/open/shower/security,
 /turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Ys" = (
 /obj/structure/lattice,
 /obj/structure/catwalk,
@@ -2337,24 +2337,24 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
+/area/centcom/test)
 "YA" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "YQ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "YR" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/milspec,
-/area/space)
+/area/centcom/test)
 "YX" = (
 /obj/structure/curtain/open/shower,
 /obj/machinery/shower{
@@ -2362,33 +2362,33 @@
 	pixel_x = 5
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
+/area/centcom/test)
 "YZ" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Zi" = (
 /obj/structure/ladder/up,
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "Zj" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
+/area/centcom/test)
 "Zq" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "ZC" = (
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 "ZQ" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ZR" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
 	id = "secward"
@@ -2400,7 +2400,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor,
-/area/space)
+/area/centcom/test)
 "ZY" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	name = "Warden's Desk";
@@ -2414,7 +2414,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
-/area/space)
+/area/centcom/test)
 "ZZ" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/beakers{
@@ -2427,7 +2427,7 @@
 	},
 /obj/item/storage/box/syringes,
 /turf/simulated/floor/tiled/hydro,
-/area/space)
+/area/centcom/test)
 
 (1,1,1) = {"
 rs
@@ -36203,11 +36203,11 @@ Qm
 Qm
 Qm
 Qm
-Hc
-Hc
-Hc
-Hc
-Hc
+Qm
+Qm
+Qm
+Qm
+Qm
 py
 py
 py
@@ -36464,7 +36464,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -36721,7 +36721,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -36978,7 +36978,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -37235,7 +37235,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -37492,7 +37492,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -37749,7 +37749,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -38006,7 +38006,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -38263,7 +38263,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -38520,7 +38520,7 @@ Hc
 Hc
 Hc
 Hc
-Hc
+Qm
 py
 py
 py
@@ -38777,7 +38777,7 @@ Qm
 Qm
 Qm
 Qm
-Hc
+Qm
 py
 py
 py

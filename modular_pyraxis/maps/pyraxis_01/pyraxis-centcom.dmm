@@ -386,7 +386,7 @@
 	dir = 6
 	},
 /obj/structure/closet/walllocker/emerglocker/east,
-/obj/effect/shuttle_landmark/pyraxis/escape/offsite,
+/obj/effect/shuttle_landmark/premade/escape/centcom,
 /turf/simulated/shuttle/floor/white,
 /area/shuttle/escape/centcom)
 "ny" = (
@@ -540,7 +540,7 @@
 /turf/simulated/floor/plating,
 /area/shuttle/arrival/pre_game/simulated_grid)
 "uk" = (
-/obj/effect/shuttle_landmark/pyraxis/escape/transit,
+/obj/effect/shuttle_landmark/premade/escape/transit,
 /turf/simulated/floor/reinforced,
 /area/shuttle/escape/transit)
 "ur" = (
@@ -1391,7 +1391,7 @@
 /turf/simulated/shuttle/floor/white,
 /area/shuttle/escape/centcom)
 "XY" = (
-/obj/effect/shuttle_landmark/southern_cross/supply_offsite,
+/obj/effect/shuttle_landmark/premade/supply/centcom,
 /turf/simulated/shuttle/floor,
 /area/shuttle/supply)
 "Yz" = (
