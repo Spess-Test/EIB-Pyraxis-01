@@ -112,7 +112,7 @@
 	landmark_tag = "mining_underground"
 	docking_controller = "mine_underground_controller"
 	base_area = /area/shuttle/drillevator/underground
-	base_turf = /turf/simulated/floor/concrete
+	base_turf = /turf/simulated/floor/outdoors/mud/turfpack/pyraxis
 	local_crash_sites = PYRAXIS_MINING_CRASHES
 
 // Crash landmarks

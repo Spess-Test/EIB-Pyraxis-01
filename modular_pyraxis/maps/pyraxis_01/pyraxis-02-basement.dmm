@@ -414,7 +414,7 @@
 /area/centcom/test)
 "gF" = (
 /turf/simulated/wall/titanium,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 "gG" = (
 /obj/machinery/atmospherics/binary/passive_gate,
 /turf/simulated/floor/tiled/dark,
@@ -797,7 +797,7 @@
 	tag_door = "mining_elevator_door"
 	},
 /turf/simulated/shuttle/floor/voidcraft/light,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 "lZ" = (
 /obj/machinery/light/floortube{
 	dir = 4
@@ -1335,7 +1335,7 @@
 	locked = 1
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 "uk" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/dark,
@@ -1562,7 +1562,7 @@
 "wM" = (
 /obj/structure/closet/walllocker/medical/east,
 /turf/simulated/shuttle/floor/voidcraft/light,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 "wO" = (
 /obj/effect/floor_decal/stairs/dark_stairs{
 	dir = 4
@@ -1905,7 +1905,7 @@
 "BK" = (
 /obj/effect/shuttle_landmark/pyraxis/drillevator/station,
 /turf/simulated/shuttle/floor/voidcraft/light,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 "BX" = (
 /obj/structure/railing,
 /turf/simulated/floor/lino,
@@ -2246,7 +2246,7 @@
 /area/centcom/test)
 "Go" = (
 /turf/simulated/shuttle/floor/voidcraft/light,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 "Gq" = (
 /obj/machinery/chemical_analyzer,
 /turf/simulated/floor/tiled/white/turfpack,
@@ -2480,7 +2480,7 @@
 	dir = 4
 	},
 /turf/simulated/shuttle/floor/voidcraft/light,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 "Lg" = (
 /obj/structure/table/rack,
 /obj/item/melee/umbrella/random{
@@ -3374,7 +3374,7 @@
 	desc = "Used to control a linked lift."
 	},
 /turf/simulated/shuttle/floor/voidcraft/light,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/station)
 
 (1,1,1) = {"
 Te

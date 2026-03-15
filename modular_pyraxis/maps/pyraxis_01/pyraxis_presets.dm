@@ -95,6 +95,7 @@
 
 /obj/turbolift_map_holder/pyraxis/cargo
 	name = "Pyraxis 01 turbolift map placeholder - Cargo"
+	icon = 'icons/obj/turbolift_preview_5x5.dmi'
 	dir = EAST
 	depth = 2
 	lift_size_x = 3

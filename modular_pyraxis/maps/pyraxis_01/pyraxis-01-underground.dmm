@@ -15,8 +15,8 @@
 /turf/simulated/floor/outdoors/sidewalk/slab/turfpack/pyraxis,
 /area/centcom/test)
 "K" = (
-/turf/simulated/floor/concrete,
-/area/shuttle/drillevator/underground)
+/turf/simulated/floor/outdoors/mud/turfpack/pyraxis,
+/area/shuttle/drillevator)
 "M" = (
 /turf/simulated/wall/solidrock,
 /area/centcom/test)
@@ -34,8 +34,8 @@
 /area/centcom/test)
 "R" = (
 /obj/effect/shuttle_landmark/pyraxis/drillevator/underground,
-/turf/simulated/floor/concrete,
-/area/shuttle/drillevator/underground)
+/turf/simulated/floor/outdoors/mud/turfpack/pyraxis,
+/area/shuttle/drillevator)
 "T" = (
 /turf/simulated/wall/r_wall,
 /area/centcom/test)
