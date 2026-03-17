@@ -127,6 +127,13 @@
 "ch" = (
 /turf/simulated/floor/tiled/steel_ridged,
 /area/centcom/test)
+"cl" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
+/area/centcom/test)
 "cn" = (
 /obj/structure/table/rack,
 /obj/item/clothing/suit/bio_suit/anomaly,
@@ -161,7 +168,7 @@
 /obj/effect/floor_decal/industrial/loading/blue{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "da" = (
 /obj/machinery/atmospherics/unary/freezer{
@@ -186,7 +193,10 @@
 /area/centcom/test)
 "dl" = (
 /obj/machinery/computer/operating,
-/turf/simulated/floor/tiled/white/turfpack,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "dn" = (
 /obj/machinery/atmospherics/portables_connector,
@@ -404,7 +414,7 @@
 "gt" = (
 /obj/machinery/optable,
 /obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "gD" = (
 /obj/structure/railing{
@@ -627,6 +637,10 @@
 	desc = "Used to control a linked lift."
 	},
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"kx" = (
+/obj/machinery/oxygen_pump/anesthetic,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "ky" = (
 /obj/machinery/button/remote/blast_door{
@@ -889,7 +903,7 @@
 /obj/machinery/vending/wallmed1{
 	pixel_y = 30
 	},
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "ol" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -1103,6 +1117,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
+/area/centcom/test)
+"rp" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "ru" = (
 /obj/machinery/door/airlock/glass_medical{
@@ -1930,7 +1950,7 @@
 "Cg" = (
 /obj/structure/table/standard,
 /obj/item/stack/nanopaste,
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "Cv" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -1961,7 +1981,7 @@
 	pixel_y = -1;
 	pixel_x = -2
 	},
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "CL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2133,7 +2153,10 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/white/turfpack,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "Fa" = (
 /obj/effect/floor_decal/industrial/hatch{
@@ -2397,7 +2420,7 @@
 	pixel_y = -25;
 	name = "1S-NanoMed"
 	},
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "JT" = (
 /obj/structure/table/standard,
@@ -2440,7 +2463,7 @@
 /area/centcom/test)
 "Km" = (
 /obj/machinery/iv_drip,
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "Kn" = (
 /obj/machinery/portable_atmospherics/canister,
@@ -2781,7 +2804,7 @@
 /area/centcom/test)
 "QM" = (
 /obj/effect/floor_decal/industrial/loading/blue,
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "QW" = (
 /obj/structure/table/rack,
@@ -2875,7 +2898,7 @@
 "Sb" = (
 /obj/structure/table/standard,
 /obj/item/stack/medical/advanced/bruise_pack,
-/turf/simulated/floor/tiled/white/turfpack,
+/turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "Sc" = (
 /obj/structure/table/rack{
@@ -40220,7 +40243,7 @@ Az
 Ox
 Cg
 CG
-gs
+kx
 Km
 Sb
 Ox
@@ -40733,10 +40756,10 @@ Az
 Fc
 Ox
 EW
-rG
+rp
 dl
-rG
-SE
+rp
+cl
 Ox
 Az
 Az
