@@ -13,7 +13,7 @@
 	var/datum/projectile_data/last_tele_data = null
 	var/z_co = 1
 	var/distance_off
-	var/rotation_off
+	// var/rotation_off // Outpost 21 edit - Remove randomized offset in Tsci
 	var/turf/last_target
 
 	var/rotation = 0
@@ -189,16 +189,9 @@
 /obj/machinery/computer/telescience/proc/telefail()
 	COOLDOWN_START(src, teleport_cooldown, (2 SECONDS))
 	switch(rand(99))
-		if(0 to 80)
+		if(0 to 85)
 			sparks()
 			visible_message(span_warning("The telepad weakly fizzles."))
-			return
-		if(81 to 85)
-			sparks()
-			var/anomaly = pick(FLUX_ANOMALY, GRAVITATIONAL_ANOMALY, PYRO_ANOMALY, HALLUCINATION_ANOMALY, BIOSCRAMBLER_ANOMALY, DIMENSIONAL_ANOMALY, WEATHER_ANOMALY)
-			generate_anomaly(get_turf(telepad), anomaly, 1, FALSE)
-			for(var/mob/living/carbon/human/human in viewers(telepad, null))
-				to_chat(human, span_warning("The telepad crackles with energy, as a tear in reality is created!"))
 			return
 		if(86 to 90)
 			// Irradiate everyone in telescience!
@@ -237,7 +230,7 @@
 
 	if(telepad)
 		var/trueDistance = CLAMP(distance + distance_off, 1, get_max_allowed_distance())
-		var/trueRotation = rotation + rotation_off
+		var/trueRotation = rotation // + rotation_off // Outpost 21 edit - Remove randomized offset in Tsci
 
 		var/datum/projectile_data/proj_data = simple_projectile_trajectory(telepad.x, telepad.y, trueRotation, trueDistance)
 		last_tele_data = proj_data
@@ -385,7 +378,7 @@
 /obj/machinery/computer/telescience/proc/recalibrate()
 	teles_left = rand(40, 50)
 	distance_off = rand(-4, 4)
-	rotation_off = rand(-10, 10)
+//	rotation_off = rand(-10, 10) // Outpost 21 edit - Remove randomized offset in Tsci
 
 
 // Procedure that calculates the actual trajectory taken!

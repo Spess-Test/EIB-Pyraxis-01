@@ -124,9 +124,11 @@ GLOBAL_LIST_BOILERPLATE(all_tracking_implants, /obj/item/implant/tracking)
 		/area/engineering/gravgen,
 		/area/medical/voxlab,
 		/area/offworld/confinementbeam/station,
+		/* PS Edit - Removing these shuttles
 		/area/shuttle/medical,
 		/area/shuttle/security,
 		/area/shuttle/trawler,
+		*/
 		/area/vehicle_interior,
 		/area/muriki/processor,
 	)

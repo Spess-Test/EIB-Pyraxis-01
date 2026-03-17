@@ -161,3 +161,102 @@
   - refactor: 'Made pest mob interactions consistent (ex: mice couldn''t open airlocks,
       but cockroaches could )'
   - bugfix: lingering fires no longer catch phased shadekin on fire
+2026-03-10:
+  CHOMPStation2StaffMirrorBot:
+  - rscadd: Added new species-dependent melee attacks. Currently unused on Virgo.
+  - balance: Reduced damage on some accidentally overtuned existing species-dependent
+      melee attacks. Currently unused on Virgo.
+  - sound: Added a new melee attack sound.
+  - bugfix: design disk scrolling
+  - code_imp: rids of Flex in techweb UIs
+2026-03-11:
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: text edit state being held too long
+  - qol: Cargo borgs may work as mailman
+2026-03-12:
+  CHOMPStation2StaffMirrorBot:
+  - code_imp: improves performance of belly resetting
+  - rscadd: Exploration snowsuits
+  - rscadd: Victorian style coats
+  - rscadd: Trailblazer light structures
+  - rscadd: Sec spider pet Lorenzo
+  - rscadd: Chicken pet commander clucky
+  - rscadd: random steptrap spawner
+  - rscadd: Icepick for iced airlock breaking (map flavor too)
+  - rscadd: Mine lighting techweb entry for marker beacons and trailblazers
+  - rscadd: Debris Removal techweb entry for shovels and icepicks
+  - code_imp: cleans up some tgui types
+  - code_imp: updates tgui dependencies
+  - qol: adds search to gps
+  Cerami:
+  - bugfix: Specify the default spawn type.
+  Guti:
+  - rscadd: Added the ability to harvest anomalies
+  - rscadd: Added the Anomaly Scanner, Anomaly Harvester, and Anomalous Particle Gun
+  - rscadd: Xenoarch tech web
+  TheCaramelion:
+  - maptweak: Added anomaly harvesting tools to Southern Cross
+  Will:
+  - image: adds a turf edge to concrete slabs
+  - rscadd: cargo borgs get a destination tagger and package wrapper
+  - bugfix: package wrapper no longer drops its tube inside your mob when emptied
+  - refactor: package wrapper and gift wrap cleaned up
+  zeskorion:
+  - bugfix: cleans up P.I.S.S.
+2026-03-13:
+  Aroliacue:
+  - balance: Xenomorph Hybrids are now immune to space.
+  - balance: Xenomorph Hybrids now take more damage from burns.
+  - balance: Xenomorph Hybrids are now significantly harder to heal with chemicals.
+  - balance: Xenomorph Hybrids dissipate rads faster and have innate toxin resistance.
+  - balance: Xenomorph Hybrids are now highly resistant to pain.
+  - balance: Xenomorph Hybrid subtypes have been rebalanced.
+  - balance: Xenomorph Hybrids no longer have innate shredding.
+  - bugfix: Corrected Xenomorph Hybrid Praetorian subtype providing additional movespeed
+      instead of slowdown.
+  - bugfix: Corrected excessive melee damage being applied to the 'strong' melee subtypes.
+  CHOMPStation2StaffMirrorBot:
+  - rscadd: Added additional starting security items to the SecTech vending machine.
+  - qol: Moved excessive clothing options from security lockers to clothing vending
+      machines.
+  - balance: Reduced weight class on legcuffs from normal to small. They now take
+      up the same space as regular handcuffs.
+  - bugfix: disposal outlets ejection when not maploaded
+  Guti:
+  - rscadd: Added "Anomaly Harvesting" crate to Cargo
+  - rscadd: Added "Anomaly harvesting kit"
+  - rscadd: Added "Latent anomaly core"
+  - code_imp: Added random core obj
+  - balance: Doubled the points from samples
+  - balance: Doubled the passive point generation of R&D's server (0.4)
+  - bugfix: Unsimulated turfs can no longer be converted by the dimensional anomaly
+  Wide Eyes:
+  - rscadd: adds anomaly research to cetus
+  - bugfix: few cetus fixes
+  zeskorion:
+  - bugfix: few more cs fixes, for anomaly science and more
+2026-03-14:
+  CHOMPStation2StaffMirrorBot:
+  - code_imp: removes invisible spawned item in xenoarch
+  - code_imp: moves some more bicon to icon2html
+2026-03-15:
+  CHOMPStation2StaffMirrorBot:
+  - code_imp: cleans up dest tagger
+  - qol: ingame logs now show the last 1000 entries per category
+  FluffMedic:
+  - rscadd: Some new Mineral Ants, and non-lethal mineral harvesting. Ant meat is
+      also universally useable
+  - rscadd: Tyr repair drones are different now
+  - balance: Astral Collective Tesh warn of their gambit attack. Gambit threshholds
+      lowered
+  - balance: AC Purity's lost their healing, gain a sound based confusion effect
+  - balance: Fossil Tank is less destructive
+  Will:
+  - code_imp: Slime research point unittest
+  - bugfix: light pink slime cores lacked a destructive analyzer point value
+2026-03-16:
+  CHOMPStation2StaffMirrorBot:
+  - code_imp: convert more globals to GLOBs
+  - bugfix: flags some more wall items as what they are
+  Kashargul:
+  - code_imp: cleans up some minor things in map system

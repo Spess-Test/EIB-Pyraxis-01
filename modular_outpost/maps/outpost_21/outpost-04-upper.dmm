@@ -3478,6 +3478,11 @@
 	},
 /turf/simulated/floor/tiled/hydro,
 /area/hydroponics/hallway)
+"aig" = (
+/obj/machinery/smartfridge/produce/plantvator,
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/hydro,
+/area/hydroponics/gibber)
 "aih" = (
 /obj/machinery/mineral/input,
 /obj/effect/decal/cleanable/blood,
@@ -3910,7 +3915,7 @@
 /area/muriki/skyline/east)
 "ajt" = (
 /obj/structure/inflatable/door,
-/turf/simulated/floor/plating/turfpack/muriki,
+/turf/simulated/floor/tiled/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "aju" = (
 /obj/effect/auto_crayon{
@@ -3929,6 +3934,20 @@
 	},
 /turf/simulated/floor/tiled/turfpack/muriki,
 /area/specialty/expie_clubhouse)
+"ajw" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor,
+/area/djstation)
 "ajx" = (
 /obj/effect/auto_crayon{
 	icon_state = "survival"
@@ -4118,12 +4137,7 @@
 /turf/simulated/wall,
 /area/specialty/expie_clubhouse)
 "ajS" = (
-/obj/item/paper/scavmark/expietrade{
-	pixel_x = -10
-	},
-/obj/item/paper/scavmark/companion{
-	pixel_x = 9
-	},
+/obj/machinery/light/small,
 /turf/simulated/floor/tiled/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "ajT" = (
@@ -4178,32 +4192,34 @@
 "akb" = (
 /obj/structure/bed/bath,
 /obj/random/soap,
+/obj/machinery/light,
 /turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "akc" = (
 /turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "akd" = (
-/obj/random/firstaid,
-/obj/random/firstaid,
-/obj/random/firstaid,
 /obj/structure/table/standard,
+/obj/random/firstaid,
+/obj/random/firstaid,
+/obj/random/firstaid,
+/obj/random/firstaid,
+/obj/random/firstaid,
 /turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "ake" = (
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
 /obj/structure/table/standard,
-/turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
-/area/specialty/expie_clubhouse)
-"akf" = (
-/obj/structure/table/standard,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
 /turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "akg" = (
 /obj/structure/closet,
 /obj/item/material/twohanded/sledgehammer/gravity/ed,
+/obj/item/tool/crowbar/brace_jack,
 /turf/simulated/floor/carpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "akh" = (
@@ -4283,7 +4299,7 @@
 /turf/simulated/floor/carpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
 "aku" = (
-/obj/structure/hookah,
+/obj/structure/hookah/randomized_drugs,
 /obj/item/flame/lighter/random,
 /turf/simulated/floor/carpet/turfpack/muriki,
 /area/specialty/expie_clubhouse)
@@ -4432,6 +4448,60 @@
 	outdoors = 0
 	},
 /area/specialty/expie_clubhouse)
+"akS" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor,
+/area/djstation)
+"akT" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor,
+/area/djstation)
+"akU" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood,
+/area/djstation)
+"akV" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor,
+/area/djstation)
+"akW" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor,
+/area/djstation)
 "akX" = (
 /obj/structure/table/woodentable,
 /obj/item/material/knife/machete/hatchet,
@@ -4444,6 +4514,148 @@
 	},
 /turf/simulated/floor/tiled/hydro,
 /area/djstation)
+"akY" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor,
+/area/djstation)
+"akZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/djstation)
+"ala" = (
+/obj/structure/simple_door/wood,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/djstation)
+"alb" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor,
+/area/djstation)
+"alc" = (
+/obj/effect/auto_crayon{
+	icon_state = "companion"
+	},
+/turf/simulated/mineral/floor/turfpack/muriki{
+	ignore_mapgen = 1
+	},
+/area/mine/unexplored/muriki/mountaintopeast)
+"ald" = (
+/obj/structure/flora/mushroom,
+/obj/effect/zone_divider,
+/turf/simulated/mineral/floor/turfpack/muriki{
+	ignore_mapgen = 1
+	},
+/area/mine/unexplored/muriki/mountaintopeast)
+"ale" = (
+/obj/structure/cliff/corner{
+	dir = 6
+	},
+/obj/effect/zone_divider,
+/turf/simulated/mineral/floor/turfpack/muriki{
+	ignore_mapgen = 1
+	},
+/area/mine/unexplored/muriki/mountaintopeast)
+"alf" = (
+/obj/item/material/barbedwire/start_active,
+/turf/simulated/mineral/floor/turfpack/muriki{
+	ignore_mapgen = 1
+	},
+/area/mine/unexplored/muriki/mountaintopeast)
+"alg" = (
+/obj/structure/cliff{
+	dir = 4
+	},
+/obj/effect/zone_divider,
+/turf/simulated/mineral/floor/turfpack/muriki{
+	ignore_mapgen = 1
+	},
+/area/mine/unexplored/muriki/mountaintopeast)
+"alh" = (
+/obj/machinery/recharger{
+	pixel_x = -5
+	},
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"ali" = (
+/obj/structure/simple_door/wood,
+/turf/simulated/floor/tiled/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"alj" = (
+/obj/machinery/power/apc/alarms_hidden{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"alk" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/light_switch{
+	pixel_y = 28
+	},
+/turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"all" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/carpet/blucarpet/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"alm" = (
+/obj/item/clothing/ears/earring/dangle/gold,
+/obj/item/clothing/ears/earring/dangle/gold,
+/obj/item/clothing/ears/earring/dangle/gold,
+/obj/item/clothing/ears/earring/dangle/gold,
+/obj/item/clothing/ears/earring/dangle/gold,
+/obj/item/clothing/ears/earring/dangle/gold,
+/turf/simulated/floor/tiled/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"aln" = (
+/obj/fiftyspawner/wood,
+/turf/simulated/floor/plating/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"alo" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/turfpack/muriki,
+/area/specialty/expie_clubhouse)
 "alp" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -4459,16 +4671,150 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/muriki/civup)
+"alq" = (
+/obj/structure/simple_door/sandstone,
+/turf/simulated/floor/plating/turfpack/muriki,
+/area/specialty/expie_clubhouse)
+"alr" = (
+/obj/item/flashlight/lamp/green,
+/turf/simulated/floor/outdoors/mud/turfpack/muriki{
+	outdoors = 0
+	},
+/area/specialty/expie_clubhouse)
+"als" = (
+/turf/simulated/mineral/crystal_shiny/ignore_mapgen/turfpack/muriki,
+/area/muriki/crystal)
+"alt" = (
+/obj/machinery/crystal/lava,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
+"alu" = (
+/obj/item/coin/gold,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
+"alv" = (
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
+"alw" = (
+/obj/item/coin/gold,
+/obj/item/ore/quartz,
+/obj/item/ore/quartz,
+/obj/item/ore/quartz,
+/obj/item/ore/quartz,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
 "alx" = (
 /obj/machinery/ai_status_display,
 /turf/simulated/wall,
 /area/rnd/hallway/upper)
+"aly" = (
+/obj/item/clothing/accessory/bracelet/material/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/obj/item/ore/silver,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
 "alz" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/steel,
 /area/rnd/research/phoronics/bombrange)
+"alA" = (
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/toy/plushie/dragon/gold_east,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
+"alB" = (
+/obj/item/coin/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
+"alC" = (
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/obj/item/ore/gold,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
+"alD" = (
+/obj/random/crate,
+/obj/item/potion_material/golden_scale,
+/obj/item/potion_material/golden_scale,
+/obj/item/potion_material/golden_grapes,
+/obj/item/potion_material/golden_grapes,
+/turf/simulated/floor/indoorrocks/turfpack/muriki{
+	icon_state = "rock_grey"
+	},
+/area/muriki/crystal)
+"alE" = (
+/obj/effect/auto_crayon{
+	icon_state = "nine_removal"
+	},
+/turf/simulated/mineral/floor/turfpack/muriki{
+	ignore_mapgen = 1
+	},
+/area/mine/unexplored/muriki/mountaintopeast)
+"alF" = (
+/obj/structure/tanning_rack,
+/turf/simulated/floor/tiled/turfpack/muriki,
+/area/specialty/expie_clubhouse)
 "alI" = (
 /turf/simulated/wall,
 /area/medical/evastore)
@@ -5209,7 +5555,7 @@
 /turf/simulated/floor/grass,
 /area/hydroponics/publicgarden)
 "aEt" = (
-/obj/machinery/trailblazer/yellow,
+/obj/structure/trailblazer/yellow,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/muriki,
 /area/mine/unexplored/muriki/mountaintopnorth)
 "aFa" = (
@@ -6744,7 +7090,7 @@
 /turf/simulated/floor/plating,
 /area/library_conference_room)
 "bum" = (
-/obj/machinery/trailblazer/blue,
+/obj/structure/trailblazer/blue,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/sign/warning/acid{
 	pixel_x = 32
@@ -10786,7 +11132,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/trailblazer/red,
+/obj/structure/trailblazer/red,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/plating,
 /area/security/hangar)
@@ -12163,6 +12509,9 @@
 /obj/machinery/firealarm{
 	pixel_y = 26
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/wood,
 /area/djstation)
 "ebM" = (
@@ -12369,10 +12718,10 @@
 /turf/simulated/floor/plating,
 /area/rnd/hallway/upper)
 "egv" = (
-/obj/machinery/vending/hydronutrients,
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
+/obj/machinery/vending/hydronutrients,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "egx" = (
@@ -14211,6 +14560,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/djstation)
 "faS" = (
@@ -14471,6 +14823,9 @@
 /obj/structure/bed/padded,
 /obj/item/bedsheet/cosmos,
 /obj/effect/landmark/redspaceexit,
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = -32
+	},
 /turf/simulated/floor/wood,
 /area/djstation)
 "fkB" = (
@@ -15036,11 +15391,11 @@
 	},
 /obj/effect/step_trigger/dephase_shadekin,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/window/maintenance_panel,
 /obj/structure/window/maintenance_panel{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/window/maintenance_panel,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/tcomfoyer)
 "fBK" = (
 /obj/machinery/camera/network/civilian{
@@ -15112,11 +15467,6 @@
 "fEr" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 6
-	},
-/obj/machinery/doorbell_chime{
-	id_tag = "kitchending";
-	name = "Kitchen Bell";
-	pixel_x = 32
 	},
 /obj/machinery/light{
 	dir = 4
@@ -16927,7 +17277,7 @@
 /turf/simulated/floor/outpost_roof/turfpack/muriki,
 /area/muriki/rooftop/cargo)
 "gEw" = (
-/obj/machinery/trailblazer/red,
+/obj/structure/trailblazer/red,
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/rnd/research/phoronics/bombrange)
 "gED" = (
@@ -18805,6 +19155,9 @@
 /obj/structure/grille,
 /obj/structure/window/reinforced,
 /obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor,
 /area/djstation)
 "hGr" = (
@@ -19304,7 +19657,7 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/xenoflora2)
 "hQF" = (
-/obj/machinery/trailblazer/yellow,
+/obj/structure/trailblazer/yellow,
 /turf/simulated/mineral/floor/turfpack/muriki{
 	ignore_mapgen = 1
 	},
@@ -19511,10 +19864,10 @@
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
 "hVe" = (
-/obj/machinery/biogenerator,
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
+/obj/machinery/chemical_analyzer,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "hVQ" = (
@@ -19875,10 +20228,10 @@
 /turf/simulated/floor/wood,
 /area/library)
 "ieW" = (
-/obj/machinery/seed_storage/xenobotany,
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
+/obj/machinery/seed_storage/xenobotany,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "ieX" = (
@@ -20054,6 +20407,13 @@
 /obj/item/coin/gold,
 /obj/item/coin/gold,
 /obj/item/coin/platinum,
+/obj/item/ore/diamond,
+/obj/item/ore/diamond,
+/obj/item/ore/diamond,
+/obj/item/ore/diamond,
+/obj/item/ore/diamond,
+/obj/item/ore/diamond,
+/obj/item/ore/diamond,
 /turf/simulated/floor/indoorrocks/turfpack/muriki{
 	icon_state = "rock_grey"
 	},
@@ -20113,6 +20473,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/djstation)
@@ -20989,10 +21352,10 @@
 /turf/simulated/open,
 /area/muriki/tramstation/civ)
 "iKu" = (
-/obj/machinery/seed_extractor,
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
+/obj/machinery/botany/precisioneditor,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "iKE" = (
@@ -23695,12 +24058,12 @@
 /turf/simulated/floor/plating,
 /area/medical/patient_c)
 "jZF" = (
-/obj/machinery/disposal,
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/green/full{
 	dir = 8
+	},
+/obj/machinery/firealarm{
+	pixel_y = 26;
+	pixel_x = -6
 	},
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora2)
@@ -24182,10 +24545,10 @@
 /turf/simulated/floor/plating,
 /area/engineering/gravgen)
 "knG" = (
-/obj/machinery/smartfridge/drying_rack,
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
+/obj/machinery/smartfridge/drying_rack,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "knK" = (
@@ -24287,7 +24650,6 @@
 /turf/simulated/open,
 /area/muriki/tramstation/waste)
 "kqd" = (
-/obj/machinery/vending/hydronutrients,
 /obj/machinery/firealarm{
 	pixel_y = 26;
 	pixel_x = -6
@@ -24295,6 +24657,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
+/obj/machinery/biogenerator,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "kql" = (
@@ -24308,6 +24671,11 @@
 	dir = 5
 	},
 /obj/machinery/vending/hydronutrients,
+/obj/machinery/doorbell_chime{
+	id_tag = "kitchending";
+	name = "Kitchen Bell";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/hydro,
 /area/hydroponics)
 "kqJ" = (
@@ -24639,6 +25007,10 @@
 	dir = 8
 	},
 /obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow,
 /turf/simulated/floor,
 /area/djstation)
 "kyc" = (
@@ -24761,6 +25133,15 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals_central7{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/wood,
 /area/djstation)
@@ -26567,6 +26948,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/wood,
 /area/djstation)
 "lAJ" = (
@@ -28198,11 +28582,12 @@
 /turf/simulated/floor/outpost_roof/turfpack/muriki,
 /area/muriki/rooftop/engineering)
 "mrF" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/green{
 	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora2)
@@ -29512,7 +29897,7 @@
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "mZv" = (
-/obj/machinery/trailblazer/red,
+/obj/structure/trailblazer/red,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/plating,
 /area/security/hangar)
@@ -31873,7 +32258,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/chapel/chapel_morgue)
 "onY" = (
-/obj/machinery/trailblazer/red,
+/obj/structure/trailblazer/red,
 /turf/simulated/mineral/floor/turfpack/muriki{
 	ignore_mapgen = 1
 	},
@@ -32228,6 +32613,13 @@
 /obj/item/reagent_containers/spray/plantbgone,
 /obj/item/reagent_containers/spray/plantbgone,
 /obj/item/reagent_containers/spray/plantbgone,
+/obj/machinery/disposal/wall{
+	dir = 4;
+	pixel_x = -35
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora2)
 "oxh" = (
@@ -32799,6 +33191,10 @@
 	},
 /obj/structure/window/reinforced,
 /obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow,
 /turf/simulated/floor,
 /area/djstation)
 "oKf" = (
@@ -35615,6 +36011,7 @@
 /area/medical/genetics)
 "qhZ" = (
 /obj/item/clothing/accessory/medal/silver,
+/obj/item/toy/plushie/carp/gold,
 /turf/simulated/floor/indoorrocks/turfpack/muriki{
 	icon_state = "rock_grey"
 	},
@@ -35666,6 +36063,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/monotile{
 	color = "#999999"
 	},
@@ -36125,7 +36525,7 @@
 /turf/simulated/floor/tiled/milspec,
 /area/quartermaster/mining/secpi)
 "qwx" = (
-/obj/machinery/trailblazer/yellow,
+/obj/structure/trailblazer/yellow,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/muriki,
 /area/djstation)
 "qwL" = (
@@ -36498,6 +36898,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/djstation)
@@ -38531,7 +38934,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/secondary/secmedbridge)
 "rGN" = (
-/obj/machinery/botany/precisioneditor,
 /obj/item/radio/intercom{
 	dir = 1;
 	name = "Station Intercom (General)";
@@ -38540,6 +38942,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
+/obj/machinery/botany/editor,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "rGW" = (
@@ -39112,6 +39515,7 @@
 	dir = 9
 	},
 /obj/item/geiger/wall/west,
+/obj/machinery/botany/editor,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora2)
 "rXi" = (
@@ -40523,6 +40927,9 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/monotile{
 	color = "#999999"
 	},
@@ -41005,6 +41412,9 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/hologram/holopad,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/djstation)
 "sQJ" = (
@@ -42223,6 +42633,9 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/entertainer,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/wood,
 /area/djstation)
 "tws" = (
@@ -42244,6 +42657,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor/glass,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/djstation)
 "twP" = (
@@ -42886,6 +43302,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/wood,
 /area/djstation)
 "tMF" = (
@@ -43402,6 +43821,9 @@
 /obj/machinery/camera/network/civilian{
 	c_tag = "CIV - Radio Host"
 	},
+/obj/structure/sign/yessmoking_1{
+	pixel_y = 32
+	},
 /turf/simulated/floor/wood,
 /area/djstation)
 "uad" = (
@@ -43607,6 +44029,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/wood,
 /area/djstation)
@@ -45212,7 +45637,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/muriki/civup)
 "uQb" = (
-/obj/machinery/trailblazer/blue,
+/obj/structure/trailblazer/blue,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/plating,
 /area/medical/hangar)
@@ -45293,7 +45718,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
-/obj/machinery/chemical_analyzer,
+/obj/machinery/seed_extractor,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "uTD" = (
@@ -45825,7 +46250,7 @@
 /area/security/brig/lowobservation)
 "vjY" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/trailblazer/blue,
+/obj/structure/trailblazer/blue,
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
@@ -46064,9 +46489,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
-/obj/structure/closet/secure_closet{
-	req_one_access = list(7,47)
-	},
+/obj/structure/closet/secure_closet/hydroponics,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "voo" = (
@@ -46100,10 +46523,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 9
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora2)
 "vpS" = (
@@ -49365,8 +49785,8 @@
 /obj/item/radio/phone{
 	name = "Radio Host Phone"
 	},
-/obj/structure/sign/yessmoking_1{
-	pixel_y = 32
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 28
 	},
 /turf/simulated/floor/wood,
 /area/djstation)
@@ -50464,6 +50884,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/carpet/turcarpet,
 /area/djstation)
@@ -106163,7 +106586,7 @@ lfs
 aRE
 tFY
 tHA
-aRE
+aig
 sYb
 sYb
 kDU
@@ -109906,12 +110329,12 @@ pEi
 pEi
 pEi
 pEi
-mcg
-mcg
-mcg
-mcg
-icF
-aiH
+alg
+alg
+alg
+alg
+ale
+ald
 pEi
 idv
 hIk
@@ -110663,7 +111086,7 @@ bMv
 bMv
 bMv
 qOs
-qOs
+alt
 bMv
 bMv
 bMv
@@ -111091,7 +111514,7 @@ acv
 dKL
 dvt
 szB
-kya
+alb
 kya
 kya
 oKa
@@ -111256,7 +111679,7 @@ szB
 bxz
 bxH
 uGL
-rPu
+akW
 oKa
 qQa
 qQa
@@ -111419,7 +111842,7 @@ aah
 inL
 eQI
 kLO
-rPu
+akY
 oKa
 qQa
 qQa
@@ -111564,7 +111987,7 @@ luR
 luR
 luR
 luR
-ajx
+alc
 idv
 idv
 idv
@@ -111582,7 +112005,7 @@ tKg
 fqk
 alQ
 tvz
-rPu
+akW
 oKa
 qQa
 qQa
@@ -111745,7 +112168,7 @@ ilw
 lAp
 kAf
 oLu
-hFX
+akV
 qQa
 qQa
 qQa
@@ -111783,7 +112206,7 @@ bMv
 bMv
 bMv
 bMv
-mGY
+alD
 qOs
 qOs
 tBv
@@ -111905,9 +112328,9 @@ qJw
 bYj
 eBJ
 uHw
-qJw
+akZ
 wbs
-hFX
+akT
 qQa
 qQa
 qQa
@@ -112010,9 +112433,9 @@ luR
 luR
 luR
 luR
-luR
 idv
-elf
+idv
+idv
 idv
 idv
 hIk
@@ -112067,7 +112490,7 @@ oym
 rPu
 rPu
 ueG
-oym
+ala
 ueG
 szB
 szB
@@ -112117,7 +112540,7 @@ knK
 qhZ
 ufq
 epT
-qOs
+alv
 qOs
 bUv
 qOs
@@ -112172,9 +112595,9 @@ idv
 idv
 luR
 luR
-luR
 idv
-aiH
+idv
+alf
 idv
 idv
 idv
@@ -112299,7 +112722,7 @@ qOs
 bMv
 bMv
 bMv
-qOs
+alt
 qOs
 bMv
 bMv
@@ -112333,10 +112756,10 @@ idv
 idv
 idv
 idv
+alf
 idv
 idv
-idv
-idv
+alf
 idv
 luR
 idv
@@ -112394,8 +112817,8 @@ ueG
 udY
 xDd
 qEq
-cmL
-hFX
+akU
+ajw
 qQa
 qQa
 qQa
@@ -112436,7 +112859,7 @@ bHh
 qOs
 iYK
 hzY
-xYA
+alB
 xYA
 hzY
 nxT
@@ -112494,16 +112917,16 @@ idv
 idv
 idv
 aiH
-hQF
 idv
+alf
+idv
+idv
+luR
+luR
+luR
+hQF
 elf
 idv
-luR
-luR
-luR
-idv
-elf
-hQF
 idv
 idv
 hIk
@@ -112557,7 +112980,7 @@ xjA
 vfT
 aCj
 nuz
-hFX
+akS
 qQa
 qQa
 qQa
@@ -112654,17 +113077,17 @@ idv
 idv
 idv
 idv
-idv
-idv
 aho
 idv
-elf
+idv
+idv
+idv
 idv
 luR
 luR
 luR
 luR
-idv
+alf
 idv
 idv
 idv
@@ -112719,7 +113142,7 @@ mBY
 oEp
 wRL
 uGL
-hFX
+akT
 qQa
 qQa
 qQa
@@ -112764,7 +113187,7 @@ dHw
 ihW
 tFU
 gpn
-xYA
+alw
 rAt
 xYA
 wci
@@ -112818,7 +113241,7 @@ idv
 idv
 luR
 luR
-idv
+hQF
 idv
 luR
 luR
@@ -112915,14 +113338,14 @@ bMv
 bMv
 bMv
 bMv
-qOs
+alt
 qOs
 qOs
 knK
 qOs
 vCe
 ufq
-wci
+alC
 gjU
 nxT
 aan
@@ -113077,7 +113500,7 @@ bMv
 bMv
 bMv
 bMv
-qOs
+alt
 bUv
 qOs
 qOs
@@ -113090,7 +113513,7 @@ naD
 dkj
 wci
 hgZ
-xYA
+alu
 dzi
 qOs
 rCV
@@ -113138,7 +113561,7 @@ luR
 luR
 ajR
 ajR
-ajt
+ali
 ajR
 ajR
 luR
@@ -113249,7 +113672,7 @@ oRJ
 vOE
 oeF
 ujW
-ujW
+alA
 iKZ
 xYA
 dcL
@@ -113434,7 +113857,7 @@ bMv
 bMv
 ajb
 bMv
-qOs
+alt
 bMv
 bMv
 bMv
@@ -113574,7 +113997,7 @@ qOs
 xYA
 xYA
 gBl
-jQz
+aly
 qOs
 qOs
 qOs
@@ -113615,7 +114038,7 @@ ajU
 akG
 ajU
 ajR
-ajQ
+alm
 ajQ
 akr
 ako
@@ -113759,7 +114182,7 @@ qOs
 qOs
 qOs
 ajb
-bMv
+als
 bMv
 hIk
 hIk
@@ -113775,7 +114198,7 @@ ajR
 ajU
 akJ
 akH
-ajU
+aln
 ajR
 ajQ
 akz
@@ -113921,9 +114344,9 @@ qOs
 qOs
 qOs
 bMv
-bMv
-bMv
-hIk
+als
+als
+agV
 hIk
 hIk
 hIk
@@ -114073,7 +114496,7 @@ qOs
 qOs
 bMv
 bMv
-bIL
+alt
 qOs
 bIL
 bMv
@@ -114232,7 +114655,7 @@ bMv
 ajb
 gME
 qOs
-qOs
+alt
 bMv
 bMv
 ajb
@@ -114377,7 +114800,7 @@ bMv
 bMv
 bMv
 bMv
-qOs
+bIL
 ajb
 qOs
 qOs
@@ -114421,9 +114844,9 @@ akM
 akM
 akM
 ajR
+alh
 ajQ
-ajQ
-ajQ
+alo
 ajQ
 ajQ
 ajQ
@@ -114554,7 +114977,7 @@ qOs
 qOs
 qOs
 qOs
-qOs
+alt
 bMv
 bMv
 bMv
@@ -114578,7 +115001,7 @@ hIk
 hIk
 hIk
 ajR
-akP
+alr
 akO
 ajV
 ajV
@@ -114907,14 +115330,14 @@ akP
 ajV
 ajV
 ajR
-ajQ
+alF
 akI
 akA
 akA
 akA
 akA
 ajR
-akc
+alk
 akc
 akc
 akc
@@ -115238,7 +115661,7 @@ akF
 akA
 akB
 ajR
-akc
+all
 akc
 akj
 akc
@@ -115400,7 +115823,7 @@ akA
 akA
 akC
 ajR
-akc
+all
 akc
 akc
 akc
@@ -115556,17 +115979,17 @@ luR
 luR
 ajR
 akL
-ajQ
+ajZ
 akA
 akA
 akA
 akD
 ajR
+all
+alj
 akc
 akc
-akc
-akc
-akf
+ake
 ajR
 hIk
 hIk
@@ -115719,7 +116142,7 @@ luR
 ajR
 ajR
 ajR
-ajR
+alq
 ajR
 ajR
 ajR
@@ -115877,11 +116300,11 @@ hIk
 hIk
 luR
 luR
-luR
-luR
-luR
-luR
-luR
+idv
+idv
+idv
+alE
+idv
 hIk
 hIk
 hIk
@@ -116041,9 +116464,9 @@ luR
 luR
 luR
 luR
-luR
-luR
-luR
+idv
+idv
+idv
 hIk
 hIk
 hIk
@@ -116451,12 +116874,12 @@ iut
 iut
 iut
 iut
-kPb
-kPb
-kPb
-kPb
-kPb
-kPb
-kPb
-kPb
+pxP
+pxP
+pxP
+pxP
+pxP
+pxP
+pxP
+pxP
 "}
