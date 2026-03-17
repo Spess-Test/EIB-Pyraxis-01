@@ -259,6 +259,12 @@
 /obj/machinery/particle_smasher,
 /turf/simulated/floor/reinforced/turfpack/pyraxis,
 /area/centcom/test)
+"dW" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "eh" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/dark,
@@ -465,6 +471,18 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
+/area/centcom/test)
+"hp" = (
+/obj/machinery/door/airlock/medical{
+	autoclose = 0;
+	frequency = 1379;
+	icon_state = "door_locked";
+	id_tag = "virology_airlock_exterior";
+	locked = 1;
+	name = "Virology Exterior Airlock";
+	req_access = list(39)
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "hq" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -1225,6 +1243,17 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
+"sH" = (
+/obj/machinery/embedded_controller/radio/airlock/access_controller{
+	id_tag = "virology_airlock_control";
+	name = "Virology Access Console";
+	tag_exterior_door = "virology_airlock_exterior";
+	tag_interior_door = "virology_airlock_interior";
+	pixel_y = -32;
+	dir = 1
+	},
+/turf/simulated/mineral/cave,
+/area/centcom/test)
 "sL" = (
 /obj/machinery/computer/general_air_control/large_tank_control{
 	dir = 1;
@@ -1838,6 +1867,32 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
+"Ai" = (
+/obj/machinery/door/airlock/medical{
+	autoclose = 0;
+	frequency = 1379;
+	icon_state = "door_locked";
+	id_tag = "virology_airlock_exterior";
+	locked = 1;
+	name = "Virology Exterior Airlock";
+	req_access = list(39)
+	},
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1379;
+	master_tag = "SC-ALCvirology";
+	name = "Virology Access Button";
+	pixel_y = 0;
+	req_access = list(39);
+	pixel_x = 32;
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"Aq" = (
+/obj/structure/window/maintenance_panel,
+/turf/simulated/floor,
+/area/centcom/test)
 "At" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/white/turfpack,
@@ -1973,6 +2028,18 @@
 /obj/item/slime_extract/grey,
 /obj/item/glass_jar,
 /obj/item/glass_jar,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"CE" = (
+/obj/machinery/embedded_controller/radio/airlock/access_controller{
+	id_tag = "SC-ALCvirology";
+	name = "Virology Access Console";
+	tag_exterior_door = "virology_airlock_exterior";
+	tag_interior_door = "virology_airlock_interior";
+	dir = 8;
+	pixel_y = 0;
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "CG" = (
@@ -2520,6 +2587,28 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
+"Lp" = (
+/obj/machinery/door/airlock/medical{
+	autoclose = 0;
+	frequency = 1379;
+	icon_state = "door_locked";
+	id_tag = "virology_airlock_interior";
+	locked = 1;
+	name = "Virology Interior Airlock";
+	req_access = list(39)
+	},
+/obj/machinery/access_button{
+	command = "cycle_interior";
+	frequency = 1379;
+	master_tag = "virology_airlock_control";
+	name = "Virology Access Button";
+	pixel_y = 0;
+	req_access = list(39);
+	pixel_x = -32;
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "Lv" = (
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
@@ -3010,6 +3099,13 @@
 /obj/structure/stairs/spawner/west,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
+"Tg" = (
+/obj/structure/stairs/spawner/south,
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "Th" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/rack{
@@ -3163,6 +3259,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
 /area/centcom/test)
+"Vo" = (
+/obj/structure/stairs/spawner/south,
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "Vp" = (
 /obj/machinery/door/blast/regular{
 	density = 0;
@@ -3249,6 +3352,18 @@
 /obj/machinery/atmospherics/pipe/manifold4w/visible/red,
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"WW" = (
+/obj/machinery/door/airlock/medical{
+	autoclose = 0;
+	frequency = 1379;
+	icon_state = "door_locked";
+	id_tag = "virology_airlock_interior";
+	locked = 1;
+	name = "Virology Interior Airlock";
+	req_access = list(39)
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "WX" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -3257,6 +3372,12 @@
 	name = "Warden"
 	},
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"Xq" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "XA" = (
 /obj/machinery/cryopod{
@@ -3331,6 +3452,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
+/area/centcom/test)
+"YF" = (
+/obj/machinery/door/airlock/glass_medical{
+	name = "Genetics Lab";
+	req_access = list(9)
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "YJ" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
@@ -38691,12 +38819,12 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
 Az
 Az
 Az
@@ -38947,13 +39075,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+rG
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -39201,16 +39329,16 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+rG
+rG
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -39458,17 +39586,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Lp
+rG
+rG
+hp
+rG
+rG
+rG
+Xq
+Tg
+Ox
+Gu
 Az
 Az
 Az
@@ -39715,17 +39843,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+WW
+rG
+CE
+Ai
+rG
+rG
+rG
+dW
+Vo
+Ox
+Gu
 Az
 Az
 Az
@@ -39971,18 +40099,18 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+sH
+Ox
+Ox
+Ox
+Ox
+rG
+rG
+rG
+rG
+rG
+Ox
+Gu
 Ox
 Ox
 Ox
@@ -40232,14 +40360,14 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+rG
+rG
+rG
+rG
+Ox
+Gu
 Ox
 Cg
 CG
@@ -40490,13 +40618,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Gu
 Ox
 nS
 QM
@@ -40753,7 +40881,7 @@ Az
 Az
 Az
 Az
-Fc
+Gu
 Ox
 EW
 rp
@@ -41006,12 +41134,12 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Fc
-Fc
+Gu
+Gu
+Gu
+Gu
+Gu
+Aq
 rG
 rG
 rG
@@ -41262,12 +41390,12 @@ Az
 Az
 Az
 Az
+Gu
+Gu
+Gu
+Gu
 Az
-Az
-Az
-Az
-Az
-Fc
+Gu
 Ox
 rG
 rG
@@ -41518,9 +41646,9 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
 Az
 Az
 Ox
@@ -41775,8 +41903,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -42032,8 +42160,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Ox
 Ox
@@ -42289,8 +42417,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Ox
 WC
@@ -42544,10 +42672,10 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
+Gu
 Az
 Ox
 WC
@@ -42800,12 +42928,12 @@ Az
 Az
 Az
 Az
+Gu
+Gu
 Az
 Az
-Az
-Az
-Fc
-Fc
+Gu
+Gu
 Ox
 si
 xw
@@ -43057,12 +43185,12 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Ox
 Ox
-Fc
+Mt
 Ox
 iB
 hH
@@ -43314,7 +43442,7 @@ Az
 Az
 Az
 Az
-Az
+Gu
 Az
 Az
 Ox
@@ -43571,7 +43699,7 @@ Az
 Az
 Az
 Az
-Az
+Gu
 Az
 Az
 Ox
@@ -43828,8 +43956,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Ox
 GX
@@ -44085,8 +44213,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Ox
 Cc
@@ -44342,8 +44470,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Ox
 Ox
@@ -44599,8 +44727,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -44857,8 +44985,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -45115,9 +45243,9 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
 Az
 Az
 Az
@@ -45373,13 +45501,13 @@ Az
 Az
 Az
 Az
+Gu
+Gu
+Gu
+Gu
 Az
 Az
-Az
-Az
-Az
-Az
-Fc
+Gu
 Ox
 rG
 rG
@@ -45631,13 +45759,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Fc
-Fc
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Aq
 rG
 rG
 rG
@@ -45893,7 +46021,7 @@ Az
 Az
 Az
 Az
-Fc
+Gu
 Ox
 pv
 lr
@@ -46144,13 +46272,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Gu
 Ox
 JT
 oF
@@ -46400,14 +46528,14 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+rG
+rG
+rG
+rG
+Ox
+Gu
 Ox
 sD
 Ns
@@ -46654,17 +46782,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+rG
+rG
+rG
+rG
+rG
+Ox
+Gu
 Ox
 Ox
 Ox
@@ -46911,17 +47039,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+YF
+rG
+rG
+YF
+rG
+rG
+rG
+Xq
+Tg
+Ox
+Gu
 Az
 Az
 Az
@@ -47168,17 +47296,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+YF
+rG
+rG
+YF
+rG
+rG
+rG
+dW
+Vo
+Ox
+Gu
 Az
 Az
 Az
@@ -47425,16 +47553,16 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+rG
+rG
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -47685,13 +47813,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+rG
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -47943,12 +48071,12 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
 Az
 Az
 Az
