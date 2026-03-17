@@ -71,7 +71,7 @@
 	name = "Mining Elevator"
 	warmup_time = 5
 	move_time = 90
-	shuttle_area = /area/shuttle/drillevator
+	shuttle_area = /area/shuttle/drillevator/station
 	current_location = "mining_station"
 	landmark_transition = "mining_transit"
 	docking_controller_tag = "mine_elevator_controller"
