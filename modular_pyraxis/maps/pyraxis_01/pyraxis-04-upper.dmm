@@ -16,6 +16,11 @@
 /obj/structure/bed/chair,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
 /area/centcom/test)
+"aA" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/medical,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "aK" = (
 /obj/structure/railing{
 	dir = 4
@@ -248,6 +253,15 @@
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
 /area/centcom/test)
+"ep" = (
+/obj/structure/table/standard,
+/obj/item/stack/material/cloth,
+/obj/item/stack/material/cloth{
+	pixel_y = 6;
+	pixel_x = -6
+	},
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
+/area/centcom/test)
 "ew" = (
 /obj/structure/bed/padded,
 /obj/machinery/flasher{
@@ -351,6 +365,19 @@
 	},
 /turf/simulated/floor/wood/alt/parquet,
 /area/centcom/test)
+"fG" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/med_data/laptop{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"fO" = (
+/obj/machinery/door/airlock/medical{
+	name = "Patient Ward"
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "ge" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -395,6 +422,13 @@
 /obj/structure/stairs/spawner/north,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"gC" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/med_data/laptop{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "gD" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -408,11 +442,25 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/hydro,
 /area/centcom/test)
+"gR" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "gU" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
+/area/centcom/test)
+"gW" = (
+/obj/machinery/door/airlock/medical{
+	name = "Patient Room C"
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "gY" = (
 /obj/structure/filingcabinet/filingcabinet,
@@ -529,6 +577,10 @@
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/wood/alt/parquet,
 /area/centcom/test)
+"iU" = (
+/obj/machinery/transhuman/resleever,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "iZ" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -597,6 +649,12 @@
 /obj/item/flashlight/lamp/green,
 /turf/simulated/floor/wood/alt/parquet,
 /area/centcom/test)
+"jZ" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/centcom/test)
 "kh" = (
 /turf/simulated/floor/water/deep/seasonal,
 /area/centcom/test)
@@ -657,6 +715,16 @@
 	},
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
 /area/centcom/test)
+"lh" = (
+/obj/machinery/button/doorbell{
+	pixel_x = -24;
+	pixel_y = 12;
+	id = "PatientWard";
+	name = "Call Nurse"
+	},
+/obj/machinery/iv_drip,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "li" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	name = "Cafeteria"
@@ -699,10 +767,24 @@
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating/turfpack/pyraxis,
 /area/centcom/test)
+"ml" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/centcom/test)
 "mn" = (
 /obj/structure/railing/grey,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"mL" = (
+/obj/structure/table/standard,
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
 /area/centcom/test)
 "mQ" = (
 /obj/machinery/door/airlock/glass{
@@ -751,6 +833,10 @@
 "no" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
+/area/centcom/test)
+"nr" = (
+/obj/machinery/clonepod/transhuman/full,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "nt" = (
 /obj/item/soap/nanotrasen,
@@ -905,6 +991,18 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
+/area/centcom/test)
+"qw" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"qA" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "qF" = (
 /obj/machinery/door/airlock{
@@ -1065,12 +1163,27 @@
 	},
 /turf/simulated/open,
 /area/centcom/test)
+"up" = (
+/obj/structure/bed/chair/office/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "uC" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/structure/railing,
 /turf/simulated/open,
+/area/centcom/test)
+"uL" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
 /area/centcom/test)
 "uP" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1203,6 +1316,10 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"xG" = (
+/obj/machinery/vitals_monitor,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "xM" = (
 /obj/structure/cryofeed,
 /obj/structure/window/reinforced{
@@ -1223,6 +1340,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/alt/parquet,
+/area/centcom/test)
+"ya" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/obj/structure/railing/grey,
+/turf/simulated/floor,
 /area/centcom/test)
 "yb" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1339,6 +1463,28 @@
 	},
 /turf/simulated/floor/wood/alt/parquet,
 /area/centcom/test)
+"AD" = (
+/obj/machinery/button/doorbell{
+	pixel_x = 24;
+	pixel_y = -12;
+	id = "PatientWard";
+	name = "Call Nurse"
+	},
+/obj/structure/bed/chair/wheelchair{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"AR" = (
+/obj/machinery/door/airlock{
+	name = "Medical Lavatory"
+	},
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
+/area/centcom/test)
+"AS" = (
+/obj/structure/curtain/medical,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "AU" = (
 /obj/machinery/cryopod,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
@@ -1413,11 +1559,30 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/centcom/test)
+"Cm" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"CA" = (
+/obj/machinery/door/airlock/medical{
+	name = "Patient Room B"
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "CG" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
 /turf/simulated/floor/carpet/turfpack/pyraxis,
+/area/centcom/test)
+"CJ" = (
+/obj/structure/window/maintenance_panel{
+	dir = 1
+	},
+/turf/simulated/floor,
 /area/centcom/test)
 "CQ" = (
 /obj/structure/railing/grey,
@@ -1448,6 +1613,16 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/hydro,
+/area/centcom/test)
+"Dh" = (
+/obj/machinery/button/doorbell{
+	pixel_x = -24;
+	pixel_y = -12;
+	id = "PatientWard";
+	name = "Call Nurse"
+	},
+/obj/machinery/iv_drip,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "Dk" = (
 /obj/item/stool/baystool/padded{
@@ -1518,11 +1693,29 @@
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
 /area/centcom/test)
+"ER" = (
+/obj/machinery/computer/transhuman/resleeving,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "ET" = (
 /obj/structure/cliff{
 	dir = 9
 	},
 /turf/simulated/open,
+/area/centcom/test)
+"EV" = (
+/obj/structure/mopbucket,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/mop,
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
+/area/centcom/test)
+"Fa" = (
+/obj/machinery/door/window/eastleft{
+	req_one_access = list(5);
+	name = "Ward Reception";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "Fm" = (
 /obj/structure/railing{
@@ -1556,6 +1749,10 @@
 	},
 /turf/simulated/floor/wood/alt/parquet,
 /area/centcom/test)
+"FT" = (
+/obj/structure/curtain/open/shower/medical,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "Ga" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
@@ -1569,6 +1766,12 @@
 /obj/structure/toilet,
 /turf/simulated/floor/tiled/freezer,
 /area/centcom/test)
+"Gj" = (
+/obj/machinery/door/airlock/medical{
+	name = "Patient Room A"
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "GH" = (
 /obj/structure/railing{
 	dir = 4
@@ -1576,11 +1779,22 @@
 /obj/structure/railing,
 /turf/simulated/open,
 /area/centcom/test)
+"GM" = (
+/obj/machinery/doorbell_chime/medical{
+	pixel_x = 32;
+	id_tag = "PatientWard"
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "GV" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"Hb" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
 /area/centcom/test)
 "Hc" = (
 /turf/simulated/floor,
@@ -1644,6 +1858,10 @@
 /obj/structure/cliff,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
 /area/centcom/test)
+"Iq" = (
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "IA" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
@@ -1670,6 +1888,11 @@
 "IG" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"IP" = (
+/obj/structure/table/standard,
+/obj/random/soap_common,
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
 /area/centcom/test)
 "IR" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1841,6 +2064,15 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor,
 /area/centcom/test)
+"Ms" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/centcom/test)
 "Mw" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_soft/full{
@@ -1853,6 +2085,10 @@
 	name = "Prisoner's Locker"
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
+/area/centcom/test)
+"MD" = (
+/obj/structure/railing/grey,
+/turf/simulated/open,
 /area/centcom/test)
 "MQ" = (
 /obj/machinery/door/firedoor/glass,
@@ -1886,6 +2122,10 @@
 /obj/structure/closet/crate/hydroponics/prespawned,
 /obj/item/clothing/gloves/botanic_leather,
 /turf/simulated/floor/tiled/hydro,
+/area/centcom/test)
+"Nv" = (
+/obj/structure/closet/secure_closet/personal/patient,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "Nx" = (
 /turf/simulated/floor/carpet/geo,
@@ -1922,6 +2162,11 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/plating/turfpack/pyraxis,
 /area/centcom/test)
+"Od" = (
+/obj/structure/table/standard,
+/obj/item/storage/laundry_basket,
+/turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
+/area/centcom/test)
 "Og" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -1956,6 +2201,20 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/alt/parquet,
+/area/centcom/test)
+"OR" = (
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"OT" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "OW" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -2025,6 +2284,31 @@
 "QE" = (
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
+"QM" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"QS" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/centcom/test)
+"QV" = (
+/obj/structure/table/glass,
+/obj/structure/table/glass,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "QZ" = (
 /obj/machinery/botany/precisioneditor,
 /turf/simulated/floor/tiled/hydro,
@@ -2047,6 +2331,12 @@
 /area/centcom/test)
 "Rn" = (
 /turf/simulated/floor/tiled/freezer,
+/area/centcom/test)
+"Rr" = (
+/obj/structure/window/maintenance_panel{
+	dir = 8
+	},
+/turf/simulated/floor,
 /area/centcom/test)
 "Rv" = (
 /obj/structure/railing{
@@ -2075,6 +2365,13 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/hydro,
 /area/centcom/test)
+"RS" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/medical{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "Sb" = (
 /obj/item/book/manual/atmospipes,
 /obj/item/book/manual/chef_recipes,
@@ -2097,6 +2394,12 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"Sq" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "SB" = (
 /obj/structure/toilet/prison,
@@ -2141,6 +2444,18 @@
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
 /area/centcom/test)
+"Ti" = (
+/obj/structure/bed/chair/wheelchair{
+	dir = 8
+	},
+/obj/machinery/button/doorbell{
+	pixel_x = 24;
+	pixel_y = -12;
+	id = "PatientWard";
+	name = "Call Nurse"
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "Tj" = (
 /obj/structure/table/standard,
 /obj/random/soap,
@@ -2180,6 +2495,11 @@
 	req_access = list(58)
 	},
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
+/area/centcom/test)
+"TN" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/turf/simulated/open,
 /area/centcom/test)
 "TT" = (
 /obj/structure/railing{
@@ -2243,6 +2563,20 @@
 /obj/structure/cliff_end,
 /turf/simulated/floor/outdoors/newdirt_nograss/turfpack/pyraxis,
 /area/centcom/test)
+"Vc" = (
+/obj/structure/table/glass,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"Vf" = (
+/obj/machinery/iv_drip,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"Vs" = (
+/obj/machinery/door/airlock/medical{
+	name = "Patient Room D"
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "VS" = (
 /turf/simulated/floor/lino,
 /area/centcom/test)
@@ -2295,6 +2629,18 @@
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
 /area/centcom/test)
+"Xf" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/med_data/laptop{
+	dir = 4
+	},
+/obj/machinery/door/window/eastleft{
+	req_one_access = list(5);
+	name = "Ward Reception";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "Xu" = (
 /obj/structure/bookcase{
 	name = "bookcase (Religious)"
@@ -2345,6 +2691,11 @@
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating/turfpack/pyraxis,
 /area/centcom/test)
+"YM" = (
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/wingrille_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/centcom/test)
 "YQ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /turf/simulated/floor/tiled/hydro,
@@ -2367,6 +2718,13 @@
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
 /area/centcom/test)
+"Zf" = (
+/obj/structure/railing/grey,
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/open,
+/area/centcom/test)
 "Zi" = (
 /obj/structure/ladder/up,
 /turf/simulated/floor/plating/turfpack/pyraxis,
@@ -2381,9 +2739,25 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled/hydro,
 /area/centcom/test)
+"Zr" = (
+/obj/structure/railing/grey,
+/turf/simulated/floor,
+/area/centcom/test)
+"Zy" = (
+/obj/structure/window/maintenance_panel{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/centcom/test)
 "ZC" = (
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/tiled/hydro,
+/area/centcom/test)
+"ZG" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor,
 /area/centcom/test)
 "ZQ" = (
 /obj/structure/table/reinforced,
@@ -36258,8 +36632,8 @@ QE
 QE
 QE
 QE
-kz
-py
+QE
+Zf
 py
 py
 py
@@ -36450,7 +36824,7 @@ AU
 Qm
 Hc
 Hc
-Qm
+Hc
 Hc
 Qm
 BR
@@ -36515,8 +36889,8 @@ QE
 QE
 QE
 QE
-kz
-py
+QE
+MD
 py
 py
 py
@@ -36773,7 +37147,7 @@ QE
 QE
 QE
 kz
-py
+cm
 py
 py
 py
@@ -36962,10 +37336,10 @@ Qm
 Qm
 Qm
 Qm
-Qm
-Qm
-Qm
-Qm
+Hc
+Hc
+Hc
+Hc
 Qm
 BR
 BR
@@ -37213,16 +37587,16 @@ py
 py
 py
 Qm
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
 Qm
 BR
 BR
@@ -37470,16 +37844,16 @@ py
 py
 py
 Qm
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
 Qm
 BR
 BR
@@ -37727,16 +38101,16 @@ py
 py
 py
 Qm
-BR
-BR
-BR
-BR
 Qm
-BR
-BR
-BR
-BR
-BR
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Hc
 Qm
 BR
 BR
@@ -37984,24 +38358,24 @@ Qm
 Qm
 Qm
 Qm
-BR
-BR
-BR
-BR
+Od
+Qe
+Qe
+Qe
+mL
+KB
+KB
+Hb
 Qm
-BR
-BR
-BR
-BR
-BR
+Hc
 Qm
-Qm
+ll
 BR
 BR
-Qm
-Qm
-Qm
-Qm
+ll
+ll
+ll
+ll
 Hc
 Hc
 Hc
@@ -38236,29 +38610,29 @@ py
 py
 Qm
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+EV
+KB
+uL
+Hb
+ll
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+Hb
+Qm
+Hc
 Qm
 BR
 BR
 BR
+ll
 BR
 BR
-Qm
-BR
-BR
-BR
-Qm
-BR
-BR
-Qm
+ll
 Hc
 Hc
 Hc
@@ -38492,30 +38866,30 @@ py
 py
 Qm
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+Qm
+IP
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+Hb
+Qm
+Hc
 Qm
 BR
 BR
 BR
+ll
 BR
 BR
-Qm
-BR
-BR
-BR
-Qm
-BR
-BR
-Qm
+ll
 Hc
 Hc
 Hc
@@ -38748,34 +39122,34 @@ py
 py
 Qm
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+Hc
+Qm
+IP
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+Qm
+Hc
 Qm
 BR
 BR
 BR
+ll
+ll
 BR
-BR
-Qm
-BR
-BR
-BR
-Qm
-Qm
-BR
-Qm
-Qm
-Qm
-Qm
+ll
+ll
+ll
+ll
 Qm
 Qm
 py
@@ -39004,36 +39378,36 @@ py
 py
 Qm
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
 Hc
+Hc
+wt
+EV
+KB
+ep
+Hb
+ll
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+KB
+Qm
+Hc
+Qm
+BR
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -39257,40 +39631,40 @@ py
 py
 py
 py
-py
+rw
 Qm
 Qm
-BR
-BR
-BR
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
+rw
 Hc
+Hc
+Qm
+ll
+ll
+ll
+ll
+ll
+Od
+Qe
+Qe
+Qe
+mL
+KB
+KB
+KB
+Qm
+Hc
+Qm
+BR
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -39514,40 +39888,40 @@ py
 py
 py
 py
+Ms
 Qm
 Qm
-BR
-BR
-BR
-BR
+Qm
+Qm
+Qm
 Qm
 BR
 BR
 py
 py
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+KB
+KB
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
 Hc
+Qm
+BR
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -39771,40 +40145,40 @@ py
 py
 py
 py
+ZG
 Qm
+gC
+Vc
 BR
 BR
-BR
-BR
-BR
-Qm
+ll
 BR
 BR
 py
 py
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
+ll
 Hc
+Hc
+Hc
+Hc
+Hc
+ll
+KB
+KB
+Qm
+Hc
+Qm
+BR
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -40028,40 +40402,40 @@ py
 py
 py
 py
-Qm
+ZG
+YM
+Sq
 BR
 BR
 BR
+YM
 BR
 BR
-Qm
-BR
-BR
-Qm
-Qm
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
+qA
+Cm
+ll
 Hc
+Hc
+Hc
+Hc
+Hc
+ll
+KB
+KB
+Qm
+Hc
+Qm
+BR
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -40285,39 +40659,39 @@ py
 py
 py
 py
-Qm
+ZG
+YM
 BR
 BR
 BR
 BR
-BR
-Qm
-BR
+Gj
 BR
 BR
 BR
+BR
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+AR
+AR
 Qm
+Zy
 Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
+ll
 BR
 BR
-Qm
+ll
 BR
-Qm
-Qm
-Qm
-Qm
-Qm
+ll
+ll
+ll
+ll
+ll
 Qm
 py
 py
@@ -40542,18 +40916,13 @@ py
 py
 py
 py
+ZG
 Qm
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
+xG
+aA
+Vf
+Nv
+ll
 BR
 BR
 BR
@@ -40571,10 +40940,15 @@ BR
 BR
 BR
 BR
-Qm
 BR
 BR
-Qm
+BR
+BR
+BR
+ll
+BR
+BR
+ll
 Qm
 py
 py
@@ -40799,41 +41173,41 @@ py
 py
 py
 py
+ZG
 Qm
+ll
+ll
+ll
+ll
+ll
 BR
 BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+ll
 BR
 BR
 BR
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
 Qm
-BR
-BR
-BR
-Hc
-Hc
 py
 py
 py
@@ -41056,18 +41430,16 @@ py
 py
 py
 py
+ZG
 Qm
+gC
+Vc
+BR
+BR
+ll
 BR
 BR
 BR
-BR
-BR
-Qm
-BR
-BR
-Qm
-Qm
-Qm
 Qm
 Qm
 Qm
@@ -41077,6 +41449,9 @@ Qm
 Qm
 Qm
 Qm
+Qm
+Qm
+Qm
 BR
 BR
 BR
@@ -41089,9 +41464,8 @@ BR
 BR
 BR
 BR
-BR
-Hc
-Hc
+Qm
+Qm
 py
 py
 py
@@ -41313,27 +41687,19 @@ py
 py
 py
 py
-Qm
+ZG
+YM
+Sq
 BR
 BR
 BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
+YM
 BR
 BR
 BR
 Qm
 BR
 BR
-BR
-BR
-Qm
 BR
 BR
 BR
@@ -41348,7 +41714,15 @@ BR
 BR
 BR
 BR
-Hc
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -41570,23 +41944,13 @@ py
 py
 py
 py
-Qm
+ZG
+YM
 BR
 BR
 BR
 BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
+CA
 BR
 BR
 BR
@@ -41599,13 +41963,23 @@ BR
 BR
 BR
 BR
-Qm
-Qm
-Qm
+BR
+BR
 Qm
 BR
 BR
-Hc
+BR
+BR
+BR
+BR
+BR
+ll
+ll
+ll
+ll
+BR
+BR
+Qm
 py
 py
 py
@@ -41827,23 +42201,13 @@ py
 py
 py
 py
+ZG
 Qm
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
+xG
+aA
+Vf
+Nv
+ll
 BR
 BR
 BR
@@ -41856,13 +42220,23 @@ BR
 BR
 BR
 BR
-Qm
 BR
 BR
 Qm
 BR
 BR
-Hc
+BR
+BR
+BR
+BR
+BR
+ll
+BR
+BR
+ll
+BR
+BR
+Qm
 py
 py
 py
@@ -42084,32 +42458,13 @@ py
 py
 py
 py
+ZG
 Qm
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+ll
+ll
+ll
+ll
+ll
 BR
 BR
 BR
@@ -42119,7 +42474,26 @@ BR
 BR
 BR
 BR
-Hc
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -42341,22 +42715,13 @@ py
 py
 py
 py
-Qm
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
+ZG
+CJ
+Hc
+Hc
+Hc
+Hc
+wt
 BR
 BR
 BR
@@ -42370,12 +42735,21 @@ BR
 BR
 BR
 BR
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+ll
+ll
+ll
+ll
+ll
+ll
 Qm
 py
 py
@@ -42598,32 +42972,13 @@ py
 py
 py
 py
+ZG
 Qm
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+ll
+ll
+ll
+ll
+ll
 BR
 BR
 BR
@@ -42633,7 +42988,26 @@ BR
 BR
 BR
 BR
-Hc
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -42855,23 +43229,13 @@ py
 py
 py
 py
+ZG
 Qm
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
+xG
+RS
+Vf
+Nv
+ll
 BR
 BR
 BR
@@ -42884,13 +43248,23 @@ BR
 BR
 BR
 BR
-Qm
 BR
 BR
 Qm
 BR
 BR
-Hc
+BR
+BR
+BR
+BR
+BR
+ll
+BR
+BR
+ll
+BR
+BR
+Qm
 py
 py
 py
@@ -43112,23 +43486,13 @@ py
 py
 py
 py
-Qm
+ZG
+YM
 BR
 BR
 BR
 BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
+gW
 BR
 BR
 BR
@@ -43141,13 +43505,23 @@ BR
 BR
 BR
 BR
-Qm
-Qm
-Qm
+BR
+BR
 Qm
 BR
 BR
-Hc
+BR
+BR
+BR
+BR
+BR
+ll
+ll
+ll
+ll
+BR
+BR
+Qm
 py
 py
 py
@@ -43369,27 +43743,19 @@ py
 py
 py
 py
-Qm
+ZG
+YM
+up
 BR
 BR
 BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
+YM
 BR
 BR
 BR
 Qm
 BR
 BR
-BR
-BR
-Qm
 BR
 BR
 BR
@@ -43404,7 +43770,15 @@ BR
 BR
 BR
 BR
-Hc
+BR
+BR
+ll
+BR
+BR
+BR
+BR
+BR
+Qm
 py
 py
 py
@@ -43626,18 +44000,16 @@ py
 py
 py
 py
+ZG
 Qm
+fG
+QV
+BR
+BR
+ll
 BR
 BR
 BR
-BR
-BR
-Qm
-BR
-BR
-Qm
-Qm
-Qm
 Qm
 Qm
 Qm
@@ -43647,6 +44019,9 @@ Qm
 Qm
 Qm
 Qm
+Qm
+Qm
+Qm
 BR
 BR
 BR
@@ -43659,9 +44034,8 @@ BR
 BR
 BR
 BR
-BR
-Hc
-Hc
+Qm
+Qm
 py
 py
 py
@@ -43883,41 +44257,41 @@ py
 py
 py
 py
+ZG
 Qm
+ll
+ll
+ll
+ll
+ll
 BR
 BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+ll
 BR
 BR
 BR
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
 Qm
-BR
-BR
-BR
-Hc
-Hc
 py
 py
 py
@@ -44140,18 +44514,13 @@ py
 py
 py
 py
+ZG
 Qm
-BR
-BR
-BR
-BR
-BR
-Qm
-BR
-BR
-BR
-BR
-BR
+xG
+RS
+Vf
+Nv
+ll
 BR
 BR
 BR
@@ -44169,7 +44538,12 @@ BR
 BR
 BR
 BR
-Qm
+BR
+BR
+BR
+BR
+BR
+ll
 BR
 BR
 Qm
@@ -44397,31 +44771,29 @@ py
 py
 py
 py
-Qm
+ZG
+YM
 BR
 BR
 BR
 BR
-BR
-Qm
-BR
+Vs
 BR
 BR
 BR
 BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-Qm
-Qm
-Qm
-Qm
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+fO
+fO
+ll
+ll
+ll
 Qm
 Qm
 Qm
@@ -44429,6 +44801,8 @@ Qm
 Qm
 Qm
 Qm
+Qm
+Rr
 Qm
 py
 py
@@ -44654,39 +45028,39 @@ py
 py
 py
 py
-Qm
+ZG
+YM
+up
 BR
 BR
 BR
+YM
 BR
 BR
-Qm
+qw
+OT
+ll
+RS
+lh
+AS
+RS
+lh
+AS
 BR
 BR
+AS
+Dh
+RS
 Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-BR
-BR
-Qm
-BR
-BR
-Qm
-py
-py
-py
-py
-py
-py
-py
-py
-py
+TN
+TN
+TN
+rw
+rw
+ZG
+Hc
+Hc
+Zr
 py
 py
 py
@@ -44911,39 +45285,39 @@ py
 py
 py
 py
+ZG
 Qm
+fG
+Vc
 BR
 BR
+ll
 BR
+BR
+py
+py
+ll
+BR
+BR
+AS
+BR
+BR
+AS
+BR
+BR
+AS
 BR
 BR
 Qm
-BR
-BR
-py
-py
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
+TN
 py
 py
 py
 py
-py
-py
-py
-py
-py
+QS
+jZ
+jZ
+ya
 py
 py
 py
@@ -45168,31 +45542,31 @@ py
 py
 py
 py
+ml
 Qm
 Qm
-BR
-BR
-BR
-BR
+Qm
+Qm
+Qm
 Qm
 BR
 BR
 py
 py
+ll
+FT
+FT
+AS
+FT
+FT
+AS
+BR
+BR
+AS
+FT
+FT
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-py
+rw
 py
 py
 py
@@ -45425,31 +45799,31 @@ py
 py
 py
 py
-py
+rw
 Qm
 Qm
+rw
+Hc
+Hc
+Qm
+ll
+ll
+ll
+ll
+ll
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
 BR
 BR
 BR
 Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Qm
-py
+TN
 py
 py
 py
@@ -45682,18 +46056,18 @@ py
 py
 py
 py
-py
-py
+rw
+TN
 Qm
 Qm
+Hc
+Hc
+wt
 BR
 BR
 BR
 BR
-BR
-BR
-BR
-BR
+AS
 BR
 BR
 BR
@@ -45706,7 +46080,7 @@ BR
 BR
 BR
 Qm
-py
+TN
 py
 py
 py
@@ -45940,30 +46314,30 @@ py
 py
 py
 py
-py
-py
+TN
+TN
 Qm
 Qm
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+Hc
 Qm
+ER
+Iq
+BR
+BR
+AS
+BR
+BR
+BR
+BR
+BR
+BR
+FT
+FT
+FT
+FT
+FT
 Qm
-py
+TN
 py
 py
 py
@@ -46198,29 +46572,29 @@ py
 py
 py
 py
-py
-py
+TN
+rw
 Qm
 Qm
+Qm
+nr
 BR
 BR
 BR
+ll
+Fa
+gR
+Xf
+QM
 BR
 BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+FT
 BR
 BR
 BR
 BR
 Qm
-py
-py
+TN
 py
 py
 py
@@ -46456,28 +46830,28 @@ py
 py
 py
 py
-py
-py
+rw
+TN
 Qm
 Qm
+iU
 BR
 BR
 BR
+ll
+GM
+BR
+Sq
+OR
 BR
 BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-BR
+FT
+Ti
+Vf
+AD
+Vf
 Qm
-py
-py
+rw
 py
 py
 py
@@ -46714,27 +47088,27 @@ py
 py
 py
 py
-py
-py
+TN
+TN
 Qm
 Qm
 Qm
 Qm
 Qm
-py
-py
-py
-py
-py
-py
-py
-BR
-BR
-BR
-BR
 Qm
-py
-py
+Qm
+YM
+YM
+Qm
+Qm
+fO
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+rw
 py
 py
 py
@@ -46972,26 +47346,26 @@ py
 py
 py
 py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-Qm
-py
-py
+TN
+rw
+TN
+TN
+TN
+rw
+ZG
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Zr
+rw
 py
 py
 py
@@ -47235,19 +47609,19 @@ py
 py
 py
 py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-Qm
-py
+ZG
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Zr
 py
 py
 py
@@ -47492,19 +47866,19 @@ py
 py
 py
 py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
+ZG
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Hc
+Zr
 py
 py
 py
@@ -47749,19 +48123,19 @@ py
 py
 py
 py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
-py
+QS
+jZ
+jZ
+jZ
+jZ
+jZ
+jZ
+jZ
+jZ
+jZ
+jZ
+jZ
+ya
 py
 py
 py

@@ -24,6 +24,24 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
+"aS" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/obj/machinery/reagentgrinder{
+	pixel_y = 10;
+	pixel_x = -2
+	},
+/obj/item/stack/material/phoron{
+	amount = 5;
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/beaker/large,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "aZ" = (
 /obj/structure/railing{
 	dir = 8
@@ -72,6 +90,15 @@
 	dir = 4
 	},
 /turf/simulated/wall/plastitanium,
+/area/centcom/test)
+"br" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/monkeycubes,
+/obj/item/storage/box/monkeycubes{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "bA" = (
 /obj/structure/sign/warning/fire,
@@ -191,6 +218,20 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"dg" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/machinery/computer/med_data/laptop{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "dl" = (
 /obj/machinery/computer/operating,
 /obj/effect/floor_decal/spline/plain{
@@ -210,6 +251,33 @@
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"dr" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 10
+	},
+/obj/structure/dogbed{
+	name = "\improper Fleming's bed"
+	},
+/mob/living/simple_mob/animal/passive/mouse/white/virology,
+/obj/machinery/door/window/eastright{
+	dir = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+06
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = null
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "dD" = (
 /obj/structure/table/rack{
@@ -233,6 +301,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"dE" = (
+/obj/machinery/computer/cloning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "dL" = (
 /obj/machinery/door/blast/regular{
@@ -263,6 +337,24 @@
 /obj/structure/railing/grey{
 	dir = 4
 	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"dZ" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/obj/machinery/reagentgrinder{
+	pixel_y = 10;
+	pixel_x = -2
+	},
+/obj/item/stack/material/phoron{
+	amount = 5;
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/beaker/large,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "eh" = (
@@ -299,6 +391,10 @@
 "ez" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"eB" = (
+/obj/structure/closet/wardrobe/virology_white,
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "eH" = (
 /obj/machinery/suspension_gen,
@@ -389,6 +485,22 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
+"gh" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/syringes{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/box/masks,
+/obj/item/holosign_creator/medical,
+/obj/item/holosign_creator/medical,
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "gi" = (
 /turf/simulated/floor/tiled,
 /area/centcom/test)
@@ -423,10 +535,8 @@
 /turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
 /area/centcom/test)
 "gD" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white/turfpack,
+/obj/structure/window/reinforced/tinted/frosted,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "gF" = (
 /turf/simulated/wall/titanium,
@@ -545,6 +655,26 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/centcom/test)
+"ib" = (
+/obj/machinery/door/airlock/glass_medical{
+	name = "Monkey Pen";
+	req_one_access = null
+	},
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"ig" = (
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/item/folder/white,
+/obj/item/pen,
+/obj/item/gene_scanner,
+/obj/item/gene_scanner{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "il" = (
 /turf/simulated/wall/r_wall,
 /area/centcom/test)
@@ -656,6 +786,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"ku" = (
+/obj/structure/stairs/spawner/west,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "kx" = (
 /obj/machinery/oxygen_pump/anesthetic,
 /turf/simulated/floor/tiled/milspec/sterile/turfpack/pyraxis,
@@ -753,6 +887,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"lm" = (
+/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/floor_decal/corner/lime/border{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/airless,
+/area/centcom/test)
 "lo" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/tool/crowbar,
@@ -830,11 +972,29 @@
 	},
 /turf/simulated/shuttle/floor/voidcraft/light,
 /area/shuttle/drillevator/station)
+"lW" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
+"lY" = (
+/obj/effect/wingrille_spawn/reinforced,
+/obj/machinery/door/firedoor/border_only,
+/turf/simulated/floor,
+/area/centcom/test)
 "lZ" = (
 /obj/machinery/light/floortube{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
+/area/centcom/test)
+"ma" = (
+/obj/machinery/dna_scannernew,
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "mi" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -871,6 +1031,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"mP" = (
+/obj/structure/bed/padded,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "mW" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Phoronics";
@@ -895,6 +1059,12 @@
 	},
 /obj/item/storage/box/trackimp,
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"np" = (
+/obj/structure/window/maintenance_panel{
+	dir = 1
+	},
+/turf/simulated/floor,
 /area/centcom/test)
 "ny" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -976,14 +1146,21 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/plating/turfpack/pyraxis,
 /area/centcom/test)
+"pa" = (
+/obj/structure/closet/secure_closet/personal/patient,
+/turf/simulated/floor/tiled/steel,
+/area/centcom/test)
 "pk" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
+/obj/structure/stairs/spawner/north,
+/obj/structure/railing/grey{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"pm" = (
+/obj/item/roller,
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/steel,
 /area/centcom/test)
 "pp" = (
 /obj/machinery/computer/robotics{
@@ -1066,6 +1243,12 @@
 	},
 /turf/space,
 /area/centcom/test)
+"qe" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
 "qg" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -1104,6 +1287,12 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
+"qL" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "qQ" = (
 /turf/simulated/floor/lino,
 /area/centcom/test)
@@ -1126,6 +1315,10 @@
 "qW" = (
 /turf/simulated/wall/r_lead/turfpack/pyraxis,
 /area/centcom/test)
+"ra" = (
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "ri" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -1135,6 +1328,9 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
+/area/centcom/test)
+"rm" = (
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "rp" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1211,9 +1407,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/centcom/test)
 "si" = (
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/structure/table/glass,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
 	pixel_x = 5;
@@ -1244,15 +1437,10 @@
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "sH" = (
-/obj/machinery/embedded_controller/radio/airlock/access_controller{
-	id_tag = "virology_airlock_control";
-	name = "Virology Access Console";
-	tag_exterior_door = "virology_airlock_exterior";
-	tag_interior_door = "virology_airlock_interior";
-	pixel_y = -32;
+/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/mineral/cave,
+/turf/simulated/floor/grass/turfpack/pyraxis,
 /area/centcom/test)
 "sL" = (
 /obj/machinery/computer/general_air_control/large_tank_control{
@@ -1289,9 +1477,27 @@
 /obj/structure/railing,
 /turf/simulated/floor/lino,
 /area/centcom/test)
+"ta" = (
+/obj/structure/table/standard,
+/obj/item/towel/random,
+/obj/item/towel/random{
+	pixel_x = 6;
+	pixel_y = -5
+	},
+/obj/item/towel/random{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/random/soap,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "ti" = (
 /obj/structure/closet/bombcloset,
 /turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"tj" = (
+/obj/structure/flora/pottedplant/smallcactus,
+/turf/simulated/floor/tiled/steel,
 /area/centcom/test)
 "tn" = (
 /obj/structure/particle_accelerator/particle_emitter/center,
@@ -1304,6 +1510,16 @@
 	pixel_x = 5
 	},
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"tC" = (
+/obj/machinery/shower{
+	dir = 1
+	},
+/obj/structure/curtain/open/shower/medical,
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/kafel_full,
 /area/centcom/test)
 "tE" = (
 /obj/structure/catwalk,
@@ -1518,6 +1734,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
+"vA" = (
+/obj/machinery/computer/pandemic,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "vM" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -1608,6 +1832,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"wH" = (
+/obj/machinery/washing_machine,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "wM" = (
 /obj/structure/closet/walllocker/medical/east,
 /turf/simulated/shuttle/floor/voidcraft/light,
@@ -1642,6 +1870,18 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
+"xa" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
+"xe" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
 "xk" = (
 /obj/effect/floor_decal/stairs/dark_stairs{
 	dir = 8
@@ -1660,9 +1900,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/centcom/test)
 "xw" = (
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/structure/table/glass,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
 	pixel_x = 5;
@@ -1679,6 +1916,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
+/area/centcom/test)
+"xG" = (
+/obj/machinery/door/airlock/medical{
+	name = "Operating Theatre 1";
+	req_access = list(45)
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "xP" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
@@ -1708,6 +1952,11 @@
 	},
 /obj/structure/stairs/spawner/south,
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"ym" = (
+/obj/effect/wingrille_spawn/reinforced,
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/plating,
 /area/centcom/test)
 "yo" = (
 /obj/effect/wingrille_spawn/reinforced,
@@ -1813,6 +2062,10 @@
 "zr" = (
 /obj/machinery/door/airlock/maintenance/rnd,
 /turf/simulated/floor/plating/turfpack/pyraxis,
+/area/centcom/test)
+"zt" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/grass/turfpack/pyraxis,
 /area/centcom/test)
 "zw" = (
 /obj/machinery/vending/cola{
@@ -1933,6 +2186,49 @@
 	},
 /turf/simulated/floor/reinforced/turfpack/pyraxis,
 /area/centcom/test)
+"AY" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/obj/machinery/computer/med_data/laptop{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"AZ" = (
+/obj/machinery/embedded_controller/radio/airlock/access_controller{
+	id_tag = "virology_airlock_control";
+	name = "Virology Access Console";
+	tag_exterior_door = "virology_airlock_exterior";
+	tag_interior_door = "virology_airlock_interior";
+	pixel_y = 0;
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"Ba" = (
+/obj/structure/table/glass,
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/item/extrapolator{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/extrapolator,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_y = 0;
+	pixel_x = 14
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "Bb" = (
 /obj/effect/shuttle_landmark/pyraxis/arrivals/station,
 /turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
@@ -1964,6 +2260,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"Bl" = (
+/obj/structure/window/maintenance_panel{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/centcom/test)
+"Br" = (
+/obj/structure/table/standard,
+/obj/item/pen,
+/obj/item/paper_bin,
+/turf/simulated/floor/tiled/steel,
+/area/centcom/test)
 "Bx" = (
 /obj/machinery/power/smes/buildable{
 	RCon_tag = "Substation - Phoronics"
@@ -1976,6 +2284,10 @@
 	pixel_x = -8
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
+/area/centcom/test)
+"BG" = (
+/obj/structure/closet/l3closet/virology,
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "BK" = (
 /obj/effect/shuttle_landmark/pyraxis/drillevator/station,
@@ -2057,6 +2369,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"CO" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/steel,
+/area/centcom/test)
 "CT" = (
 /obj/machinery/processor,
 /turf/simulated/floor/tiled/white/turfpack,
@@ -2125,6 +2441,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel,
+/area/centcom/test)
+"DN" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "DV" = (
 /obj/machinery/door/airlock/command{
@@ -2236,10 +2558,8 @@
 /turf/simulated/floor,
 /area/centcom/test)
 "Fh" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white/turfpack,
+/mob/living/carbon/human/monkey,
+/turf/simulated/floor/grass/turfpack/pyraxis,
 /area/centcom/test)
 "Fi" = (
 /obj/structure/closet/secure_closet/medical2,
@@ -2286,6 +2606,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"FO" = (
+/obj/machinery/clonepod/full,
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"FR" = (
+/obj/machinery/door/airlock/medical{
+	name = "Operating Theatre 2";
+	req_access = list(45)
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "FW" = (
 /obj/structure/sink{
@@ -2364,6 +2695,15 @@
 /obj/machinery/suit_cycler/engineering{
 	req_access = null;
 	name = "Exploration suit cycler"
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"Hk" = (
+/obj/machinery/computer/pandemic,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
 	},
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
@@ -2449,6 +2789,20 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
+"ID" = (
+/obj/machinery/door/airlock/glass_medical{
+	name = "Virology Showers"
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
+"IF" = (
+/obj/machinery/door/window/northright{
+	name = "Virology Isolation Room";
+	req_access = list(39);
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "IH" = (
 /obj/structure/reagent_dispensers/beerkeg/wine,
 /turf/simulated/floor/lino,
@@ -2471,6 +2825,12 @@
 	id = "QMLoad"
 	},
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"Jt" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "Jx" = (
 /obj/machinery/cryopod{
@@ -2618,6 +2978,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"LG" = (
+/obj/structure/table/standard,
+/obj/machinery/computer/med_data/laptop{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "LY" = (
 /obj/machinery/door/airlock/maintenance/rnd,
 /obj/machinery/door/firedoor/border_only,
@@ -2690,6 +3058,14 @@
 /obj/effect/wingrille_spawn/reinforced_phoron,
 /turf/simulated/floor/plating/turfpack/pyraxis,
 /area/centcom/test)
+"MQ" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = -2
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "MZ" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
@@ -2724,6 +3100,11 @@
 	pixel_x = -2
 	},
 /turf/simulated/floor/tiled/milspec/sterile,
+/area/centcom/test)
+"Nt" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/bluedouble,
+/turf/simulated/floor/tiled/steel,
 /area/centcom/test)
 "Ny" = (
 /obj/structure/table/rack,
@@ -2794,6 +3175,9 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
+"Ol" = (
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
 "Ox" = (
 /turf/simulated/wall/r_wall/turfpack,
 /area/centcom/test)
@@ -2835,6 +3219,19 @@
 /mob/living/simple_mob/slime/xenobio,
 /turf/simulated/floor/reinforced/turfpack/pyraxis,
 /area/centcom/test)
+"PJ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
+"PP" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "PZ" = (
 /obj/structure/sign/warning{
 	desc = "MIND THE GAP. MIND THE GAP. MIND THE GAP. MIND THE GAP.";
@@ -2849,6 +3246,18 @@
 	pixel_x = -8
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
+/area/centcom/test)
+"Qi" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/item/reagent_containers/glass/bottle/mutagen{
+	pixel_y = 9;
+	pixel_x = 7
+	},
+/obj/item/storage/box/monkeycubes,
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "Qo" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -2970,11 +3379,17 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"RX" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
 "RY" = (
-/obj/structure/railing{
+/obj/structure/stairs/spawner/north,
+/obj/structure/railing/grey{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "Sa" = (
@@ -3166,6 +3581,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"Uf" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/grass/turfpack/pyraxis,
+/area/centcom/test)
 "Uh" = (
 /obj/structure/stairs/spawner/south,
 /turf/simulated/floor/tiled/white/turfpack,
@@ -3217,6 +3638,7 @@
 	dir = 2
 	},
 /obj/structure/table/rack,
+/obj/item/anomaly_choice,
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
 "UL" = (
@@ -3232,6 +3654,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"UT" = (
+/obj/structure/closet/secure_closet/personal/patient,
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "Vd" = (
 /obj/machinery/status_display{
@@ -3304,6 +3730,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"Wp" = (
+/obj/machinery/smartfridge/secure/virology,
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "Wq" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -3431,6 +3861,12 @@
 	temperature = 80
 	},
 /area/centcom/test)
+"Yh" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/turfpack,
+/area/centcom/test)
 "Yk" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/techfloor/grid/turfpack/pyraxis,
@@ -3453,11 +3889,17 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
 /area/centcom/test)
+"YE" = (
+/obj/item/roller,
+/obj/structure/table/glass,
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "YF" = (
 /obj/machinery/door/airlock/glass_medical{
 	name = "Genetics Lab";
 	req_access = list(9)
 	},
+/obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "YJ" = (
@@ -3489,6 +3931,14 @@
 	},
 /obj/structure/railing/grey,
 /turf/simulated/floor/tiled/steel_dirty/turfpack/pyraxis,
+/area/centcom/test)
+"Zm" = (
+/obj/machinery/door/airlock/glass_medical{
+	name = "Genetics Isolation Room";
+	req_one_access = null
+	},
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "Zn" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -37002,15 +37452,15 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
 Az
 Az
 Az
@@ -37259,15 +37709,15 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+mP
+rG
+YE
+Ox
+mP
+rG
+YE
+Ox
 Az
 Az
 Az
@@ -37516,15 +37966,15 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+rG
+rG
+rG
+Ox
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -37773,6 +38223,15 @@ Az
 Az
 Az
 Az
+Ox
+rG
+rG
+UT
+Ox
+rG
+rG
+UT
+Ox
 Az
 Az
 Az
@@ -37780,19 +38239,10 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
+Gu
 Az
 Az
 Ox
@@ -38030,6 +38480,15 @@ Az
 Az
 Az
 Az
+Ox
+ym
+IF
+ym
+Ox
+ym
+IF
+ym
+Ox
 Az
 Az
 Az
@@ -38040,17 +38499,8 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Gu
+Gu
 Az
 Ox
 Ox
@@ -38286,32 +38736,32 @@ Az
 Az
 Az
 Az
+Ox
+Ox
+rG
+rG
+rG
+MQ
+rG
+rG
+rG
+Ox
+Ox
 Az
 Az
 Az
+Ox
+Ox
+Ox
+Ox
+Ox
 Az
 Az
+Gu
+Gu
+Gu
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Gu
 Az
 Az
 Az
@@ -38543,32 +38993,32 @@ Az
 Az
 Az
 Az
+Ox
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+gh
+Ox
+Az
+Az
+Az
+Ox
+eB
+MQ
+qL
+Ox
 Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
 Az
 Az
 Az
@@ -38800,32 +39250,32 @@ Az
 Az
 Az
 Az
+Ox
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+ta
+rG
+tC
 Ox
 Ox
 Ox
 Ox
 Ox
 Ox
-Az
+Ox
+Gu
 Az
 Az
 Az
@@ -39057,24 +39507,24 @@ Az
 Az
 Az
 Az
+Ox
+rG
+rG
+rG
+ra
+aS
+Hk
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+wH
+rG
+tC
 Ox
 Ox
 rG
@@ -39082,7 +39532,7 @@ rG
 rG
 rG
 Ox
-Az
+Gu
 Az
 Az
 Az
@@ -39314,32 +39764,32 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Ox
-Ox
-Ox
 Ox
 rG
 rG
 rG
 rG
 rG
+Yh
+dg
+rG
+rG
 Ox
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+ID
+Ox
+Ox
+BG
+rG
+rG
+rG
+rG
+Ox
+Gu
 Az
 Az
 Az
@@ -39571,22 +40021,22 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+rG
+rG
+Wp
+rG
+rG
+rG
+Ba
+rG
+rG
+rG
+rG
+rG
+rG
 Lp
+rG
 rG
 rG
 hp
@@ -39828,22 +40278,22 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+rG
+rG
+dr
+rG
+rG
+rG
+Qi
+rG
+rG
+rG
+rG
+rG
+AZ
 WW
+rG
 rG
 CE
 Ai
@@ -40085,31 +40535,31 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-sH
-Ox
-Ox
-Ox
 Ox
 rG
 rG
 rG
 rG
 rG
+Jt
+AY
+rG
+rG
 Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+BG
+rG
+rG
+rG
+rG
+np
 Gu
 Ox
 Ox
@@ -40342,17 +40792,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+rG
+rG
+rG
+ra
+dZ
+vA
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -40599,17 +41049,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -40856,17 +41306,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+SE
+Ox
 Az
 Az
 Az
@@ -41113,17 +41563,17 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+Ox
+Ox
 Az
 Az
 Az
@@ -41371,15 +41821,15 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Bl
+Ox
+Ox
 Az
 Az
 Az
@@ -41634,12 +42084,12 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
 Az
 Az
 Az
@@ -41893,10 +42343,10 @@ Az
 Az
 Az
 Az
+Gu
+Gu
 Az
-Az
-Az
-Az
+Gu
 Az
 Az
 Az
@@ -42152,8 +42602,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -42170,7 +42620,7 @@ rG
 rG
 Ox
 Ox
-rG
+xG
 Ox
 rG
 rG
@@ -42409,7 +42859,7 @@ Az
 Az
 Az
 Az
-Az
+Gu
 Az
 Az
 Az
@@ -42666,7 +43116,7 @@ Az
 Az
 Az
 Az
-Az
+Gu
 Az
 Az
 Az
@@ -42678,7 +43128,8 @@ Gu
 Gu
 Az
 Ox
-WC
+RY
+dW
 rG
 rG
 rG
@@ -42687,9 +43138,8 @@ rG
 rG
 rG
 rG
-rG
-rG
-Uh
+dW
+Vo
 Ox
 Ox
 Ox
@@ -42923,8 +43373,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -42945,8 +43395,8 @@ rG
 Fx
 rG
 rG
-gD
-gD
+rG
+rG
 Ox
 Lx
 Lx
@@ -42955,7 +43405,7 @@ Lx
 Lx
 Lx
 Ox
-Fc
+Gu
 Az
 Az
 Az
@@ -43179,12 +43629,12 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
 Gu
 Gu
 Az
@@ -43211,8 +43661,8 @@ gi
 gi
 gi
 gi
-Fc
-Fc
+np
+Gu
 Az
 Az
 Az
@@ -43434,14 +43884,14 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
 Gu
 Az
 Az
@@ -43469,7 +43919,7 @@ gi
 gi
 gi
 Ox
-Fc
+Gu
 Az
 Az
 Az
@@ -43518,8 +43968,8 @@ rG
 rG
 rG
 rG
-rG
-Uh
+Xq
+Tg
 Ox
 qW
 TK
@@ -43695,8 +44145,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Gu
@@ -43951,8 +44401,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -43963,8 +44413,8 @@ Ox
 GX
 Zn
 vw
-RY
-pk
+vw
+oP
 rG
 rG
 ry
@@ -43973,8 +44423,8 @@ rG
 lf
 rG
 rG
-Fh
-Fh
+rG
+rG
 Ox
 gk
 gk
@@ -44208,8 +44658,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -44220,7 +44670,8 @@ Ox
 Cc
 oP
 Ox
-WC
+pk
+Xq
 rG
 rG
 rG
@@ -44229,9 +44680,8 @@ rG
 rG
 rG
 rG
-rG
-rG
-Uh
+Xq
+Tg
 Ox
 Ox
 Ox
@@ -44464,8 +44914,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -44721,8 +45171,8 @@ Az
 Az
 Az
 Az
-Az
-Az
+Gu
+Gu
 Az
 Az
 Az
@@ -44740,7 +45190,7 @@ rG
 rG
 Ox
 Ox
-rG
+FR
 Ox
 rG
 rG
@@ -44979,7 +45429,7 @@ Az
 Az
 Az
 Az
-Az
+Gu
 Az
 Az
 Az
@@ -45236,7 +45686,7 @@ Az
 Az
 Az
 Az
-Az
+Gu
 Az
 Az
 Az
@@ -45266,11 +45716,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
 Az
 Az
 Az
@@ -45489,14 +45939,14 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Mt
+Ox
+Ox
+Ox
 Az
 Az
 Az
@@ -45523,11 +45973,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+rm
+rm
+gD
+ku
+Ox
 Az
 Az
 Az
@@ -45746,14 +46196,14 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+LG
+DN
+rG
+rG
+dE
+dE
+Ox
 Az
 Az
 Az
@@ -45780,11 +46230,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+rm
+rm
+gD
+rm
+Ox
 Az
 Az
 Az
@@ -45998,19 +46448,19 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+ig
+rG
+rG
+rG
+rG
+Yh
+Ox
 Az
 Az
 Az
@@ -46037,11 +46487,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+rm
+rm
+rm
+rm
+Ox
 Az
 Az
 Az
@@ -46255,19 +46705,19 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+pa
+CO
+Br
+pm
+lm
+rG
+rG
+rG
+rG
+rG
+rG
+Ox
 Az
 Az
 Az
@@ -46294,11 +46744,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+rm
+rm
+rm
+rm
+Ox
 Az
 Az
 Az
@@ -46512,19 +46962,19 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+OK
+OK
+OK
+OK
+lm
+rG
+rG
+rG
+rG
+FO
+ma
+Ox
 Az
 Az
 Az
@@ -46551,11 +47001,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+rm
+rm
+rm
+rm
+Ox
 Az
 Az
 Az
@@ -46769,19 +47219,19 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+OK
+OK
+OK
+OK
+Zm
+rG
+rG
+rG
+rG
+rG
+rG
+Ox
 Ox
 Ox
 Ox
@@ -46791,7 +47241,7 @@ rG
 rG
 rG
 rG
-Ox
+np
 Gu
 Ox
 Ox
@@ -46808,11 +47258,11 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
+rm
+rm
+rm
+rm
+Ox
 Az
 Az
 Az
@@ -47026,19 +47476,19 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+OK
+OK
+OK
+OK
+lm
+rG
+rG
+rG
+rG
+rG
+rG
+rG
 YF
 rG
 rG
@@ -47283,19 +47733,19 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+tj
+Nt
+tj
+OK
+lm
+br
+rG
+rG
+rG
+PP
+rG
+rG
 YF
 rG
 rG
@@ -47540,19 +47990,19 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+lY
+ib
+lY
+Ox
+Ox
+Ox
 Ox
 Ox
 Ox
@@ -47802,13 +48252,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+RX
+Uf
+lW
+Uf
+PJ
+Ox
 Az
 Az
 Az
@@ -48059,13 +48509,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+sH
+Ol
+Ol
+Fh
+zt
+Ox
 Az
 Az
 Az
@@ -48316,13 +48766,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+sH
+Fh
+Fh
+Ol
+zt
+Ox
 Az
 Az
 Az
@@ -48573,13 +49023,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+xe
+qe
+qe
+qe
+xa
+Ox
 Az
 Az
 Az
@@ -48830,13 +49280,13 @@ Az
 Az
 Az
 Az
-Az
-Az
-Az
-Az
-Az
-Az
-Az
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
 Az
 Az
 Az
