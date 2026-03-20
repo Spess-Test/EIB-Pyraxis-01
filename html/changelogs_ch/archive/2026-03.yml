@@ -260,3 +260,64 @@
   - bugfix: flags some more wall items as what they are
   Kashargul:
   - code_imp: cleans up some minor things in map system
+2026-03-17:
+  Diana:
+  - bugfix: Attempting to move while handcuffed and being pulled will no longer result
+      in a crash.
+  zeskorion:
+  - bugfix: poi active edges
+2026-03-18:
+  ARGUS:
+  - qol: The Task Manager now accepts a significantly larger variety of department
+      objects across all six departments, making it easier to complete a scan without
+      hunting for specific items.
+  - balance: Expanded scannable pools for Bridge, Engineering, Medical, Science, Service,
+      and Security departments.
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: copy slot skipping some values
+  - rscadd: Standard and Exploration Gooborg sprites
+  - rscadd: 'new markings: Skull mask, three lengths of a thin snout variant, thinner
+      lower snout sprites, snout teeth, and a snout-tip horn'
+  - bugfix: circle tattoo unevenness fixed
+  - bugfix: Copy loadout now correctly makes unique metadata entries for gear. So
+      that changing the color on one pair of glasses doesnt affect the ones in your
+      other loadout.
+  Diana:
+  - rscadd: Adds the Caseless Rifle (and its ammo) to the techweb.
+  - qol: Protolathe boards can be made via science protolathe (engineering can make
+      engineering protolathe boards) so if they're ever destroyed, they can be remade.
+  - qol: Protolathe boards can be ordered via cargo if the original science protolathe
+      is ever destroyed.
+  Guti:
+  - qol: Normal anomalies can now be scanned with the anomaly scanner for it's frequencies.
+  - qol: The anomaly scanner will indicate the user to use a releaser, if used on
+      a core.
+  - qol: Added particle descriptions when examining the anomaly scanner.
+  - bugfix: Fixed Anomalis spawning without PDA
+2026-03-19:
+  ARGUS-Memory:
+  - bugfix: Taskmaager coupon code now gives coupons
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: 2 missing parent paths for tall borgs
+  - bugfix: some more gooborgs
+  - bugfix: explo tall parent path
+  - code_imp: migrates more globals to GLOBs
+2026-03-20:
+  ARGUS:
+  - bugfix: Make the juebox volume actually work
+  - bugfix: Using the Morph appearance editor no longer silently deactivates all trait
+      genes, including Morph itself.
+  - bugfix: Changing gender or markings via appearance tools no longer wipes active
+      genetic traits.
+  - bugfix: Handle ! Say emotes properly similiar to * emotes.
+  - rscadd: Adds animation states for command raptor (the thick one)
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: RFID Slot of laptops and tablets actually are considered now for Access
+      Checks and take precedence over equipped Access.
+  - bugfix: some spawn failures
+  - admin: reimplements attack and player logs
+  - code_imp: rids of the old db connection hook... the dbcore subsystem needs to
+      handle it
+  - bugfix: player logs per mob verbs
+  Diana:
+  - bugfix: Zombie powder will no longer permanently cause you to not lose halloss.
