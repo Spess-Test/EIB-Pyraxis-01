@@ -847,6 +847,12 @@
 /obj/item/folder/red,
 /turf/simulated/floor/tiled/red,
 /area/centcom/test)
+"hr" = (
+/obj/machinery/computer/power_monitor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "hs" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/table/marble,
@@ -2184,8 +2190,12 @@
 /turf/simulated/floor/tiled/old_tile/yellow,
 /area/centcom/test)
 "rA" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor/border_only,
+/obj/machinery/computer/general_air_control{
+	frequency = 1441;
+	name = "Tank Monitor";
+	sensors = list("n2_sensor" = "Nitrogen", "o2_sensor" = "Oxygen", "co2_sensor" = "Carbon Dioxide", "tox_sensor" = "Toxins", "n2o_sensor" = "Nitrous Oxide", "mix_sensor" = "Gas Mix Tank");
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
 "rB" = (
@@ -2611,6 +2621,16 @@
 "vv" = (
 /obj/machinery/vending/boozeomat,
 /turf/simulated/wall,
+/area/centcom/test)
+"vy" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger{
+	pixel_x = -5
+	},
+/obj/machinery/recharger{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "vA" = (
 /obj/structure/reagent_dispensers/water_cooler/full{
@@ -4244,6 +4264,12 @@
 	},
 /turf/simulated/floor,
 /area/centcom/test)
+"IT" = (
+/obj/machinery/computer/atmoscontrol{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "IV" = (
 /obj/machinery/rnd/production/protolathe/department/medical,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
@@ -4368,6 +4394,12 @@
 /obj/machinery/reagentgrinder,
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"Kj" = (
+/obj/machinery/computer/atmos_alert{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "Ko" = (
 /obj/item/form_printer{
@@ -5273,10 +5305,22 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"Sj" = (
+/obj/machinery/computer/rcon{
+	dir = 2
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "Sn" = (
 /obj/structure/table/reinforced,
 /obj/item/forensics/sample_kit/powder,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"Sr" = (
+/obj/machinery/computer/station_alert{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "Ss" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -5566,6 +5610,12 @@
 	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/centcom/test)
+"Va" = (
+/obj/machinery/computer/supply_request_computeralt/engineering{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "Vh" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/red,
@@ -5584,6 +5634,13 @@
 	anchored = 1
 	},
 /turf/simulated/floor/wood/turfpack,
+/area/centcom/test)
+"Vn" = (
+/obj/machinery/computer/security/engineering{
+	dir = 2;
+	network = list("Telecommunications","Engine","Substations","Engineering","Atmosphere Alarms","Fire Alarms","Power Alarms","Engineering_outpost")
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "Vr" = (
 /obj/machinery/door/airlock/maintenance/rnd,
@@ -28690,9 +28747,9 @@ AT
 AT
 AT
 CI
+Sj
 AT
-AT
-AT
+hr
 Zt
 Gw
 Gw
@@ -28947,9 +29004,9 @@ AT
 AT
 AT
 CI
+Vn
 AT
-AT
-AT
+Sr
 Zt
 Gw
 Gw
@@ -29203,10 +29260,10 @@ AT
 AT
 AT
 AT
-rA
+CI
+vy
 AT
-AT
-AT
+Va
 Zt
 Gw
 Gw
@@ -29460,10 +29517,10 @@ AT
 AT
 AT
 AT
-rA
+CI
+QN
 AT
-AT
-AT
+QN
 Zt
 Gw
 Gw
@@ -29717,9 +29774,9 @@ AT
 AT
 AT
 AT
-rA
+CI
 AT
-AT
+XA
 AT
 Zt
 Gw
@@ -29974,10 +30031,10 @@ AH
 AT
 AT
 AT
+CI
 rA
-AT
-AT
-AT
+IT
+Kj
 Zt
 Gw
 Gw
