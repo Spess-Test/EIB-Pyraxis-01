@@ -10196,7 +10196,7 @@
 /area/hallway/secondary/engineering_hallway)
 "asj" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
@@ -10232,7 +10232,7 @@
 /obj/structure/sign/warning/acid{
 	pixel_x = -32
 	},
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/machinery/access_button/airlock_exterior{
@@ -10336,7 +10336,7 @@
 /turf/simulated/floor/tiled,
 /area/muriki/tramstation/cargeng)
 "ast" = (
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/structure/cable/green{
@@ -19370,7 +19370,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(10)
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
@@ -22625,7 +22625,7 @@
 	id = "cargolock";
 	name = "Cargo Lockdown"
 	},
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(31,40)
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -24790,7 +24790,7 @@
 /area/crew_quarters/kitchen)
 "cQW" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/machinery/access_button/airlock_exterior{
@@ -25230,7 +25230,7 @@
 	id = "QMLoad2"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1381;
 	icon_state = "door_locked";
 	id_tag = "cargo_bay_door";
@@ -30598,7 +30598,7 @@
 	id = "QMLoad"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1381;
 	icon_state = "door_locked";
 	id_tag = "cargo_bay_door";
@@ -49840,7 +49840,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(19);
 	name = "Command Backup Generator"
 	},
@@ -51235,6 +51235,9 @@
 	},
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
+	},
+/obj/machinery/computer/stockexchange{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
@@ -54338,7 +54341,7 @@
 	icon_state = "2-8"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(10)
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
@@ -54373,7 +54376,7 @@
 /area/rnd/otherlab)
 "mhn" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/machinery/access_button/airlock_exterior{
@@ -54668,7 +54671,7 @@
 /area/quartermaster/foyer)
 "moh" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/machinery/access_button/airlock_exterior{
@@ -67661,7 +67664,7 @@
 /area/muriki/tramstation/waste)
 "qDk" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/machinery/access_button/airlock_exterior{
@@ -67679,7 +67682,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(7,47)
 	},
 /obj/machinery/door/firedoor/glass,
@@ -69603,7 +69606,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(5)
 	},
 /obj/machinery/access_button/airlock_exterior{
@@ -72139,7 +72142,7 @@
 "sbG" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/item/airlock_brace,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(31,48,52)
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -72575,7 +72578,7 @@
 /area/security/brig/drunk)
 "shM" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1381;
 	icon_state = "door_locked";
 	id_tag = "cargo_bay_door";
@@ -79547,7 +79550,7 @@
 /area/muriki/tramstation/civ)
 "use" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/machinery/access_button/airlock_exterior{
@@ -82661,7 +82664,7 @@
 /area/rnd/hallway/main)
 "vpr" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = null
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
@@ -84148,7 +84151,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(1,52);
 	frequency = 1379
 	},
@@ -86409,7 +86412,7 @@
 /turf/simulated/floor/tiled/milspec,
 /area/engineering/storage)
 "wsV" = (
-/obj/machinery/door/airlock/glass_external/freezable{
+/obj/machinery/door/airlock/glass_external{
 	req_one_access = list(10);
 	name = "Septic Tank Access"
 	},
@@ -91960,7 +91963,7 @@
 	},
 /obj/machinery/computer/prisoner{
 	dir = 8;
-	pixel_x = 4
+	pixel_x = 5
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/hos)
