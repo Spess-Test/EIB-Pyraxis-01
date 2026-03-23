@@ -12,6 +12,7 @@
 		#include "pyraxis-04-upper.dmm"
 		#include "pyraxis-05-rooftops.dmm"
 		#include "pyraxis-06-tippytop.dmm"
+		#include "pyraxis-07-asteroid.dmm"
 	#endif
 
 	#include "pyraxis_lateload.dm"
