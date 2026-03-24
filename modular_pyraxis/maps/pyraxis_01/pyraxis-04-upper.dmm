@@ -2194,7 +2194,7 @@
 /turf/simulated/floor/tiled/dark/turfpack/pyraxis,
 /area/centcom/test)
 "Ic" = (
-/turf/simulated/mineral/alt/turfpack/pyraxis,
+/turf/simulated/mineral/ignore_cavegen,
 /area/centcom/test)
 "Id" = (
 /obj/structure/bed/chair/bay{

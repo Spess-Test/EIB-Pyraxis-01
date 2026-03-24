@@ -12,6 +12,19 @@
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/centcom/test)
+"ah" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "an" = (
 /obj/structure/table/standard,
 /obj/item/storage/rollingpapers,
@@ -41,6 +54,25 @@
 	},
 /turf/simulated/floor/carpet/sblucarpet/turfpack/pyraxis,
 /area/centcom/test)
+"au" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/airlock/glass_engineering{
+	name = "Engineering Mail Outlet"
+	},
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "av" = (
 /obj/machinery/gibber,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
@@ -54,6 +86,27 @@
 "aB" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"aC" = (
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"aD" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/item/stool/padded,
+/obj/effect/landmark/start{
+	name = "Roboticist"
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "aF" = (
 /obj/machinery/hologram/holopad,
@@ -149,6 +202,23 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"bf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/loading,
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "bg" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -220,6 +290,38 @@
 	},
 /turf/simulated/floor/outdoors/grass/heavy,
 /area/centcom/test)
+"bG" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"bH" = (
+/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"bJ" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 26;
+	pixel_y = 27
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "ca" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -252,9 +354,30 @@
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
+"cj" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/spray/cleaner,
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "ck" = (
 /obj/structure/stairs/spawner/north,
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"cm" = (
+/obj/machinery/computer/mecha{
+	dir = 8;
+	pixel_x = 5
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "cp" = (
 /obj/structure/flora/pottedplant/decorative,
@@ -361,6 +484,18 @@
 /obj/item/clothing/glasses/hud/security,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"dr" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 1
+	},
+/obj/machinery/camera/network/engineering{
+	c_tag = "ENG - Robotics North"
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "dt" = (
 /obj/structure/stairs/spawner/east,
 /obj/structure/window/reinforced/tinted{
@@ -369,12 +504,84 @@
 /obj/structure/railing/grey,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"du" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "dz" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
+/area/centcom/test)
+"dA" = (
+/obj/structure/closet{
+	name = "materials"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 1
+	},
+/obj/item/stack/material/plastic{
+	max_amount = 25
+	},
+/obj/item/stack/material/plastic{
+	max_amount = 25
+	},
+/obj/item/stack/material/copper{
+	amount = 25
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "dB" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -387,6 +594,18 @@
 /area/centcom/test)
 "dE" = (
 /turf/simulated/floor/plating/turfpack/pyraxis,
+/area/centcom/test)
+"dG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "dH" = (
 /obj/structure/sink/kitchen{
@@ -414,6 +633,17 @@
 	},
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
 /area/centcom/test)
+"dW" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "dZ" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/carpet/purcarpet,
@@ -423,6 +653,18 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/purcarpet,
+/area/centcom/test)
+"ei" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "ej" = (
 /obj/machinery/photocopier,
@@ -437,6 +679,13 @@
 	},
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
 /area/centcom/test)
+"eo" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/cable/green,
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/plating,
+/area/centcom/test)
 "er" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/border_only,
@@ -447,6 +696,20 @@
 /obj/item/material/kitchen/rollingpin,
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"eu" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 4
+	},
+/obj/item/borg/upgrade/utility/reset,
+/obj/item/borg/upgrade/utility/reset,
+/obj/item/borg/upgrade/utility/reset,
+/obj/item/sticky_pad/random{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "ev" = (
 /obj/structure/bed/chair/office/dark,
@@ -476,9 +739,38 @@
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"eA" = (
+/obj/machinery/computer/mecha,
+/turf/simulated/floor/tiled,
+/area/centcom/test)
+"eB" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals_central7{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "eD" = (
 /obj/structure/table/hardwoodtable,
 /turf/simulated/floor/wood/alt/parquet,
+/area/centcom/test)
+"eI" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "eJ" = (
 /obj/structure/railing/grey{
@@ -519,6 +811,16 @@
 /obj/structure/table/reinforced,
 /obj/machinery/chemical_dispenser/full,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"ff" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "fh" = (
 /obj/machinery/icecream_vat,
@@ -593,6 +895,11 @@
 "fA" = (
 /obj/effect/floor_decal/industrial/danger/corner,
 /turf/simulated/floor/outdoors/sidewalk/side/turfpack,
+/area/centcom/test)
+"fB" = (
+/obj/machinery/mecha_part_fabricator_tg/prosthetics,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "fC" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -692,6 +999,14 @@
 "ge" = (
 /turf/simulated/floor/carpet,
 /area/centcom/test)
+"gh" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/centcom/test)
 "gi" = (
 /obj/machinery/computer/power_monitor,
 /turf/simulated/floor/tiled,
@@ -715,6 +1030,67 @@
 	},
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"gm" = (
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/healthanalyzer,
+/obj/item/healthanalyzer,
+/obj/item/healthanalyzer,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/structure/closet{
+	name = "robotics parts"
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
+"gn" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/steel_reinforced,
+/obj/item/robotanalyzer,
+/obj/item/robotanalyzer,
+/obj/item/mmi/digital/robot,
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "go" = (
 /obj/structure/table/standard,
@@ -760,6 +1136,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/sblucarpet,
+/area/centcom/test)
+"gK" = (
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/wingrille_spawn/reinforced,
+/turf/simulated/floor/plating,
 /area/centcom/test)
 "gL" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
@@ -810,6 +1191,13 @@
 /area/centcom/test)
 "hf" = (
 /turf/simulated/wall/solidrock,
+/area/centcom/test)
+"hi" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "hk" = (
 /turf/simulated/floor/water/deep/turfpack/pyraxis,
@@ -873,6 +1261,21 @@
 	},
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
 /area/centcom/test)
+"hx" = (
+/obj/structure/cable/green{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "hz" = (
 /obj/structure/bed/chair/sofa/bench/right,
 /turf/simulated/floor/outdoors/sidewalk/slab/turfpack/pyraxis,
@@ -894,6 +1297,24 @@
 	},
 /turf/simulated/floor/outdoors/sidewalk/side/turfpack,
 /area/centcom/test)
+"hL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "hM" = (
 /obj/item/analyzer,
 /turf/simulated/floor/plating/external/turfpack/muriki,
@@ -907,6 +1328,16 @@
 	dir = 10
 	},
 /turf/simulated/floor/carpet/oracarpet,
+/area/centcom/test)
+"hO" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 1;
+	icon_state = "pipe-j2"
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "hR" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -927,9 +1358,48 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"ie" = (
+/obj/structure/table/standard,
+/obj/item/mmi,
+/obj/item/mmi,
+/obj/item/mmi,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "ih" = (
 /obj/machinery/chemical_analyzer,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"ik" = (
+/obj/effect/floor_decal/industrial/warning{
+	layer = 3
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"il" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = -30;
+	pixel_y = 9
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "iy" = (
 /obj/effect/floor_decal/industrial/danger{
@@ -948,6 +1418,10 @@
 	override_name = 1
 	},
 /turf/simulated/floor/carpet/sblucarpet/turfpack/pyraxis,
+/area/centcom/test)
+"iA" = (
+/obj/machinery/door/airlock/maintenance/medical,
+/turf/simulated/floor,
 /area/centcom/test)
 "iB" = (
 /obj/machinery/computer/secure_data{
@@ -992,11 +1466,23 @@
 /obj/machinery/appliance/mixer/cereal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"iM" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/purple/border,
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "iP" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"iQ" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "iU" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
@@ -1007,6 +1493,16 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"iW" = (
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/mecha_part_fabricator_tg,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "iX" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8
@@ -1015,6 +1511,17 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
+/area/centcom/test)
+"jb" = (
+/obj/effect/floor_decal/industrial/warning{
+	layer = 3;
+	dir = 1
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "jg" = (
 /obj/structure/table/rack,
@@ -1055,6 +1562,17 @@
 "jn" = (
 /obj/machinery/honey_extractor,
 /turf/simulated/floor/tiled/hydro,
+/area/centcom/test)
+"jo" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/loading,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "jq" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -1100,6 +1618,28 @@
 "jI" = (
 /obj/structure/window/reinforced/tinted,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"jJ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/obj/machinery/light_switch{
+	pixel_x = -36
+	},
+/obj/structure/cable/green,
+/obj/machinery/button/holosign{
+	id = "roboton";
+	name = "Roboticist on duty sign";
+	pixel_x = -35;
+	pixel_y = 9
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "jL" = (
 /obj/structure/cable/yellow{
@@ -1177,6 +1717,16 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"kf" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "kg" = (
 /obj/machinery/recharge_station,
 /turf/simulated/floor/tiled,
@@ -1195,6 +1745,15 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
+/area/centcom/test)
+"kj" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "kk" = (
 /obj/machinery/computer/supply_request_computeralt/research{
@@ -1247,6 +1806,12 @@
 	},
 /turf/simulated/floor/outdoors/grass/heavy,
 /area/centcom/test)
+"kw" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "kF" = (
 /obj/structure/table/standard,
 /obj/item/weldingtool,
@@ -1254,6 +1819,8 @@
 	pixel_y = -5;
 	pixel_x = -5
 	},
+/obj/item/robotanalyzer,
+/obj/item/robotanalyzer,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "kH" = (
@@ -1353,6 +1920,12 @@
 	},
 /turf/simulated/floor/wood/turfpack,
 /area/centcom/test)
+"lr" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "ls" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
@@ -1391,7 +1964,7 @@
 /area/centcom/test)
 "ly" = (
 /obj/structure/waterfall/top,
-/turf/simulated/mineral/alt/turfpack/pyraxis,
+/turf/simulated/mineral/ignore_cavegen,
 /area/centcom/test)
 "lA" = (
 /obj/structure/cable/yellow{
@@ -1443,6 +2016,18 @@
 	},
 /turf/simulated/floor/outdoors/sidewalk/slab/turfpack/pyraxis,
 /area/centcom/test)
+"mb" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/item/flag/eshui,
+/obj/machinery/camera/network/engineering{
+	c_tag = "ENG - Robotics South";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
 "mc" = (
 /obj/structure/table/standard,
 /obj/item/towel{
@@ -1488,6 +2073,16 @@
 	},
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"mh" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "mn" = (
 /obj/machinery/door/airlock/glass,
@@ -1593,6 +2188,25 @@
 /obj/item/tape_roll,
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
+"nf" = (
+/obj/machinery/firealarm{
+	pixel_y = 26
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/fiftyspawner/plastic,
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"nh" = (
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/carpet/oracarpet,
+/area/centcom/test)
 "ni" = (
 /obj/structure/window/reinforced{
 	health = 1e+006
@@ -1691,6 +2305,14 @@
 /obj/structure/table/standard,
 /obj/item/storage/rollingpapers/blunt,
 /turf/simulated/floor/tiled/hydro,
+/area/centcom/test)
+"nL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "nN" = (
 /obj/structure/bed/chair/office/dark{
@@ -1796,6 +2418,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"ol" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "om" = (
 /obj/structure/table/rack,
 /obj/item/storage/briefcase/crimekit,
@@ -1894,11 +2519,44 @@
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"pa" = (
+/obj/structure/table/rack,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "pb" = (
 /obj/structure/bed/chair/wood{
 	dir = 1
 	},
 /turf/simulated/floor/wood/turfpack,
+/area/centcom/test)
+"pd" = (
+/obj/machinery/light_switch{
+	pixel_x = -28;
+	pixel_y = 28
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "pi" = (
 /turf/simulated/floor/tiled/milspec,
@@ -1986,6 +2644,16 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"pP" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 1;
+	icon_state = "pipe-j2"
+	},
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
 "pV" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -2024,6 +2692,16 @@
 	},
 /turf/simulated/floor/wood/turfpack,
 /area/centcom/test)
+"qd" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/item/mmi,
+/obj/item/mmi,
+/obj/item/denecrotizer/medical,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "qe" = (
 /obj/structure/table/marble,
 /obj/effect/floor_decal/corner/black/diagonal,
@@ -2042,6 +2720,21 @@
 "qk" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"qp" = (
+/obj/machinery/rnd/production/circuit_imprinter,
+/obj/item/radio/intercom{
+	dir = 1;
+	name = "Station Intercom (General)";
+	pixel_y = 21
+	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "qq" = (
 /obj/structure/table/standard,
@@ -2079,6 +2772,62 @@
 	name = "Toilet"
 	},
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"qx" = (
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/healthanalyzer,
+/obj/item/healthanalyzer,
+/obj/item/healthanalyzer,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/machinery/light,
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/purple/border,
+/obj/structure/closet{
+	name = "robotics parts"
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "qy" = (
 /obj/machinery/papershredder,
@@ -2127,6 +2876,22 @@
 /obj/item/clothing/suit/storage/hooded/wintercoat,
 /obj/item/clothing/suit/storage/hooded/wintercoat,
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"re" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/vending/wallmed1/public{
+	dir = 8;
+	pixel_x = 30
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/machinery/camera/network/engineering{
+	c_tag = "ENG - Robotics East";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "rg" = (
 /obj/structure/railing/grey{
@@ -2249,6 +3014,13 @@
 	},
 /turf/simulated/floor/outdoors/grass/heavy,
 /area/centcom/test)
+"si" = (
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 1
+	},
+/obj/machinery/mecha_part_fabricator_tg/prosthetics,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "sj" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/glass_mining{
@@ -2282,12 +3054,18 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/centcom/test)
+"sC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "sG" = (
 /obj/machinery/door/airlock/medical,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "sH" = (
-/turf/simulated/mineral/alt/turfpack/pyraxis,
+/turf/simulated/mineral/ignore_cavegen,
 /area/centcom/test)
 "sJ" = (
 /obj/effect/floor_decal/carpet{
@@ -2309,6 +3087,12 @@
 	},
 /turf/simulated/floor/wood/turfpack,
 /area/centcom/test)
+"sN" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "sP" = (
 /obj/machinery/appliance/cooker/grill,
 /obj/effect/floor_decal/corner/black/diagonal,
@@ -2321,6 +3105,28 @@
 "sT" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"sX" = (
+/obj/structure/closet/wardrobe/robotics_black,
+/obj/item/radio/headset/headset_sci{
+	pixel_x = -3
+	},
+/obj/item/radio/headset/headset_sci{
+	pixel_x = -3
+	},
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/purple/border,
+/obj/effect/floor_decal/borderfloorwhite/corner2{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/purple/bordercorner2{
+	dir = 9
+	},
+/obj/machinery/camera/network/research{
+	c_tag = "SCI - Robotics Port";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "sZ" = (
 /obj/effect/landmark/start{
@@ -2364,6 +3170,39 @@
 "tg" = (
 /obj/machinery/telepad,
 /turf/simulated/floor/reinforced,
+/area/centcom/test)
+"tj" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"tk" = (
+/obj/structure/table/standard,
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/pen,
+/obj/item/pen/red,
+/obj/item/pen/blue,
+/obj/machinery/requests_console{
+	department = "Robotics";
+	departmentType = 2;
+	name = "Robotics RC";
+	pixel_y = 30
+	},
+/obj/item/reagent_containers/glass/beaker/sulphuric,
+/obj/item/hand_labeler,
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "ts" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -2416,6 +3255,20 @@
 	},
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/white,
+/area/centcom/test)
+"tO" = (
+/obj/structure/table/rack/shelf,
+/obj/item/storage/belt/utility,
+/obj/item/storage/belt/utility,
+/obj/item/multitool{
+	pixel_x = 3
+	},
+/obj/item/tool/crowbar,
+/obj/item/tool/crowbar,
+/obj/item/multitool{
+	pixel_x = 3
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "tP" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
@@ -2486,11 +3339,41 @@
 /obj/random/medical,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"us" = (
+/obj/structure/bed/chair/office/light{
+	dir = 4
+	},
+/obj/effect/landmark/start{
+	name = "Roboticist"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"uv" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "uC" = (
 /obj/structure/bed/chair/sofa/corp/left{
 	dir = 4
 	},
 /turf/simulated/floor/wood/turfpack,
+/area/centcom/test)
+"uG" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "uJ" = (
 /obj/structure/closet/crate/freezer,
@@ -2542,6 +3425,12 @@
 "uW" = (
 /turf/simulated/floor/lino,
 /area/centcom/test)
+"uZ" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/oracarpet,
+/area/centcom/test)
 "va" = (
 /obj/effect/floor_decal/carpet,
 /turf/simulated/floor/carpet/oracarpet,
@@ -2592,6 +3481,17 @@
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/centcom/test)
+"vu" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/obj/structure/table/standard,
+/obj/item/paper_bin{
+	pixel_y = 3
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "vv" = (
 /obj/machinery/vending/boozeomat,
 /turf/simulated/wall,
@@ -2630,12 +3530,37 @@
 /obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
+"vL" = (
+/obj/structure/bed/chair/office/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "vO" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Research and Development"
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"vS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals_central7{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "vV" = (
 /obj/machinery/mech_recharger,
@@ -2680,6 +3605,21 @@
 "wn" = (
 /turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
 /area/centcom/test)
+"wp" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/flash,
+/obj/item/flash{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/item/flash,
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "wr" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/outdoors/dirt,
@@ -2702,6 +3642,32 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"wy" = (
+/obj/effect/floor_decal/techfloor/orange/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/orange/corner{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -28;
+	pixel_y = 27
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "wJ" = (
 /obj/structure/table/wooden_reinforced,
@@ -2734,6 +3700,26 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
+/area/centcom/test)
+"xc" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/purple/border,
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
+"xh" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"xi" = (
+/obj/machinery/recharge_station,
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "xl" = (
 /obj/machinery/door/airlock/glass_mining{
@@ -2839,12 +3825,24 @@
 /obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/tiled/hydro,
 /area/centcom/test)
+"yv" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "yA" = (
 /obj/machinery/door/airlock/medical{
 	name = "Cryogenics"
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"yC" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "yE" = (
 /obj/effect/floor_decal/corner/black/diagonal,
@@ -2872,6 +3870,19 @@
 	network = list("Telecommunications","Engine","Substations","Engineering","Atmosphere Alarms","Fire Alarms","Power Alarms","Engineering_outpost")
 	},
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"yS" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "yT" = (
 /obj/effect/floor_decal/corner/black/diagonal,
@@ -2913,6 +3924,12 @@
 "zj" = (
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"zm" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/oracarpet,
 /area/centcom/test)
 "zo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -3068,6 +4085,13 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"Ai" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Aj" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
@@ -3105,6 +4129,17 @@
 "AF" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/outdoors/grass/heavy,
+/area/centcom/test)
+"AG" = (
+/obj/structure/table/standard,
+/obj/machinery/computer/med_data/laptop,
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "AH" = (
 /obj/machinery/medical_kiosk,
@@ -3178,6 +4213,18 @@
 	},
 /turf/simulated/floor/outdoors/grass/heavy,
 /area/centcom/test)
+"Ba" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 1
+	},
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "Be" = (
 /obj/structure/bed/chair/sofa/corp/left,
 /turf/simulated/floor/wood/turfpack,
@@ -3197,6 +4244,24 @@
 /obj/item/storage/box/gloves,
 /obj/item/storage/box/evidence,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"Bp" = (
+/obj/machinery/mech_recharger,
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/machinery/button/windowtint/multitint{
+	id = "robotbehold";
+	pixel_x = 25;
+	pixel_y = 4
+	},
+/obj/machinery/button/holosign{
+	id = "robotsign";
+	name = "robotics holosign switch";
+	pixel_x = 32;
+	pixel_y = 5
+	},
+/turf/simulated/floor/greengrid,
 /area/centcom/test)
 "Bq" = (
 /obj/structure/bed/chair/office/dark,
@@ -3230,6 +4295,10 @@
 /obj/item/multitool,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"Bv" = (
+/obj/machinery/door/airlock/glass_engineering,
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "Bw" = (
 /obj/item/stool/baystool/padded{
 	dir = 4
@@ -3260,6 +4329,18 @@
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/old_tile/yellow,
 /area/centcom/test)
+"BH" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
+"BI" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "BJ" = (
 /obj/machinery/door/airlock/freezer{
 	name = "Kitchen cold room";
@@ -3267,6 +4348,17 @@
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"BK" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"BO" = (
+/obj/effect/landmark/redspaceexit,
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "BQ" = (
 /obj/structure/table/hardwoodtable,
@@ -3278,6 +4370,18 @@
 	pixel_x = -4
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"BS" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "BU" = (
 /obj/structure/bed/chair/wood{
@@ -3337,6 +4441,33 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
+"Ci" = (
+/obj/effect/floor_decal/techfloor/orange,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/machinery/door/airlock/glass_engineering{
+	req_one_access = list(10,29,52,56);
+	name = "Synthetic Surgery"
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/glass,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "Cn" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1
@@ -3353,6 +4484,36 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"Cr" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/machinery/button/remote/blast_door{
+	dir = 1;
+	id = "mechbay";
+	name = "Mechbay Door";
+	pixel_x = 26;
+	req_one_access = list(10,29);
+	pixel_y = -26
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_x = 33;
+	pixel_y = -28
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/eshui/emblem/eshui_r,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"Cu" = (
+/obj/machinery/mecha_part_fabricator_tg/prosthetics,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"Cw" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "Cx" = (
 /obj/structure/closet/crate/trashcart,
@@ -3389,6 +4550,27 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"CE" = (
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/purple/border,
+/obj/structure/closet{
+	name = "welding equipment"
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "CH" = (
 /obj/machinery/shower{
@@ -3456,6 +4638,34 @@
 /obj/effect/floor_decal/industrial/stand_clear,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"Db" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
+"Dg" = (
+/obj/structure/bed/chair/office/light{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/effect/landmark/start{
+	name = "Roboticist"
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "Dl" = (
 /obj/structure/fence{
 	dir = 4
@@ -3467,6 +4677,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/turfpack/pyraxis,
+/area/centcom/test)
+"Dp" = (
+/obj/effect/floor_decal/milspec/color/orange/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "Dq" = (
 /obj/structure/table/reinforced,
@@ -3516,6 +4737,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"Dw" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "Dy" = (
 /obj/structure/railing{
@@ -3576,6 +4801,13 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled/old_cargo/white,
+/area/centcom/test)
+"Ee" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "Ef" = (
 /obj/structure/table/marble,
@@ -3731,6 +4963,19 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/reinforced,
 /area/centcom/test)
+"Fa" = (
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 1
+	},
+/obj/structure/table/standard,
+/obj/machinery/recharger{
+	pixel_x = -5
+	},
+/obj/machinery/recharger{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Fb" = (
 /obj/effect/floor_decal/corner/black/diagonal,
 /obj/machinery/appliance/mixer/candy,
@@ -3761,6 +5006,12 @@
 /obj/item/uv_light,
 /obj/item/clothing/gloves/sterile/latex,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"Fm" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "Fn" = (
 /obj/machinery/disposal/wall{
@@ -3859,6 +5110,16 @@
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/centcom/test)
+"FZ" = (
+/obj/machinery/disposal/mail_reciever{
+	name = "disposal mail destination(Robotics)"
+	},
+/obj/effect/floor_decal/milspec/color/orange/corner,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Gc" = (
 /obj/structure/bed/chair/sofa/corp/left{
 	dir = 1
@@ -3870,6 +5131,16 @@
 	dir = 6
 	},
 /turf/simulated/floor/outdoors/grass/heavy,
+/area/centcom/test)
+"Gl" = (
+/obj/effect/floor_decal/milspec/color/orange/half,
+/obj/item/juke_remote{
+	autolinkareajuke_onspawn = /area/djstation
+	},
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "Gm" = (
 /obj/structure/railing/grey{
@@ -4001,6 +5272,10 @@
 	name = "Bar Shutters"
 	},
 /turf/simulated/floor/lino,
+/area/centcom/test)
+"Ho" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "Hr" = (
 /obj/structure/cable/yellow{
@@ -4136,6 +5411,31 @@
 	pixel_y = -26
 	},
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"Iu" = (
+/obj/machinery/recharge_station,
+/obj/effect/floor_decal/industrial/warning{
+	layer = 3;
+	dir = 1
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"Iv" = (
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/wingrille_spawn/reinforced,
+/obj/machinery/holosign/robotics{
+	id = "roboton"
+	},
+/turf/simulated/floor/plating,
+/area/centcom/test)
+"Iz" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "IB" = (
 /obj/structure/sink{
@@ -4291,6 +5591,19 @@
 /obj/structure/target_stake,
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
+"JP" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/machinery/recharger{
+	pixel_x = -5
+	},
+/obj/machinery/recharger{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "JQ" = (
 /obj/structure/table/wooden_reinforced,
 /obj/item/taperecorder{
@@ -4315,6 +5628,11 @@
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/old_tile/yellow,
 /area/centcom/test)
+"JV" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/centcom/test)
 "JW" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/o2{
@@ -4336,6 +5654,22 @@
 	},
 /turf/simulated/open,
 /area/centcom/test)
+"Kg" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/mmi/digital/posibrain,
+/obj/item/robotanalyzer,
+/obj/item/robotanalyzer,
+/obj/item/robotanalyzer,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "Kh" = (
 /obj/structure/table/marble,
 /obj/machinery/reagentgrinder,
@@ -4356,6 +5690,12 @@
 /obj/structure/table/wooden_reinforced,
 /turf/simulated/floor/lino,
 /area/centcom/test)
+"Kq" = (
+/obj/effect/landmark/start{
+	name = "Roboticist"
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Kr" = (
 /obj/machinery/computer/transhuman/resleeving,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
@@ -4366,6 +5706,12 @@
 /area/centcom/test)
 "Kx" = (
 /turf/simulated/wall/solidrock/turfpack/station,
+/area/centcom/test)
+"KC" = (
+/obj/structure/cable/green{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "KG" = (
 /obj/structure/closet/crate,
@@ -4385,6 +5731,17 @@
 	},
 /turf/simulated/floor/carpet/brown/turfpack/pyraxis,
 /area/centcom/test)
+"KM" = (
+/obj/machinery/vending/robotics{
+	dir = 1
+	},
+/obj/effect/floor_decal/milspec/color/orange/half,
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "KP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/eastleft{
@@ -4402,6 +5759,14 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"KQ" = (
+/obj/structure/table/standard,
+/obj/item/book/manual/robotics_cyborgs{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "KR" = (
 /obj/structure/closet/crate/science,
 /obj/item/bluespace_crystal,
@@ -4417,13 +5782,11 @@
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
 "KV" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 1
+/obj/machinery/door/airlock/glass_engineering{
+	req_one_access = list(10,29,52,56);
+	name = "Robotics"
 	},
-/obj/structure/bed/chair/bay/chair/padded/yellow{
-	dir = 2
-	},
-/turf/simulated/floor/carpet/oracarpet,
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "KX" = (
 /obj/effect/floor_decal/spline/plain,
@@ -4490,6 +5853,67 @@
 	},
 /turf/simulated/floor/plating/external/turfpack/muriki,
 /area/centcom/test)
+"Lz" = (
+/obj/structure/closet{
+	name = "materials"
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"LD" = (
+/obj/machinery/mech_recharger,
+/obj/effect/floor_decal/industrial/warning{
+	layer = 3;
+	dir = 1
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/turf/simulated/floor/greengrid,
+/area/centcom/test)
 "LG" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/carpet/oracarpet,
@@ -4529,6 +5953,21 @@
 	req_access = list(5)
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"LR" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 1
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "LS" = (
 /obj/effect/wingrille_spawn/reinforced/polarized{
@@ -4649,6 +6088,10 @@
 "Mq" = (
 /turf/simulated/floor/water,
 /area/centcom/test)
+"Mr" = (
+/obj/machinery/mecha_part_fabricator_tg/prosthetics,
+/turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
 "MA" = (
 /obj/structure/prop/statue/pillar,
 /obj/structure/prop/statue/lion{
@@ -4671,6 +6114,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/alt/parquet,
+/area/centcom/test)
+"MH" = (
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/monotile,
 /area/centcom/test)
 "MJ" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -4699,6 +6147,23 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"MT" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/camera/network/engineering{
+	c_tag = "ENG - Robotics West";
+	dir = 4
+	},
+/obj/machinery/doorbell_chime{
+	id_tag = "engdinger";
+	name = "Engineering Dinger";
+	pixel_x = -30
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "MW" = (
 /obj/structure/bed/chair/office/light{
 	dir = 4
@@ -4720,6 +6185,16 @@
 	dir = 8
 	},
 /turf/simulated/open,
+/area/centcom/test)
+"Nb" = (
+/obj/structure/table/standard,
+/obj/machinery/recharger{
+	pixel_x = -5
+	},
+/obj/machinery/recharger{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "Nf" = (
 /obj/structure/table/rack,
@@ -4847,6 +6322,21 @@
 /obj/structure/railing,
 /turf/simulated/open,
 /area/centcom/test)
+"Od" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Of" = (
 /obj/machinery/vending/coffee,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -4915,6 +6405,10 @@
 	},
 /turf/simulated/floor/lino,
 /area/centcom/test)
+"Oz" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "OA" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/item/storage/fancy/egg_box,
@@ -4948,6 +6442,13 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"OL" = (
+/obj/effect/floor_decal/industrial/warning{
+	layer = 3
+	},
+/obj/effect/floor_decal/industrial/loading,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "OM" = (
 /obj/structure/table/marble,
 /obj/item/reagent_containers/dropper,
@@ -4974,9 +6475,47 @@
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"OZ" = (
+/obj/machinery/autolathe,
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
+"Ph" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/effect/catwalk_plated/techfloor,
+/turf/simulated/floor/plating,
+/area/centcom/test)
 "Pi" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/outdoors/grass/heavy,
+/area/centcom/test)
+"Pk" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "Pm" = (
 /obj/effect/wingrille_spawn/reinforced,
@@ -5003,11 +6542,10 @@
 /turf/simulated/floor/tiled,
 /area/centcom/test)
 "PO" = (
-/obj/effect/floor_decal/spline/plain,
-/obj/structure/bed/chair/bay/chair/padded/yellow{
-	dir = 1
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
 	},
-/turf/simulated/floor/carpet/oracarpet,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "PQ" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
@@ -5037,6 +6575,16 @@
 	},
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
 /area/centcom/test)
+"PY" = (
+/obj/machinery/recharge_station,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
 "Qa" = (
 /obj/structure/toilet,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
@@ -5056,6 +6604,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/outdoors/sidewalk/slab/turfpack/pyraxis,
+/area/centcom/test)
+"Qk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "Ql" = (
 /obj/machinery/door/airlock/glass{
@@ -5157,6 +6710,13 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/wood/turfpack,
 /area/centcom/test)
+"Ro" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "Rr" = (
 /obj/structure/railing,
 /turf/simulated/floor/tiled/dark,
@@ -5197,12 +6757,52 @@
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/hydro,
 /area/centcom/test)
+"RI" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"RJ" = (
+/obj/structure/table/standard,
+/obj/item/extinguisher/mini,
+/obj/item/extinguisher/mini,
+/obj/item/extinguisher/mini,
+/obj/item/flash,
+/obj/item/flash,
+/obj/item/flash,
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "RK" = (
 /obj/machinery/door/airlock/glass{
 	name = "Engineering Access"
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"RO" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "RQ" = (
 /obj/structure/bed/chair/sofa/bench/right{
@@ -5232,6 +6832,15 @@
 "Sa" = (
 /turf/simulated/open,
 /area/centcom/test)
+"Sc" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor/glass,
+/obj/machinery/door/window/eastleft{
+	name = "Robotics Desk";
+	req_access = list(29)
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "Sd" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	name = "Operating Theatre 1";
@@ -5258,10 +6867,61 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"Sk" = (
+/obj/structure/table/rack/shelf,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled,
+/area/centcom/test)
+"Sm" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/table/standard,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/item/radio/intercom{
+	dir = 1;
+	name = "Station Intercom (General)";
+	pixel_y = 21
+	},
+/obj/item/toy/plushie/borgplushie/scrubpuppy{
+	name = "Quimby";
+	pixel_y = 5;
+	pixel_x = 7;
+	desc = "An adorable stuffed toy of a familiar robot!"
+	},
+/obj/machinery/cell_charger,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/centcom/test)
 "Sn" = (
 /obj/structure/table/reinforced,
 /obj/item/forensics/sample_kit/powder,
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
+/area/centcom/test)
+"Sp" = (
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/structure/closet{
+	name = "welding equipment"
+	},
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "Sr" = (
 /obj/machinery/computer/station_alert{
@@ -5336,6 +6996,15 @@
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/carpet/sblucarpet,
 /area/centcom/test)
+"Ts" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/eshui/emblem/eshui_l,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
 "Ty" = (
 /turf/simulated/floor/tiled/freezer/turfpack/pyraxis,
 /area/centcom/test)
@@ -5388,6 +7057,20 @@
 	},
 /turf/simulated/floor/wood/turfpack,
 /area/centcom/test)
+"TK" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
 "TM" = (
 /obj/machinery/door/airlock/security{
 	id_tag = "detdoor";
@@ -5420,6 +7103,22 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"TV" = (
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 1
+	},
+/obj/machinery/rnd/production/circuit_imprinter,
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"Ua" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Ud" = (
 /obj/structure/fence/door/locked{
 	req_one_access = list(47)
@@ -5448,6 +7147,20 @@
 "Ul" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/kafel_full/white/turfpack/pyraxis,
+/area/centcom/test)
+"Un" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/robotanalyzer{
+	pixel_y = 0;
+	pixel_x = -6
+	},
+/obj/item/robotanalyzer{
+	pixel_y = 8
+	},
+/obj/fiftyspawner/plastic,
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "Uo" = (
 /obj/structure/table/rack,
@@ -5563,6 +7276,31 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"Vg" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/eshui/emblem/eshui_c,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
+"Vh" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 4
+	},
+/obj/item/book/manual/robotics_cyborgs{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/spray/cleaner,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"Vi" = (
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/wingrille_spawn/reinforced,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/centcom/test)
 "Vk" = (
 /obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/dark,
@@ -5584,6 +7322,11 @@
 	network = list("Telecommunications","Engine","Substations","Engineering","Atmosphere Alarms","Fire Alarms","Power Alarms","Engineering_outpost")
 	},
 /turf/simulated/floor/tiled,
+/area/centcom/test)
+"Vp" = (
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/purple/border,
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "Vr" = (
 /obj/machinery/door/airlock/maintenance/rnd,
@@ -5612,8 +7355,9 @@
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "VA" = (
-/obj/machinery/door/airlock/maintenance/medical,
-/turf/simulated/floor,
+/obj/machinery/mecha_part_fabricator_tg,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled,
 /area/centcom/test)
 "VB" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -5627,6 +7371,57 @@
 	},
 /obj/machinery/door/firedoor/multi_tile,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"VE" = (
+/obj/structure/closet{
+	name = "materials"
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "VF" = (
 /obj/structure/table/woodentable,
@@ -5666,6 +7461,12 @@
 	},
 /turf/simulated/floor/carpet,
 /area/centcom/test)
+"VY" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Wa" = (
 /obj/structure/table/wooden_reinforced,
 /obj/effect/floor_decal/spline/plain{
@@ -5694,6 +7495,21 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/wood/turfpack,
+/area/centcom/test)
+"Wp" = (
+/obj/machinery/mecha_part_fabricator_tg,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"Wr" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/centcom/test)
 "Wu" = (
 /obj/structure/fence/corner{
@@ -5779,8 +7595,44 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
+"Xq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/newscaster{
+	pixel_x = 30
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
+"Xr" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/white,
+/area/centcom/test)
+"Xs" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/disposalpipe/sortjunction/flipped{
+	dir = 1;
+	sortType = "Robotics";
+	name = "Robotics"
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Xu" = (
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"Xv" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
 /area/centcom/test)
 "XA" = (
 /obj/structure/bed/chair/office/dark{
@@ -5811,6 +7663,12 @@
 	},
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
 /area/centcom/test)
+"XF" = (
+/obj/machinery/hologram/holopad,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "XG" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/regular{
@@ -5819,6 +7677,10 @@
 	},
 /obj/item/storage/firstaid/regular,
 /turf/simulated/floor/tiled/white/turfpack/pyraxis,
+/area/centcom/test)
+"XJ" = (
+/obj/effect/floor_decal/milspec/color/orange/half,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "XO" = (
 /obj/structure/bed/chair/bay/chair/padded/purple{
@@ -5850,6 +7712,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
+"XY" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/structure/cable/green,
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/plating,
+/area/centcom/test)
 "Yd" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -5877,6 +7749,10 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor/multi_tile,
 /turf/simulated/floor/tiled/dark,
+/area/centcom/test)
+"Yk" = (
+/obj/machinery/mech_recharger,
+/turf/simulated/floor/greengrid,
 /area/centcom/test)
 "Yr" = (
 /obj/structure/table/standard,
@@ -5989,6 +7865,11 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
 /area/centcom/test)
+"YM" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/turf/simulated/floor/reinforced,
+/area/centcom/test)
 "YP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/bunsen_burner{
@@ -6024,6 +7905,75 @@
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/white,
 /area/centcom/test)
+"YV" = (
+/obj/item/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/storage/firstaid/regular{
+	empty = 1;
+	name = "First-Aid (empty)"
+	},
+/obj/item/healthanalyzer,
+/obj/item/healthanalyzer,
+/obj/item/healthanalyzer,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/flash/synthetic,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 6
+	},
+/obj/item/geiger/wall/south,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
+"YW" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/tiled,
+/area/centcom/test)
 "YY" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood/turfpack,
@@ -6033,6 +7983,15 @@
 	dir = 9
 	},
 /turf/simulated/floor/carpet/sblucarpet/turfpack/pyraxis,
+/area/centcom/test)
+"Zc" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/test)
 "Zd" = (
 /obj/structure/mopbucket,
@@ -6050,11 +8009,47 @@
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/centcom/test)
+"Zj" = (
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = -11
+	},
+/obj/machinery/vending/wallmed1/public{
+	dir = 4;
+	pixel_x = -30
+	},
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/test)
 "Zk" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/floor/water/turfpack/pyraxis,
+/area/centcom/test)
+"Zn" = (
+/obj/structure/table/rack,
+/obj/item/gps/robot,
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/effect/floor_decal/milspec/color/orange/half{
+	dir = 8
+	},
+/obj/structure/sign/warning/mail_delivery{
+	pixel_x = -32;
+	name = "\improper MAIL OFFICE"
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "Zs" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -9553,11 +11548,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Zt
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -9810,11 +11805,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Zt
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -10067,11 +12062,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Wj
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -10324,11 +12319,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Zt
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -10581,7 +12576,7 @@ AT
 AT
 AT
 AT
-AT
+Zt
 Zt
 Zt
 Zt
@@ -10838,8 +12833,8 @@ AT
 AT
 AT
 AT
-AT
 Zt
+AT
 AT
 AT
 AT
@@ -11095,8 +13090,8 @@ AT
 AT
 AT
 AT
-AT
 Zt
+AT
 AT
 AT
 AT
@@ -11609,8 +13604,8 @@ AT
 AT
 AT
 AT
-AT
 Zt
+AT
 AT
 AT
 AT
@@ -11866,8 +13861,8 @@ AT
 AT
 AT
 AT
-AT
 Zt
+AT
 AT
 AT
 AT
@@ -12123,7 +14118,7 @@ AT
 AT
 AT
 AT
-AT
+Zt
 Zt
 Zt
 Zt
@@ -12380,11 +14375,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Zt
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -12637,11 +14632,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Zt
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -12894,11 +14889,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Wj
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -13151,11 +15146,11 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+Zt
+Wj
+Wj
+Wj
+Wj
 Zt
 Gw
 Gw
@@ -25740,18 +27735,18 @@ Gw
 Gw
 Gw
 Zt
+cj
+Nb
+xE
 AT
 AT
 AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-AT
+kw
+Fm
+du
 Zt
 AT
 AT
@@ -25996,7 +27991,8 @@ Gw
 Gw
 Gw
 Gw
-Zt
+gK
+KQ
 AT
 AT
 AT
@@ -26005,10 +28001,9 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
+lr
+ol
+Oz
 Zt
 AT
 AT
@@ -26253,7 +28248,9 @@ Gw
 Gw
 Gw
 Gw
-Zt
+gK
+eA
+vL
 AT
 AT
 AT
@@ -26261,12 +28258,10 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-Zt
+lr
+ol
+iQ
+KV
 AT
 AT
 Zt
@@ -26511,19 +28506,19 @@ Gw
 Gw
 Gw
 Zt
+vu
+hi
+hi
 AT
 AT
 AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-AT
-Zt
+lr
+ol
+Ho
+KV
 AT
 AT
 Zt
@@ -26768,6 +28763,8 @@ Gw
 Gw
 Gw
 Zt
+YW
+YW
 AT
 AT
 AT
@@ -26775,11 +28772,9 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
+kj
+ol
+Oz
 Zt
 AT
 AT
@@ -27034,9 +29029,9 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
+uv
+uG
+yC
 Zt
 AT
 AT
@@ -27284,14 +29279,14 @@ Gw
 Zt
 AT
 AT
+BI
+Ua
+bG
 AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
+wp
 Zt
 Zt
 Zt
@@ -27538,17 +29533,17 @@ Gw
 Gw
 Gw
 Gw
-Zt
+gK
+AT
+AT
+Iz
+Wp
+OL
 AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-AT
+Un
 Zt
 ck
 AT
@@ -27795,17 +29790,17 @@ Gw
 Gw
 Gw
 Gw
-Zt
+gK
+AT
+AT
+Iz
+Oh
+ik
 AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-AT
+tO
 Zt
 ck
 AT
@@ -28052,17 +30047,17 @@ Gw
 Gw
 Gw
 Gw
-Zt
+gK
+AT
+AT
+Iz
+Cu
+OL
 AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-AT
+Sk
 Zt
 ck
 AT
@@ -28312,37 +30307,37 @@ Gw
 Zt
 AT
 AT
+yv
+sN
+PO
 AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
+gm
 Zt
 Zt
 Zt
-Zt
-Zt
+CI
+CI
 Zt
 CI
 CI
 aJ
-Zt
-Zt
-Zt
-Zt
-CI
-CI
-AT
-CI
-AT
 CI
 CI
 Zt
 Zt
-AT
+CI
+CI
+Bv
+CI
+Bv
+CI
+CI
+Zt
+Zt
+Bv
 Zt
 Zt
 Gw
@@ -28576,11 +30571,9 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
+Sp
 Zt
+Rn
 Lk
 Lk
 Lk
@@ -28588,7 +30581,9 @@ Lk
 Lk
 Lk
 Lk
-Lk
+AB
+uC
+jt
 Zt
 AT
 AT
@@ -28823,30 +30818,30 @@ Gw
 Gw
 Gw
 Gw
+gK
+AT
+AT
+AT
+AT
+AT
+AT
+yS
+Xv
+Xv
+ff
 Zt
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-Zt
+fr
 Lk
 Lk
 RE
-TF
+zm
 TF
 TF
 CT
 Lk
-CI
+Lk
+Lk
+Zt
 AT
 AT
 AT
@@ -29080,30 +31075,30 @@ Gw
 Gw
 Gw
 Gw
+gK
+AT
+AT
+AT
+AT
+AT
+AT
+LD
+yc
+yc
+Yk
 Zt
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
+yq
+Lk
+Lk
+uZ
+LG
+LG
+LG
+nh
+Lk
+Lk
+Lk
 Zt
-Lk
-Lk
-KV
-LG
-LG
-LG
-PO
-Lk
-CI
 AT
 AT
 AT
@@ -29337,30 +31332,30 @@ Gw
 Gw
 Gw
 Gw
+gK
+AT
+AT
+AT
+AT
+AT
+AT
+Iu
+yc
+yc
+xh
 Zt
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
+FK
+Lk
+Lk
+uZ
+LG
+LG
+LG
+nh
+Lk
+Lk
+Lk
 Zt
-Lk
-Lk
-KV
-LG
-LG
-LG
-PO
-Lk
-aJ
 AT
 AT
 AT
@@ -29601,14 +31596,12 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
+LD
+yc
+yc
+Yk
 Zt
+YY
 Lk
 Lk
 HF
@@ -29617,7 +31610,9 @@ xB
 xB
 xs
 Lk
-CI
+Lk
+Lk
+Zt
 AT
 AT
 AT
@@ -29858,14 +31853,12 @@ AT
 AT
 AT
 AT
-AT
-AT
-AT
-AT
-AT
-AT
-AT
+jb
+yc
+yc
+bH
 Zt
+lE
 Lk
 Lk
 Lk
@@ -29873,7 +31866,9 @@ Lk
 Lk
 Lk
 Lk
-Lk
+uK
+VF
+YY
 Zt
 AT
 Uo
@@ -30110,15 +32105,15 @@ Gw
 Gw
 Zt
 Zt
+gK
+gK
+gK
 Zt
 Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
+Wj
+Wj
+Wj
+Wj
 Zt
 Zt
 Zt
@@ -31393,25 +33388,25 @@ Gw
 Gw
 Gw
 Gw
+Wr
+hL
+sX
+Zt
+Iv
+Sc
+Vi
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+Ei
+Ei
+Ci
+XY
+eo
+Ei
+Ei
+au
+Ei
+Ei
 Gw
 Gw
 Gw
@@ -31650,25 +33645,25 @@ Gw
 Gw
 Gw
 Gw
+dA
+TK
+kf
+jJ
+Ro
+aD
+xc
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+Kg
+il
+wy
+JP
+qd
+MT
+Zj
+RO
+Zn
+pa
 Gw
 Gw
 Gw
@@ -31907,25 +33902,25 @@ Gw
 Gw
 Gw
 Gw
+OZ
+ah
+AT
+VA
+OI
+BH
+Vp
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+Sm
+mh
+vS
+ei
+Zc
+Pk
+VY
+hx
+pi
+XJ
 Gw
 Gw
 Gw
@@ -32164,25 +34159,25 @@ Gw
 Gw
 Gw
 Gw
+Ba
+ah
+MH
+gn
+OI
+BH
+CE
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+si
+jo
+dW
+XF
+Qk
+Qk
+Qk
+us
+pi
+Gl
 Gw
 Gw
 Gw
@@ -32421,25 +34416,25 @@ Gw
 Gw
 Gw
 Gw
+qp
+ah
+AT
+fB
+OI
+BH
+qx
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+pd
+dG
+hO
+Ee
+FZ
+Vh
+RJ
+cm
+eu
+YV
 Gw
 Gw
 Gw
@@ -32678,25 +34673,25 @@ Gw
 Gw
 Gw
 Gw
+tk
+Dg
+Xr
+Xr
+Xq
+Db
+iM
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+dr
+Ph
+KC
+sC
+KM
+JV
+JV
+gh
+JV
+JV
 Gw
 Gw
 Gw
@@ -32935,25 +34930,25 @@ Gw
 Gw
 Gw
 Gw
+AG
+ie
+sa
+sa
+Ei
+gK
+gK
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+iW
+bf
+pi
+sC
+Dp
+YM
+Yk
+PY
+Yk
+mb
 Gw
 Gw
 Gw
@@ -33201,16 +35196,16 @@ Gw
 Gw
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+Fa
+Od
+Kq
+Ai
+Xs
+BK
+tj
+pP
+tj
+Ts
 Gw
 Gw
 Gw
@@ -33458,16 +35453,16 @@ Gw
 Gw
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+TV
+Od
+pi
+eI
+aC
+yc
+yc
+BO
+yc
+Vg
 Gw
 Gw
 Gw
@@ -33715,16 +35710,16 @@ Gw
 Gw
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+LR
+eB
+pi
+pi
+Cw
+Dw
+RI
+RI
+RI
+Cr
 Gw
 Gw
 Gw
@@ -33972,16 +35967,16 @@ Gw
 Gw
 Gw
 Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
-Gw
+nf
+bJ
+nL
+Lz
+VE
+re
+Bp
+xi
+Yk
+BS
 Gw
 Gw
 Gw
@@ -43746,7 +45741,7 @@ Gw
 Gw
 Gw
 Gw
-VA
+iA
 Wj
 Wj
 Wj
@@ -44010,7 +46005,7 @@ Wj
 Wj
 Wj
 Zt
-VA
+iA
 Zt
 Nx
 Nx
@@ -45807,7 +47802,7 @@ go
 ON
 Jt
 Kr
-Nx
+Mr
 Zt
 Nx
 Nx
@@ -48122,7 +50117,7 @@ Wj
 Wj
 Wj
 Zt
-VA
+iA
 Zt
 Nx
 Nx
@@ -48372,7 +50367,7 @@ Gw
 Gw
 Gw
 Gw
-VA
+iA
 Wj
 Wj
 Wj

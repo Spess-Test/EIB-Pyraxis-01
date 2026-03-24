@@ -553,7 +553,7 @@
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/test)
 "Ij" = (
-/turf/simulated/mineral/alt/turfpack/pyraxis,
+/turf/simulated/mineral/ignore_cavegen,
 /area/centcom/test)
 "Im" = (
 /obj/machinery/door/firedoor/glass,

@@ -398,7 +398,7 @@
 	dir = 4
 	},
 /obj/structure/railing/grey,
-/turf/simulated/mineral/cave,
+/turf/simulated/mineral/ignore_cavegen,
 /area/centcom/test)
 "ey" = (
 /obj/machinery/door/airlock/glass_research{
@@ -1017,6 +1017,10 @@
 /area/centcom/test)
 "ma" = (
 /obj/machinery/dna_scannernew,
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "mi" = (
@@ -1111,6 +1115,17 @@
 	},
 /obj/structure/railing/grey,
 /turf/simulated/floor/tiled/techfloor,
+/area/centcom/test)
+"nG" = (
+/obj/structure/table/standard,
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "nS" = (
 /obj/structure/table/standard,
@@ -1281,6 +1296,9 @@
 "ql" = (
 /obj/machinery/computer/transhuman/designer{
 	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
@@ -2171,7 +2189,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/centcom/test)
 "Az" = (
-/turf/simulated/mineral/cave,
+/turf/simulated/mineral/ignore_cavegen,
 /area/centcom/test)
 "AV" = (
 /obj/structure/table/rack{
@@ -2616,6 +2634,10 @@
 /area/centcom/test)
 "FO" = (
 /obj/machinery/clonepod/transhuman,
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
 /turf/simulated/floor/tiled/white/turfpack,
 /area/centcom/test)
 "FR" = (
@@ -46934,7 +46956,7 @@ lm
 rG
 rG
 rG
-SE
+nG
 FO
 ma
 Ox

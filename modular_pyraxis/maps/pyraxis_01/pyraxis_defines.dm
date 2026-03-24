@@ -20,7 +20,7 @@
 	boss_short = "PyrCoal"
 	company_name = "Einstein Engines"
 	company_short = "EE"
-	// starsys_name = "" - TBD
+	starsys_name = "Romulus"
 	use_overmap = TRUE
 	overmap_size = 25
 	overmap_event_areas = 9
