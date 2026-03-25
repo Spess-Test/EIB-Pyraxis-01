@@ -9,14 +9,14 @@
 	name = "Mining Elevator Control";
 	desc = "Used to control a linked lift."
 	},
-/turf/simulated/floor/outdoors/sidewalk/slab/turfpack/pyraxis,
+/turf/simulated/mineral/floor/ignore_mapgen/cave,
 /area/centcom/test)
 "H" = (
-/turf/simulated/floor/outdoors/sidewalk/slab/turfpack/pyraxis,
+/turf/simulated/mineral/floor/ignore_mapgen/cave,
 /area/centcom/test)
 "K" = (
 /turf/simulated/floor/outdoors/mud/turfpack/pyraxis,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/underground)
 "M" = (
 /turf/simulated/wall/solidrock,
 /area/centcom/test)
@@ -30,12 +30,16 @@
 	pixel_x = -30;
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/sidewalk/slab/turfpack/pyraxis,
+/turf/simulated/mineral/floor/ignore_mapgen/cave,
 /area/centcom/test)
 "R" = (
 /obj/effect/shuttle_landmark/pyraxis/drillevator/underground,
 /turf/simulated/floor/outdoors/mud/turfpack/pyraxis,
-/area/shuttle/drillevator)
+/area/shuttle/drillevator/underground)
+"S" = (
+/obj/effect/shuttle_landmark/premade/generic/crash_underground_one,
+/turf/simulated/mineral/thor/mines,
+/area/centcom/test)
 "T" = (
 /turf/simulated/wall/r_wall,
 /area/centcom/test)
@@ -44119,7 +44123,7 @@ a
 a
 a
 a
-a
+S
 a
 a
 a

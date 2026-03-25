@@ -647,9 +647,6 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor,
 /area/shuttle/escape/centcom)
-"wI" = (
-/turf/simulated/floor/reinforced,
-/area/shuttle/drillevator/transit)
 "xm" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/escape/centcom)
@@ -946,8 +943,8 @@
 /area/shuttle/supply)
 "Fx" = (
 /obj/effect/shuttle_landmark/pyraxis/drillevator/transit,
-/turf/simulated/floor/reinforced,
-/area/shuttle/drillevator/transit)
+/turf/space,
+/area/space)
 "FG" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -64615,12 +64612,12 @@ Qh
 Qh
 Qh
 HW
-wI
-wI
-wI
-wI
-wI
-wI
+Qh
+Qh
+Qh
+Qh
+Qh
+Qh
 HW
 Qh
 pI
@@ -64872,12 +64869,12 @@ Qh
 Qh
 Qh
 HW
-wI
-wI
-wI
-wI
-wI
-wI
+Qh
+Qh
+Qh
+Qh
+Qh
+Qh
 HW
 Qh
 pI
@@ -65129,12 +65126,12 @@ Qh
 Qh
 Qh
 HW
-wI
-wI
-wI
-wI
-wI
-wI
+Qh
+Qh
+Qh
+Qh
+Qh
+Qh
 HW
 Qh
 pI
@@ -65386,12 +65383,12 @@ Qh
 Qh
 Qh
 HW
-wI
-wI
-wI
-wI
-wI
-wI
+Qh
+Qh
+Qh
+Qh
+Qh
+Qh
 HW
 Qh
 pI
@@ -65643,12 +65640,12 @@ Qh
 Qh
 Qh
 HW
-wI
-wI
-wI
+Qh
+Qh
+Qh
 Fx
-wI
-wI
+Qh
+Qh
 HW
 Qh
 pI
@@ -65900,12 +65897,12 @@ Qh
 Qh
 Qh
 HW
-wI
-wI
-wI
-wI
-wI
-wI
+Qh
+Qh
+Qh
+Qh
+Qh
+Qh
 HW
 Qh
 pI

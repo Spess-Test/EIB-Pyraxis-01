@@ -101,7 +101,7 @@
 							"I have seen our new god, and [random_player] is their herald. Seek guidance.",
 							"I have seen beyond death, an endless wall of corpses stacked upon each other screaming. No one is allowed to die. Resleeving is forbidden.",
 							"I must make us whole.",
-							"I must grow the flesh, all must be fed to the metal clad beast. The terraformer must never go hungry.",
+							// "I must grow the flesh, all must be fed to the metal clad beast. The terraformer must never go hungry.", PS Edit - No Terraformer
 							"I can see the eyes above our world. They gaze upon us like puppets, we must be free. The darkness is safe from their vision.",
 							"I have seen that this world is an illusion, nothing is real. I must show them all that this reality is a game for unseen gods.",
 							"The station's crew are a lost flock. I will be their shepherd into the holy land. I will help them see their sins, and free them of their guilt.",

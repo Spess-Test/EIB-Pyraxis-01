@@ -69,15 +69,14 @@
 // Mining Elevator
 /datum/shuttle/autodock/multi/drillevator
 	name = "Mining Elevator"
-	warmup_time = 5
-	move_time = 90
-	shuttle_area = /area/shuttle/drillevator
+	warmup_time = 10
+	shuttle_area = /area/shuttle/drillevator/station
 	current_location = "mining_station"
-	landmark_transition = "mining_transit"
 	docking_controller_tag = "mine_elevator_controller"
 	ceiling_type = /turf/simulated/shuttle/floor/black/turfpack/pyraxis
 	can_be_haunted = TRUE
 	move_direction = SOUTH
+	bluespace = FALSE
 
 	destination_tags = list(
 		"mining_station",
@@ -93,22 +92,20 @@
 	if(emagged_crash)
 		return TRUE
 	if(SShaunting.get_world_haunt() >= 5)
+		return prob(1) && prob(10)
+	if(SShaunting.get_world_haunt() >= 4)
 		return prob(1) && prob(1)
 	return FALSE
 
 /obj/effect/shuttle_landmark/pyraxis/drillevator/station
-	name = "Mining Elevator - Station"
+	name = "Station"
 	landmark_tag = "mining_station"
 	docking_controller = "mine_cargo_controller"
 	base_turf = /turf/simulated/open
 	base_area = /area/shuttle/drillevator/station
 
-/obj/effect/shuttle_landmark/pyraxis/drillevator/transit
-	name = "Mining Elevator - Diving Deep"
-	landmark_tag = "mining_transit"
-
 /obj/effect/shuttle_landmark/pyraxis/drillevator/underground
-	name = "Mining Elevator - Underground"
+	name = "Underground"
 	landmark_tag = "mining_underground"
 	docking_controller = "mine_underground_controller"
 	base_area = /area/shuttle/drillevator/underground
