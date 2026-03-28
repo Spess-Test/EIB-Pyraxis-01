@@ -9,24 +9,20 @@ SUBSYSTEM_DEF(reflector)
 	var/stat_tag = "R" //Used for logging
 	var/list/processing = list()
 	var/list/currentrun = list()
-	var/process_proc = /datum/proc/process
-
 	var/obj/structure/reflector/current_thing
 
 /datum/controller/subsystem/reflector/Recover()
 	log_runtime("[name] subsystem Recover().")
 	if(SSreflector.current_thing)
-		log_runtime("current_thing was: (\ref[SSreflector.current_thing])[SSreflector.current_thing]([SSreflector.current_thing.type]) - currentrun: [SSreflector.currentrun.len] vs total: [SSreflector.processing.len]")
+		log_runtime("current_thing was: (\ref[SSreflector.current_thing])[SSreflector.current_thing]([SSreflector.current_thing.type]) - currentrun: [SSreflector.currentrun.len] vs total: [length(SSreflector.processing)]")
 	var/list/old_processing = SSreflector.processing.Copy()
 	for(var/datum/D in old_processing)
 		if(CHECK_BITFIELD(D.datum_flags, DF_ISPROCESSING))
 			processing |= D
 
-//CHOMPEdit Begin
 /datum/controller/subsystem/reflector/stat_entry(msg)
 	msg = "[stat_tag]:[processing.len]"
 	return ..()
-// CHOMPEdit End
 
 /datum/controller/subsystem/reflector/fire(resumed = 0)
 	if (!resumed)
