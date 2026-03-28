@@ -161,6 +161,7 @@
 #define TECHWEB_NODE_CONFETTI "confetti"
 #define TECHWEB_NODE_RSF "rapid_service_fab"
 #define TECHWEB_NODE_MATERIALSHEETS "material_sheets"
+#define TECHWEB_NODE_SMARTFRIDGES "smartfridges"
 
 //CHOMPEDIT Start - Chomp Specific techwebs.
 #define TECHWEB_NODE_CHOMP_AMMO "chomp_ammo" //CHOMPEDIT ADD - Adds Chomp unique ammo for autolathe
@@ -175,4 +176,5 @@
 
 // Outpost 21 edit begin - Outpost unique techwebs
 #define TECHWEB_NODE_OUTPOST_AMMO "outpost_ammo"
+#define TECHWEB_NODE_OUTPOST_TSCIBEACONS "outpost_tscibeacons"
 // Outpost 21 edit end
